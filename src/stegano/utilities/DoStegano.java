@@ -48,7 +48,7 @@ public class DoStegano
 	             g=(g&~1)|bit;
 	             bit=cipher.charAt(k++)-48;
 	             b=(b&~1)|bit;	   
-	             p=(a<<24)|(r<<16)|(g<<8)+b;                  
+	             p=(a<<24)|(r<<16)|(g<<8)|b;                  
 	             image.setRGB(j, i, p);               
 	        }
 	    }	    

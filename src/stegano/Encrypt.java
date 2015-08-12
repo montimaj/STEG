@@ -163,10 +163,7 @@ public class Encrypt
 			init_matrix(cipher, nrows, mat);	
 			cipher=generate_cipher(nrows,k,mat, flag);				
 		}				
-		new DoStegano(cipher,imgfile,dir);
-		//String files[]={dir+"/key.txt", dir+"/steg_"+cipher.length()+".png"};
-		//String z=dir+"/zipped.zip";
-		//ZipCreator.create_zip(z, files);
+		new DoStegano(cipher,imgfile,dir);		
 		int n=cipher.length();
 		new QRCode(dir+"/steg_"+n+".png", dir, n);
 		new QRCode(dir+"/key.txt",dir,0);

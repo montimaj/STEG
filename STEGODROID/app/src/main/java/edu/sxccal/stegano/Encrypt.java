@@ -33,7 +33,7 @@ public class Encrypt extends Activity implements Runnable,View.OnClickListener
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_encrypt);
 		tv=(TextView)findViewById(R.id.wfile);
-		bt=(Button)findViewById(R.id.genqr);
+		bt=(Button)findViewById(R.id.doencr);
 		bt.setOnClickListener(this);       	
 	}
 
@@ -70,7 +70,7 @@ public class Encrypt extends Activity implements Runnable,View.OnClickListener
 		        	else
 		        	{
 			        	tv.setText("");
-		        		dialog = ProgressDialog.show(Encrypt.this, "Generating Stegano, signature...",
+		        		dialog = ProgressDialog.show(Encrypt.this, "Enrypting...",
 			                     "Please wait!", true,false);	
 			        	Thread thread = new Thread(Encrypt.this);
 		                thread.start();

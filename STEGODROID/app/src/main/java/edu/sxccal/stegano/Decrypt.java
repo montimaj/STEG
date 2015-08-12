@@ -23,7 +23,7 @@ public class Decrypt extends Activity implements View.OnClickListener
 	{
 		super.onCreate(savedInstanceState);	
 		setContentView(R.layout.activity_decrypt);
-		bt=(Button)findViewById(R.id.verify_file);
+		bt=(Button)findViewById(R.id.select_image);
 		bt.setOnClickListener(this);
 	}
 
@@ -69,7 +69,7 @@ public class Decrypt extends Activity implements View.OnClickListener
 		tv.setText("");
 		try
 		{
-			//VerSig.verify(files);
+
 		}
 		catch(Exception e)
 		{

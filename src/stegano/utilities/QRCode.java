@@ -64,7 +64,7 @@ public class QRCode
 		{
 			file=dir+"/QRCode_key.png";
 			data=Encrypt.read_from_file(input);
-			size=200;
+			size=100;
 		}		
 		Map<EncodeHintType, ErrorCorrectionLevel> hint_map1 = new HashMap<EncodeHintType, ErrorCorrectionLevel>();
 		hint_map1.put(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.L);		

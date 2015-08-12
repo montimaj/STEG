@@ -182,13 +182,13 @@
     <string name="hello_world">Hello world!</string>
     <string name="scan">Scan File</string>
     <string name="scan1">Scan Key</string>
-    <string name="sfile">Select Input File</string>
+    <string name="sfile">Select Image</string>
     <string name="title_activity_about">About</string>
     <string name="title_activity_decode_qr">DecodeQR</string>
     <string name="title_activity_gen_qr">GenQR</string>
     <string name="title_activity_savetext">Savetext</string>
     <string name="title_activity_ver_sig">VerSig</string>
-    <string name="ver">StegoDoid v1.0</string>
+    <string name="ver">StegoDroid v1.0</string>
     <!-- From: file:/root/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">

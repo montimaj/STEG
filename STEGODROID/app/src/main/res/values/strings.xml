@@ -19,7 +19,7 @@
     <string name="Encrypt">Encrypt</string>
     <string name="title_activity_decode_qr">DecodeQR</string>
     <string name="decode">Decode QR image</string>
-	<string name="sfile">Select Input File</string>
+	<string name="sfile">Select File</string>
     <string name="developers">Developed by Sayantan-Abhisek </string>
     <string name="ver">StegoDroid v1.0</string>
     <string name="about_txt">View source at https://github.com/montimaj/STEG</string>
