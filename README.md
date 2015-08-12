@@ -1,2 +1,2 @@
 # STEG
-CRYPTO+Steganogrpahy
+CRYPTO+Steganography
