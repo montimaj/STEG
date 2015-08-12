@@ -70,9 +70,10 @@ public class Decrypt
 	 * @param ext Extension of the plain text file
 	 * @throws IOException
 	 */
-	private static void decrypt(String skey,String qrimg, String keyfile, String dir) throws Exception
+	private static void decrypt(String skey,String qrimg, String qrkey, String dir) throws Exception
 	{	
-		String imgfile=new QRCode(qrimg,dir).fname;
+		String imgfile=new QRCode(qrimg,dir,false).fname;
+		String keyfile=new QRCode(qrkey,dir,true).fname;
 		String bits=new doStegano(imgfile).getDecoded_str();
 		GenKey gk=new GenKey(skey);		
 		int ncols=gk.get_colsize(),num[]=new int[ncols], len=bits.length(),nrows=len/ncols, ndecrypt=gk.get_encryption_number();

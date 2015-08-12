@@ -91,7 +91,7 @@ export MAIN_DIALOG='
 	    </hbox>
 	  </frame>
 	  
-	  <frame Choose Appropriate Key>
+	  <frame Choose QRCode image of key>
 	    <hbox>
 	      <entry>
 		<variable>KFILE</variable>

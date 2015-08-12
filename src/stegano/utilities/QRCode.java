@@ -34,10 +34,10 @@ import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 public class QRCode 
 {
 	public String fname;
-	public QRCode(String file, String dir) throws Exception
+	public QRCode(String file, String dir, boolean flag) throws Exception
 	{
-		readQRCode(file, dir);
-	}
+		readQRCode(file, dir, flag);
+	}	
 	public QRCode(String input, String dir, int n) throws Exception
 	{
 		gen_qrcode(input, dir, n);
@@ -52,18 +52,30 @@ public class QRCode
 	  */
 	private void gen_qrcode(String input, String dir, int n) throws Exception
 	{		
-		String file = dir+"/QRCode_"+n+".png";		
-		String data=new String(Encrypt.read_from_file(input).getBytes(),"ISO-8859-1");	
+		String file, data;
+		int size;
+		if(n>0)
+		{
+			file=dir+"/QRCode_"+n+".png";
+			data=new String(Encrypt.read_from_file(input).getBytes(),"ISO-8859-1");
+			size=400;
+		}
+		else
+		{
+			file=dir+"/QRCode_key.png";
+			data=Encrypt.read_from_file(input);
+			size=200;
+		}		
 		Map<EncodeHintType, ErrorCorrectionLevel> hint_map1 = new HashMap<EncodeHintType, ErrorCorrectionLevel>();
 		hint_map1.put(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.L);		
-		createQRCode(data,file, hint_map1, 400,400);		
+		createQRCode(data,file, hint_map1, size,size);		
 	}	
 	private void createQRCode(String data, String file, Map<EncodeHintType, ErrorCorrectionLevel> hint_map, int qrh, int qrw) throws IOException, WriterException
 	{	   
 		BitMatrix matrix = new QRCodeWriter().encode(data, BarcodeFormat.QR_CODE, qrw, qrh, hint_map); 
 	    MatrixToImageWriter.writeToFile(matrix, "png",new File(file));
 	}
-	private void readQRCode(String file, String dir) throws Exception 
+	private void readQRCode(String file, String dir, boolean flag) throws Exception 
 	{		
 		Map<DecodeHintType, ErrorCorrectionLevel> hint_map=new HashMap<DecodeHintType, ErrorCorrectionLevel>();
 		hint_map.put(DecodeHintType.TRY_HARDER, ErrorCorrectionLevel.L);
@@ -71,9 +83,19 @@ public class QRCode
 		BinaryBitmap bitmap = new BinaryBitmap(new HybridBinarizer(new BufferedImageLuminanceSource(ImageIO.read(new FileInputStream(file)))));
 		Result qr_result = new QRCodeReader().decode(bitmap, hint_map);
 		String data=qr_result.getText();
-		fname=dir+"/decoded_"+l+".png";
-		FileOutputStream fos=new FileOutputStream(fname);
-		fos.write(data.getBytes("ISO-8859-1"));
+		FileOutputStream fos;
+		if(!flag)
+		{
+			fname=dir+"/decoded_"+l+".png";
+			fos=new FileOutputStream(fname);
+			fos.write(data.getBytes("ISO-8859-1"));
+		}
+		else
+		{
+			fname=dir+"/decoded_key.txt";
+			fos=new FileOutputStream(fname);
+			fos.write(data.getBytes());
+		}	
 		fos.close();				
 	}
 }
