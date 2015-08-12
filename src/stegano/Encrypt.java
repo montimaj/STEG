@@ -163,7 +163,7 @@ public class Encrypt
 			init_matrix(cipher, nrows, mat);	
 			cipher=generate_cipher(nrows,k,mat, flag);				
 		}				
-		new doStegano(cipher,imgfile,dir);
+		new DoStegano(cipher,imgfile,dir);
 		//String files[]={dir+"/key.txt", dir+"/steg_"+cipher.length()+".png"};
 		//String z=dir+"/zipped.zip";
 		//ZipCreator.create_zip(z, files);
