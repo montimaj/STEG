@@ -35,7 +35,7 @@ public class UserInput
 			p.destroy();
 			String x1[]={"zenity","--info","--title=Result","--text=Done!"};
 			p=new ProcessBuilder(x1).start();
-			p.waitFor();			
+			p.waitFor();
 		}
 		catch(Exception e)
 		{

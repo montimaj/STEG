@@ -1,6 +1,5 @@
 package stegano.utilities;
 
-import java.awt.Color;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -9,7 +8,7 @@ import javax.imageio.ImageIO;
 
 public class doStegano
 {     
-	private String decoded_str;
+	private String decoded_str="";
 	public doStegano(String cipher, String imgfile, String dir) throws IOException 
 	{     
 		  encode(cipher, imgfile, dir);		  
@@ -37,11 +36,10 @@ public class doStegano
 	    	for(int j=0; j<width && k<len; j++)
 	        {             
 	    		 p=image.getRGB(j, i);                    
-	    		 Color c=new Color(p);
-	    		 a=c.getAlpha();
-	    		 r=c.getRed();  
-	             g=c.getGreen();
-	             b=c.getBlue();
+	    		 a=(p>>24)&0xff;
+	    		 r=(p>>16)&0xff;  
+	             g=(p>>8)&0xff;
+	             b=p&0xff;
 	             bit=cipher.charAt(k++)-48;
 	             a=(a&~1)|bit;
 	             bit=cipher.charAt(k++)-48;
@@ -49,8 +47,8 @@ public class doStegano
 	             bit=cipher.charAt(k++)-48;
 	             g=(g&~1)|bit;
 	             bit=cipher.charAt(k++)-48;
-	             b=(b&~1)|bit;	             
-	             p=(a<<32)|(r<<16)|(g<<8)|b;                  
+	             b=(b&~1)|bit;	   
+	             p=(a<<24)|(r<<16)|(g<<8)+b;                  
 	             image.setRGB(j, i, p);               
 	        }
 	    }	    
@@ -67,16 +65,16 @@ public class doStegano
 		int width = image.getWidth();
 		int height = image.getHeight();         
 		String bits=""; 
-		int k=0,a,r,g,b;		  
+		int k=0,p,a,r,g,b;		  
 		for(int i=0; i<height && k<len; i++)
 		{         
-			for(int j=0; j<width && k<len; j++,k++)
+			for(int j=0; j<width && k<len; j++,k+=4)
 			{		
-	    		Color c=new Color(image.getRGB(j, i));
-	    		a=c.getAlpha();
-	    		r=c.getRed();  
-	            g=c.getGreen();
-	            b=c.getBlue();		   
+				p=image.getRGB(j, i);
+				a=(p>>24)&0xff;
+	    		r=(p>>16)&0xff;  
+	            g=(p>>8)&0xff;
+	            b=p&0xff;		   
 		        bits+=(a&1)!=0?1:0;  
 		        bits+=(r&1)!=0?1:0;
 		        bits+=(g&1)!=0?1:0;
