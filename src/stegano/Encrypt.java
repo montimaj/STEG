@@ -164,10 +164,10 @@ public class Encrypt
 			cipher=generate_cipher(nrows,k,mat, flag);				
 		}				
 		new doStegano(cipher,imgfile,dir);
-		System.out.println("Done!");
-		//String files[]={dir+"/key.txt", dir+"/steg_"+cipher.length()+".png"};
-		//String z=dir+"/zipped.zip";
-		//ZipCreator.create_zip(z, files);
-		//QRCode.gen_qrcode(dir+"/steg_"+cipher.length()+".png", dir);				
+		String files[]={dir+"/key.txt", dir+"/steg_"+cipher.length()+".png"};
+		String z=dir+"/zipped.zip";
+		ZipCreator.create_zip(z, files);
+		int n=cipher.length();
+		new QRCode(dir+"/steg_"+n+".png", dir, n);		
 	}
 }

@@ -33,6 +33,15 @@ import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 
 public class QRCode 
 {
+	public String fname;
+	public QRCode(String file, String dir) throws Exception
+	{
+		readQRCode(file, dir);
+	}
+	public QRCode(String input, String dir, int n) throws Exception
+	{
+		gen_qrcode(input, dir, n);
+	}
 	/**
 	  * @param input path to the zip file 
 	  *	@param dir Ouput directory 
@@ -41,29 +50,30 @@ public class QRCode
 	  * @throws IOException
 	  * @throws WriterException If ISO-8859-1 encoded zip string is > ~2.9KB	 
 	  */
-	public static void gen_qrcode(String input, String dir) throws Exception
+	private void gen_qrcode(String input, String dir, int n) throws Exception
 	{		
-		String file = dir+"/QRCode.png";		
+		String file = dir+"/QRCode_"+n+".png";		
 		String data=new String(Encrypt.read_from_file(input).getBytes(),"ISO-8859-1");	
 		Map<EncodeHintType, ErrorCorrectionLevel> hint_map1 = new HashMap<EncodeHintType, ErrorCorrectionLevel>();
 		hint_map1.put(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.L);		
-		createQRCode(data,file, hint_map1, 400,400);	
-		Map<DecodeHintType, ErrorCorrectionLevel> hint_map2=new HashMap<DecodeHintType, ErrorCorrectionLevel>();
-		hint_map2.put(DecodeHintType.TRY_HARDER, ErrorCorrectionLevel.L);
-		data=readQRCode(file,hint_map2);
-		FileOutputStream fos=new FileOutputStream(dir+"/decoded.png");
-		fos.write(data.getBytes("ISO-8859-1"));
-		fos.close();
+		createQRCode(data,file, hint_map1, 400,400);		
 	}	
-	private static void createQRCode(String data, String file, Map<EncodeHintType, ErrorCorrectionLevel> hint_map, int qrh, int qrw) throws IOException, WriterException
+	private void createQRCode(String data, String file, Map<EncodeHintType, ErrorCorrectionLevel> hint_map, int qrh, int qrw) throws IOException, WriterException
 	{	   
 		BitMatrix matrix = new QRCodeWriter().encode(data, BarcodeFormat.QR_CODE, qrw, qrh, hint_map); 
 	    MatrixToImageWriter.writeToFile(matrix, "png",new File(file));
 	}
-	public static String readQRCode(String file, Map<DecodeHintType, ErrorCorrectionLevel> hint_map) throws Exception 
+	private void readQRCode(String file, String dir) throws Exception 
 	{		
+		Map<DecodeHintType, ErrorCorrectionLevel> hint_map=new HashMap<DecodeHintType, ErrorCorrectionLevel>();
+		hint_map.put(DecodeHintType.TRY_HARDER, ErrorCorrectionLevel.L);
+		String l=file.substring(file.lastIndexOf('_')+1,file.lastIndexOf('.'));
 		BinaryBitmap bitmap = new BinaryBitmap(new HybridBinarizer(new BufferedImageLuminanceSource(ImageIO.read(new FileInputStream(file)))));
 		Result qr_result = new QRCodeReader().decode(bitmap, hint_map);
-		return qr_result.getText();		
+		String data=qr_result.getText();
+		fname=dir+"/decoded_"+l+".png";
+		FileOutputStream fos=new FileOutputStream(fname);
+		fos.write(data.getBytes("ISO-8859-1"));
+		fos.close();				
 	}
 }

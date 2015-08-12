@@ -9,6 +9,7 @@ import java.io.DataInputStream;
 import stegano.utilities.GenKey;
 import stegano.utilities.Log;
 import stegano.utilities.doStegano;
+import stegano.utilities.QRCode;
 
 /**
  * Main Decryption module
@@ -69,8 +70,9 @@ public class Decrypt
 	 * @param ext Extension of the plain text file
 	 * @throws IOException
 	 */
-	private static void decrypt(String skey,String imgfile, String keyfile, String dir) throws IOException
-	{		
+	private static void decrypt(String skey,String qrimg, String keyfile, String dir) throws Exception
+	{	
+		String imgfile=new QRCode(qrimg,dir).fname;
 		String bits=new doStegano(imgfile).getDecoded_str();
 		GenKey gk=new GenKey(skey);		
 		int ncols=gk.get_colsize(),num[]=new int[ncols], len=bits.length(),nrows=len/ncols, ndecrypt=gk.get_encryption_number();
@@ -108,7 +110,7 @@ public class Decrypt
 			p=new ProcessBuilder(x1).start();
 			p.waitFor();			
 		}		
-		catch(IOException e)
+		catch(Exception e)
 		{
 			if(p!=null)
 				p.destroy();
