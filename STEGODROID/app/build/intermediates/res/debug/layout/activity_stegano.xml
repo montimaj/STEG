@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/steg">
+    <Button
+       android:id="@+id/ab"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:background="@android:color/black"
+       android:text="@string/about"
+       android:textColor="#FFFFFF" />
+
+   <Button
+       android:id="@+id/encrypt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@android:color/holo_green_dark"
+       android:text="@string/Encrypt"
+       android:textColor="#FFFFFF"
+       android:layout_below="@+id/scan_key"
+       android:layout_alignParentStart="true"
+       android:layout_marginTop="34dp"
+       android:layout_alignEnd="@+id/decrypt" />
+
+    <Button
+        android:id="@+id/scan_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/scan"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/decode" />
+
+    <Button
+        android:id="@+id/decode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_purple"
+        android:text="@string/decode"
+        android:textColor="#FFFFFF"
+        android:layout_above="@+id/ab"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="28dp" />
+
+    <Button
+        android:id="@+id/decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="@string/Decrypt"
+        android:textColor="#FFFFFF"
+        android:layout_above="@+id/decode"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="56dp"
+        android:layout_alignEnd="@+id/decode" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scan1"
+        android:id="@+id/scan_key"
+        android:background="@android:color/holo_red_light"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/scan_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/scan_button" />
+
+</RelativeLayout><!-- From: file:/root/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/src/main/res/layout/activity_stegano.xml -->
