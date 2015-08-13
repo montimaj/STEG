@@ -54,9 +54,9 @@ public class QRCode
 	{		
 		String file, data;
 		int size;
-		if(n>0)
+		if(n==1)
 		{
-			file=dir+"/QRCode_"+n+".png";
+			file=dir+"/QRCode.png";
 			data=new String(Encrypt.read_from_file(input).getBytes(),"ISO-8859-1");
 			size=400;
 		}
@@ -64,7 +64,7 @@ public class QRCode
 		{
 			file=dir+"/QRCode_key.png";
 			data=Encrypt.read_from_file(input);
-			size=100;
+			size=150;
 		}		
 		Map<EncodeHintType, ErrorCorrectionLevel> hint_map1 = new HashMap<EncodeHintType, ErrorCorrectionLevel>();
 		hint_map1.put(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.L);		
@@ -79,14 +79,13 @@ public class QRCode
 	{		
 		Map<DecodeHintType, ErrorCorrectionLevel> hint_map=new HashMap<DecodeHintType, ErrorCorrectionLevel>();
 		hint_map.put(DecodeHintType.TRY_HARDER, ErrorCorrectionLevel.L);
-		String l=file.substring(file.lastIndexOf('_')+1,file.lastIndexOf('.'));
 		BinaryBitmap bitmap = new BinaryBitmap(new HybridBinarizer(new BufferedImageLuminanceSource(ImageIO.read(new FileInputStream(file)))));
 		Result qr_result = new QRCodeReader().decode(bitmap, hint_map);
 		String data=qr_result.getText();
 		FileOutputStream fos;
 		if(!flag)
 		{
-			fname=dir+"/decoded_"+l+".png";
+			fname=dir+"/decoded.png";
 			fos=new FileOutputStream(fname);
 			fos.write(data.getBytes("ISO-8859-1"));
 		}
