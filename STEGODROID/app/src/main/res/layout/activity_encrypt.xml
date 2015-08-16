@@ -11,21 +11,10 @@
        android:text="@string/sfile"
        android:background="@android:color/holo_orange_dark"
        android:textColor="#FFFFFF"
-		android:layout_above="@+id/select_img"
-		android:layout_alignEnd="@+id/wfile"
-		android:layout_marginBottom="63dp"
-		android:layout_alignParentStart="true" />
-
-	<TextView
-	    android:id="@+id/wfile"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"	   
-	    android:layout_below="@+id/select_img"
-	    android:layout_marginTop="148dp"
-	    android:background="#463E3F"
-	    android:textColor="#FFFFFF"
-	    android:layout_centerHorizontal="true"
-	    android:textIsSelectable="true" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp"
+        android:layout_alignEnd="@+id/secret_key" />
 
 	<Button
 		android:layout_width="wrap_content"
@@ -33,21 +22,21 @@
 		android:text="Select Image"
 		android:id="@+id/select_img"
 		android:background="@android:color/holo_green_dark"
-		android:layout_centerVertical="true"
-		android:layout_alignEnd="@+id/wfile"
-		android:layout_alignParentStart="true" />
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/doencr"
+        android:layout_alignEnd="@+id/doencr"
+        android:layout_alignParentStart="true" />
 
 	<EditText
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:inputType="textPassword"
-		android:ems="10"
+		android:imeOptions="actionDone"
 		android:id="@+id/secret_key"
-		android:text="Enter Secret Key"
 		android:background="@android:color/darker_gray"
-		android:layout_alignParentTop="true"
-		android:layout_alignParentStart="true"
-		android:layout_marginTop="50dp"
-		android:layout_alignEnd="@+id/wfile" />
+        android:layout_marginTop="57dp"
+        android:hint="Enter Secret Key"
+        android:layout_below="@+id/select_img"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

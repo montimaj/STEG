@@ -12,10 +12,8 @@
 
     <string name="title_activity_savetext">Savetext</string>
     <string name="Decrypt">Decrypt</string>
-    <string name="title_activity_ver_sig">VerSig</string>
     <string name="about">About</string>
     <string name="title_activity_about">About</string>
-    <string name="title_activity_gen_qr">GenQR</string>
     <string name="Encrypt">Encrypt</string>
     <string name="title_activity_decode_qr">DecodeQR</string>
     <string name="decode">Decode QR image</string>

@@ -10,7 +10,6 @@ import stegano.utilities.*;
 
 /**
  * Main Encryption module
- * Uses {@link stegano.utilities.QRCode} to generate qrcode image from result.zip containing the key and the cipher
  * @author Sayantan Majumdar 
  * @since 1.0
  */

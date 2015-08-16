@@ -30,7 +30,7 @@ public class Stegano extends Activity implements OnClickListener
 	private Button scanBtn1,scanBtn2,encr,decr,ab,dqr;
 	private boolean flag;
 	public static String scanContent="No result";
-	public static final String filePath=Environment.getExternalStorageDirectory().getAbsolutePath()+"/QR";	
+	public static final String filePath=Environment.getExternalStorageDirectory().getAbsolutePath()+"/Stegano";
     
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
@@ -121,8 +121,8 @@ public class Stegano extends Activity implements OnClickListener
 	 */
 	public boolean checkExternalMedia()
 	{
-		    boolean readable = false;
-		    boolean writeable = false;
+		    boolean readable;
+		    boolean writeable;
 		    String state = Environment.getExternalStorageState();
 		    if (Environment.MEDIA_MOUNTED.equals(state))
 		        readable = writeable = true;

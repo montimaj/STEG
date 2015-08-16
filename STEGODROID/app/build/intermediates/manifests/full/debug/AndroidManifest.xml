@@ -27,7 +27,7 @@
         </activity>
         <activity
             android:name="edu.sxccal.stegano.Decrypt"
-            android:label="@string/title_activity_ver_sig"
+            android:label="Decrypt"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -39,7 +39,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="edu.sxccal.stegano.Encrypt"
-            android:label="@string/title_activity_gen_qr"
+            android:label="Encrypt"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />

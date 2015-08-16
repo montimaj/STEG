@@ -1,79 +1,123 @@
 package edu.sxccal.stegano;
 
+import android.app.ProgressDialog;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.view.Gravity;
+import android.view.KeyEvent;
+import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.app.Activity;
 import android.content.Intent;
 import android.view.View;
+import android.widget.Toast;
+
+import java.io.IOException;
 
 /**
  *  This activity displays the verification result
  *  @since 1.0
  *  */
 
-public class Decrypt extends Activity implements View.OnClickListener
+public class Decrypt extends Activity implements Runnable, View.OnClickListener
 {
-	private Button bt;
-	public static TextView tv;
-	private final int PICKFILE_RESULT_CODE = 1;
+	private static ProgressDialog dialog;
+	private static String img,k, skey;
+	public static Exception except;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);	
 		setContentView(R.layout.activity_decrypt);
-		bt=(Button)findViewById(R.id.select_image);
-		bt.setOnClickListener(this);
+		Button bt1=(Button)findViewById(R.id.select_image);
+		Button bt2=(Button)findViewById(R.id.select_key);
+		final EditText passwd=(EditText)findViewById(R.id.dkey);
+		bt1.setOnClickListener(this);
+		bt2.setOnClickListener(this);
+		passwd.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+			@Override
+			public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+				if (actionId == EditorInfo.IME_ACTION_DONE) {
+					skey = passwd.getText().toString();
+					if (k.isEmpty() || img.isEmpty() || skey.isEmpty())
+						Log.create_log(new IOException("Invalid Input"), getApplicationContext());
+					else {
+						dialog = ProgressDialog.show(Decrypt.this, "Decrypting...",
+								"Please wait!", true, false);
+						Thread thread = new Thread(Decrypt.this);
+						thread.start();
+						return true;
+					}
+				}
+				return false;
+			}
+		});
 	}
 
 	@Override
 	public void onClick(View v)
 	{
-		Intent fileintent = new Intent(Intent.ACTION_GET_CONTENT);
-        fileintent.setType("file/*");
-        try 
-        {
-            startActivityForResult(fileintent,PICKFILE_RESULT_CODE);            
-        } 
-        catch (Exception e) 
-        {
-            Log.create_log(e, getApplicationContext());
-        }	
+		try
+		{
+			Intent fileintent = new Intent(Intent.ACTION_GET_CONTENT);
+			fileintent.setType("file/*");
+			if (v.getId() == R.id.select_image)
+				startActivityForResult(fileintent, 1);
+			else
+				startActivityForResult(fileintent,2);
+		}
+		catch (Exception e)
+		{
+			Log.create_log(e, getApplicationContext());
+		}
 	}
 
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data)
-	{		  
+	{
 		  switch(requestCode)
 		  {
-			  case PICKFILE_RESULT_CODE:
+			  case 1:
 			   if(resultCode==RESULT_OK)
-			   {
-				    String f = data.getData().getPath();
-				    verify_data(f);
-			   }
+				    img = data.getData().getPath();
 			   break;
+			  case 2:
+				  if(resultCode==RESULT_OK)
+					  k=data.getData().getPath();
 		  }
 	}
-
-	/**
-	 *
-	 * @param f3 Input file to be verified
-	 */
-	public void verify_data(String f3)
-	{		
-		//get absolute paths of the files
-		String f1= Stegano.filePath + "/suepk", f2= Stegano.filePath + "/sig", files[]={f1,f2,f3};
-		tv= (TextView)findViewById(R.id.file_verify);
-		tv.setText("");
+	@Override
+	public void run()
+	{
 		try
 		{
-
+			new DoDecrypt(skey,k,img);
+			handler.sendEmptyMessage(0);
 		}
 		catch(Exception e)
 		{
-			Log.create_log(e, getApplicationContext());
+			except=e;
+			handler.sendEmptyMessage(1);
 		}
-	}	
+
+	}
+	private static Handler handler = new Handler()
+	{
+		@Override
+		public void handleMessage(Message msg) {
+			dialog.dismiss();
+			if (msg.what == 1)
+				Log.create_log(except, dialog.getContext());
+			else {
+				Toast toast = Toast.makeText(dialog.getContext(), "Success!\nDecrypted files are in: " + Stegano.filePath+"/Decrypted", Toast.LENGTH_LONG);
+				toast.setGravity(Gravity.CENTER, 0, 0);
+				toast.show();
+			}
+		}
+	};
+
 }

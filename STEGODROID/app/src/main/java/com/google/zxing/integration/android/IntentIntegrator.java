@@ -86,7 +86,7 @@ import android.util.Log;
 *
 * <h2>Sharing text via barcode</h2>
 *
-* <p>To share text, encoded as a QR Code on-screen, similarly, see {@link #shareText(CharSequence)}.</p>
+* <p>To share text, encoded as a DoEncrypt Code on-screen, similarly, see {@link #shareText(CharSequence)}.</p>
 *
 * <p>Some code, particularly download integration, was contributed from the Anobiit application.</p>
 *

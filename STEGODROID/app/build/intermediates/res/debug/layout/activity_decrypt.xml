@@ -5,23 +5,39 @@
     android:background="@drawable/steg">
 
    <Button
-       android:id="@+id/verify_file"
+       android:id="@+id/select_image"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"     
-       android:text="@string/sfile"
-       android:background="#0099FF"
-       android:textColor="#FFFFFF"/>
-
-   <TextView
-       android:id="@+id/file_verify"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_below="@+id/verify_file"
-       android:layout_centerHorizontal="true"
-       android:layout_marginTop="148dp"
-       android:background="#463E3F"
+       android:text="Select Image"
+       android:background="@android:color/holo_green_dark"
        android:textColor="#FFFFFF"
-       android:textIsSelectable="true" />
+       android:layout_marginTop="52dp"
+       android:layout_below="@+id/dkey"
+       android:layout_alignParentStart="true"
+       android:layout_alignEnd="@+id/dkey" />
+
+     <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/dkey"
+         android:background="@android:color/darker_gray"
+        android:text="Enter Secret Key"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentStart="true"
+         android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Key File"
+        android:id="@+id/select_key"
+        android:layout_below="@+id/select_image"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="74dp"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_alignEnd="@+id/select_image" />
 
 </RelativeLayout>
 <!-- From: file:/root/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/src/main/res/layout/activity_decrypt.xml -->

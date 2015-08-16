@@ -63,13 +63,7 @@ public class Decrypt
 				throw new IOException("Invalid Secret Key or input files");
 			}
 		}
-	}		
-	/**
-	 * Performs decryption operation
-	 * @param cipher Path to the cipher file
-	 * @param ext Extension of the plain text file
-	 * @throws IOException
-	 */
+	}			
 	private static void decrypt(String skey,String qrimg, String qrkey, String dir) throws Exception
 	{	
 		String imgfile=new QRCode(qrimg,dir,false).fname;
