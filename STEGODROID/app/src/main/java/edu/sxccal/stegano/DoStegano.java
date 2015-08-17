@@ -2,7 +2,6 @@ package edu.sxccal.stegano;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.util.Log;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -79,7 +78,7 @@ public class DoStegano
                 bit = cipher.charAt(k++) - 48;
                 b = (b & ~1) | bit;
                 p = (a << 24) | (r << 16) | (g << 8) | b;
-                img.setPixel(j, i, p);
+                img.setPixel(y, x, p);
             }
         }
         img.compress(Bitmap.CompressFormat.PNG, 100, new FileOutputStream(Stegano.filePath + "/steg.png"));
@@ -115,7 +114,6 @@ public class DoStegano
         }
         k=0;
         bits="";
-        Log.e("Len",""+len);
         for(int x=i+1; x<height && k<len; x++)
         {
             for(int y=j+1; y<width && k<len; y++,k+=4)
@@ -131,7 +129,6 @@ public class DoStegano
                 bits+=(b&1)!=0?1:0;
             }
         }
-        android.util.Log.e("Cipher",bits);
         return bits;
     }
 }
