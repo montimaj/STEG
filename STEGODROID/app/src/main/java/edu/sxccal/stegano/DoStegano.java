@@ -2,7 +2,7 @@ package edu.sxccal.stegano;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-//import android.util.Log;
+import android.util.Log;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -34,15 +34,15 @@ public class DoStegano
         return bits;
     }
     private void encode(String cipher,String imgfile) throws IOException {
-        Bitmap image = BitmapFactory.decodeFile(imgfile);
-        image.setPremultiplied(false);
-        Bitmap img = image.copy(Bitmap.Config.ARGB_8888, true);
-        img.setPremultiplied(false);
+        BitmapFactory.Options options=new BitmapFactory.Options();
+        options.inPremultiplied=false;
+        Bitmap image = BitmapFactory.decodeFile(imgfile, options);
+        Bitmap img = image.copy(image.getConfig(), true);
         int width = img.getWidth();
         int height = img.getHeight();
         int len = cipher.length();
         String lbits = get_Bits(len);
-        int k = 0, i = 0, j = 0, p, a, r, g, b, bit;
+        int k = 0, i, j = 0, p, a, r, g, b, bit;
         for (i = 0; i < height && k < 16; i++) {
             for (j = 0; j < width && k < 16; j++) {
                 p = img.getPixel(j, i);
@@ -60,6 +60,7 @@ public class DoStegano
                 b = (b & ~1) | bit;
                 p=(a<<24) | (r<<16) | (g<<8) | b;
                 img.setPixel(j,i,p);
+                Log.e("P", "" + p + "\t" + img.getPixel(j, i));
             }
         }
         k = 0;
@@ -79,26 +80,26 @@ public class DoStegano
                 bit = cipher.charAt(k++) - 48;
                 b = (b & ~1) | bit;
                 p=(a<<24) | (r<<16) | (g<<8) | b;
-                img.setPixel(j,i,p);
+                img.setPixel(j, i, p);
             }
         }
         img.compress(Bitmap.CompressFormat.PNG, 100, new FileOutputStream(Stegano.filePath + "/steg.png"));
     }
-    private String decode(String file) throws IOException
+    private String decode(String imgfile) throws IOException
     {
-        Bitmap image= BitmapFactory.decodeFile(file);
-        image.setPremultiplied(false);
-        Bitmap img = image.copy(Bitmap.Config.ARGB_8888, true);
-        img.setPremultiplied(false);
+        BitmapFactory.Options options=new BitmapFactory.Options();
+        options.inPremultiplied=false;
+        Bitmap img = BitmapFactory.decodeFile(imgfile,options);
         int width = img.getWidth();
         int height = img.getHeight();
         String bits="";
-        int k=0,p,a,r,g,b,i=0,j=0;
+        int k=0,p,a,r,g,b,i,j=0;
         for(i=0; i<height && k<16; i++)
         {
             for(j=0; j<width && k<16; j++,k+=4)
             {
                 p=img.getPixel(j, i);
+                Log.e("P",""+p);
                 a = (p>>24) & 0xff;
                 r = (p>>16) & 0xff;
                 g = (p>>8) & 0xff;

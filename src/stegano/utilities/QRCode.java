@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -53,18 +54,20 @@ public class QRCode
 	private void gen_qrcode(String input, String dir, int n) throws Exception
 	{		
 		String file, data;
-		int size;
+		int size=400;
 		if(n==1)
 		{
 			file=dir+"/QRCode.png";
 			data=new String(Encrypt.read_from_file(input).getBytes(),"ISO-8859-1");
-			size=400;
 		}
 		else
 		{
 			file=dir+"/QRCode_key.png";
-			data=Encrypt.read_from_file(input);
-			size=150;
+			FileInputStream kos=new FileInputStream(input);
+			byte[] b=new byte[kos.available()];
+			kos.read(b);
+			kos.close();
+			data=Base64.getEncoder().encodeToString(b);			
 		}		
 		Map<EncodeHintType, ErrorCorrectionLevel> hint_map1 = new HashMap<EncodeHintType, ErrorCorrectionLevel>();
 		hint_map1.put(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.L);		
@@ -93,7 +96,7 @@ public class QRCode
 		{
 			fname=dir+"/decoded_key.txt";
 			fos=new FileOutputStream(fname);
-			fos.write(data.getBytes());
+			fos.write(Base64.getDecoder().decode(data.getBytes()));
 		}	
 		fos.close();				
 	}

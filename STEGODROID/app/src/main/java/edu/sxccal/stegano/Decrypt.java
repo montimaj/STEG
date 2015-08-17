@@ -41,7 +41,7 @@ public class Decrypt extends Activity implements Runnable, View.OnClickListener
 		passwd.setOnEditorActionListener(new TextView.OnEditorActionListener() {
 			@Override
 			public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-				if (actionId == EditorInfo.IME_ACTION_DONE) {
+				if ((!k.isEmpty() || !img.isEmpty()) && actionId == EditorInfo.IME_ACTION_DONE) {
 					skey = passwd.getText().toString();
 					if (k.isEmpty() || img.isEmpty() || skey.isEmpty())
 						Log.create_log(new IOException("Invalid Input"), getApplicationContext());

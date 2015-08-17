@@ -1,6 +1,5 @@
 package edu.sxccal.stegano;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.DataOutputStream;

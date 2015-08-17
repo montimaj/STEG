@@ -6,6 +6,7 @@ import com.google.zxing.integration.android.IntentResult;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.util.Base64;
 import android.view.Gravity;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -148,7 +149,7 @@ public class Stegano extends Activity implements OnClickListener
 				if(!flag)
 					fos.write(scanContent.getBytes("ISO-8859-1"));
 				else
-					fos.write(scanContent.getBytes());
+					fos.write(Base64.decode(scanContent,Base64.DEFAULT));
 		        fos.close();
 		    } 
 		    catch(IOException e)
