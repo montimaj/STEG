@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/home/monti/MONTI/monti/android-sdks/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jar="/root/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/home/monti/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-9b124fb6208ef19ff4853880c720e6063f8cba12.jar" />
-    </item>
-    <item
-        jar="/home/monti/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/libs/zxing/core.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="cba0b93b0072105d808ef7a00a107a4eb97874e7">
-        <dex dex="/home/monti/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/pre-dexed/debug/core-85f567a18881d6267802aaacc0dbdc4cb7f834ab.jar" />
-    </item>
-    <item
-        jar="/home/monti/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
+        revision="22.0.1"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/home/monti/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/pre-dexed/debug/classes-b4b4f707858367b3c1fc86863b0d11bc1125c3a2.jar" />
+        <dex dex="/root/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/pre-dexed/debug/classes-331fe6dc597b445dbd0c5e35b816933d549ce49e.jar" />
     </item>
     <item
-        jar="/home/monti/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jar="/root/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/libs/zxing/core.jar"
         jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/home/monti/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-3f30bd224905b9df6cdf2faa9c77e32d59738000.jar" />
+        revision="22.0.1"
+        sha1="cba0b93b0072105d808ef7a00a107a4eb97874e7">
+        <dex dex="/root/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/pre-dexed/debug/core-7686f365f633216f6390746af977526703856a4c.jar" />
     </item>
     <item
-        jar="/home/monti/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jar="/root/MONTI/monti/android-sdks/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
-        revision="21.1.2"
+        revision="22.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/root/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-0e79c2a2e467f83c90dd0300c2a20ba04c8df176.jar" />
+    </item>
+    <item
+        jar="/root/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/home/monti/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/pre-dexed/debug/classes-0fd69cbbb985883c1ae840b36f556983f2d4a6ba.jar" />
+        <dex dex="/root/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/pre-dexed/debug/classes-25ec835058fccc091e09f88cbe90dc0aca3b3dcb.jar" />
+    </item>
+    <item
+        jar="/root/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/root/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-d936041a4c8389ff8953c016f348786e5c7ef0cc.jar" />
     </item>
 
 </items>

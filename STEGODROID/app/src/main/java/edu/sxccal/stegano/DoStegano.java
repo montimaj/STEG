@@ -2,8 +2,7 @@ package edu.sxccal.stegano;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Color;
-import android.util.Log;
+//import android.util.Log;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -36,7 +35,9 @@ public class DoStegano
     }
     private void encode(String cipher,String imgfile) throws IOException {
         Bitmap image = BitmapFactory.decodeFile(imgfile);
-        Bitmap img = image.copy(Bitmap.Config.ARGB_8888,true);
+        image.setPremultiplied(false);
+        Bitmap img = image.copy(Bitmap.Config.ARGB_8888, true);
+        img.setPremultiplied(false);
         int width = img.getWidth();
         int height = img.getHeight();
         int len = cipher.length();
@@ -45,10 +46,10 @@ public class DoStegano
         for (i = 0; i < height && k < 16; i++) {
             for (j = 0; j < width && k < 16; j++) {
                 p = img.getPixel(j, i);
-                a = Color.alpha(p);
-                r = Color.red(p);
-                g = Color.green(p);
-                b = Color.blue(p);
+                a = (p>>24) & 0xff;
+                r = (p>>16) & 0xff;
+                g = (p>>8) & 0xff;
+                b = p & 0xff;
                 bit = lbits.charAt(k++) - 48;
                 a = (a & ~1) | bit;
                 bit = lbits.charAt(k++) - 48;
@@ -57,17 +58,18 @@ public class DoStegano
                 g = (g & ~1) | bit;
                 bit = lbits.charAt(k++) - 48;
                 b = (b & ~1) | bit;
-                img.setPixel(j,i, Color.argb(a,r,g,b));
+                p=(a<<24) | (r<<16) | (g<<8) | b;
+                img.setPixel(j,i,p);
             }
         }
         k = 0;
         for (int x = i + 1; x < height && k < len; x++) {
             for (int y = j + 1; y < width && k < len; y++) {
                 p = img.getPixel(y, x);
-                a = Color.alpha(p);
-                r = Color.red(p);
-                g = Color.green(p);
-                b = Color.blue(p);
+                a = (p>>24) & 0xff;
+                r = (p>>16) & 0xff;
+                g = (p>>8) & 0xff;
+                b = p & 0xff;
                 bit = cipher.charAt(k++) - 48;
                 a = (a & ~1) | bit;
                 bit = cipher.charAt(k++) - 48;
@@ -76,7 +78,8 @@ public class DoStegano
                 g = (g & ~1) | bit;
                 bit = cipher.charAt(k++) - 48;
                 b = (b & ~1) | bit;
-                img.setPixel(y,x, Color.argb(a,r,g,b));
+                p=(a<<24) | (r<<16) | (g<<8) | b;
+                img.setPixel(j,i,p);
             }
         }
         img.compress(Bitmap.CompressFormat.PNG, 100, new FileOutputStream(Stegano.filePath + "/steg.png"));
@@ -84,7 +87,9 @@ public class DoStegano
     private String decode(String file) throws IOException
     {
         Bitmap image= BitmapFactory.decodeFile(file);
+        image.setPremultiplied(false);
         Bitmap img = image.copy(Bitmap.Config.ARGB_8888, true);
+        img.setPremultiplied(false);
         int width = img.getWidth();
         int height = img.getHeight();
         String bits="";
@@ -94,10 +99,10 @@ public class DoStegano
             for(j=0; j<width && k<16; j++,k+=4)
             {
                 p=img.getPixel(j, i);
-                a=Color.alpha(p);
-                r=Color.red(p);
-                g=Color.green(p);
-                b=Color.blue(p);
+                a = (p>>24) & 0xff;
+                r = (p>>16) & 0xff;
+                g = (p>>8) & 0xff;
+                b = p & 0xff;
                 bits+=(a&1)!=0?1:0;
                 bits+=(r&1)!=0?1:0;
                 bits+=(g&1)!=0?1:0;
@@ -116,10 +121,10 @@ public class DoStegano
             for(int y=j+1; y<width && k<len; y++,k+=4)
             {
                 p=img.getPixel(y, x);
-                a=Color.alpha(p);
-                r=Color.red(p);
-                g=Color.green(p);
-                b=Color.blue(p);
+                a = (p>>24) & 0xff;
+                r = (p>>16) & 0xff;
+                g = (p>>8) & 0xff;
+                b = p & 0xff;
                 bits+=(a&1)!=0?1:0;
                 bits+=(r&1)!=0?1:0;
                 bits+=(g&1)!=0?1:0;
