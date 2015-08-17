@@ -161,6 +161,7 @@ public class DoEncrypt
             cipher=generate_cipher(nrows,k,mat, flag);
         }
         new DoStegano(cipher,imgfile);
+        android.util.Log.e("Cipher",cipher);
         //QRCode.encode(Stegano.filePath+"/steg.png", 400, true);
         //QRCode.encode(Stegano.filePath + "/key.txt", 150, false);
     }

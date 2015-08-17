@@ -36,11 +36,11 @@ public class DoStegano
     private void encode(String cipher,String imgfile) throws IOException {
         BitmapFactory.Options options=new BitmapFactory.Options();
         options.inPremultiplied=false;
-        Bitmap image = BitmapFactory.decodeFile(imgfile, options);
-        Bitmap img = image.copy(image.getConfig(), true);
+        options.inMutable=true;
+        Bitmap img = BitmapFactory.decodeFile(imgfile, options);
+        int len = cipher.length();
         int width = img.getWidth();
         int height = img.getHeight();
-        int len = cipher.length();
         String lbits = get_Bits(len);
         int k = 0, i, j = 0, p, a, r, g, b, bit;
         for (i = 0; i < height && k < 16; i++) {
@@ -60,16 +60,15 @@ public class DoStegano
                 b = (b & ~1) | bit;
                 p=(a<<24) | (r<<16) | (g<<8) | b;
                 img.setPixel(j,i,p);
-                Log.e("P", "" + p + "\t" + img.getPixel(j, i));
             }
         }
         k = 0;
-        for (int x = i + 1; x < height && k < len; x++) {
-            for (int y = j + 1; y < width && k < len; y++) {
+        for (int x = i + 1; x < height && k<len; x++) {
+            for (int y = j + 1; y < width && k<len; y++) {
                 p = img.getPixel(y, x);
-                a = (p>>24) & 0xff;
-                r = (p>>16) & 0xff;
-                g = (p>>8) & 0xff;
+                a = (p >> 24) & 0xff;
+                r = (p >> 16) & 0xff;
+                g = (p >> 8) & 0xff;
                 b = p & 0xff;
                 bit = cipher.charAt(k++) - 48;
                 a = (a & ~1) | bit;
@@ -79,7 +78,7 @@ public class DoStegano
                 g = (g & ~1) | bit;
                 bit = cipher.charAt(k++) - 48;
                 b = (b & ~1) | bit;
-                p=(a<<24) | (r<<16) | (g<<8) | b;
+                p = (a << 24) | (r << 16) | (g << 8) | b;
                 img.setPixel(j, i, p);
             }
         }
@@ -99,7 +98,6 @@ public class DoStegano
             for(j=0; j<width && k<16; j++,k+=4)
             {
                 p=img.getPixel(j, i);
-                Log.e("P",""+p);
                 a = (p>>24) & 0xff;
                 r = (p>>16) & 0xff;
                 g = (p>>8) & 0xff;
@@ -117,6 +115,7 @@ public class DoStegano
         }
         k=0;
         bits="";
+        Log.e("Len",""+len);
         for(int x=i+1; x<height && k<len; x++)
         {
             for(int y=j+1; y<width && k<len; y++,k+=4)
@@ -132,6 +131,7 @@ public class DoStegano
                 bits+=(b&1)!=0?1:0;
             }
         }
+        android.util.Log.e("Cipher",bits);
         return bits;
     }
 }
