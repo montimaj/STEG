@@ -9,7 +9,6 @@ import java.io.DataInputStream;
 import stegano.utilities.GenKey;
 import stegano.utilities.Log;
 import stegano.utilities.DoStegano;
-import stegano.utilities.QRCode;
 
 /**
  * Main Decryption module
@@ -64,10 +63,8 @@ public class Decrypt
 			}
 		}
 	}			
-	private static void decrypt(String skey,String qrimg, String qrkey, String dir) throws Exception
+	private static void decrypt(String skey,String imgfile, String keyfile, String dir) throws Exception
 	{	
-		String imgfile=new QRCode(qrimg,dir,false).fname;
-		String keyfile=new QRCode(qrkey,dir,true).fname;
 		String bits=new DoStegano(imgfile).getDecoded_str();
 		GenKey gk=new GenKey(skey);		
 		int ncols=gk.get_colsize(),num[]=new int[ncols], len=bits.length(),nrows=len/ncols, ndecrypt=gk.get_encryption_number();

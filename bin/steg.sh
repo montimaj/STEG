@@ -78,7 +78,7 @@ export MAIN_DIALOG='
 	    </entry>
 	   </hbox>
      </frame>
-	  <frame Choose QRCode Image>
+	  <frame Choose Image>
 	    <hbox>
 	      <entry>
 		<variable>XFILE</variable>
@@ -91,7 +91,7 @@ export MAIN_DIALOG='
 	    </hbox>
 	  </frame>
 	  
-	  <frame Choose QRCode image of key>
+	  <frame Choose Appropriate key>
 	    <hbox>
 	      <entry>
 		<variable>KFILE</variable>

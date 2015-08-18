@@ -96,7 +96,7 @@ public class QRCode
 		{
 			fname=dir+"/decoded_key.txt";
 			fos=new FileOutputStream(fname);
-			fos.write(Base64.getDecoder().decode(data.getBytes()));
+			fos.write(data.getBytes());
 		}	
 		fos.close();				
 	}

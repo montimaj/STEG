@@ -2,6 +2,7 @@ package edu.sxccal.stegano;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.util.Base64;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;
@@ -9,6 +10,7 @@ import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -19,22 +21,29 @@ public class QRCode
     /**
      * Creates QRCode image of size img_sizeXimg_size
      * @param dataPath Path to input data
-     * @param img_size Size of qrcode image
      * @throws IOException
      * @throws WriterException
      */
-    public static void encode(String dataPath, int img_size, boolean flag) throws IOException, WriterException
+    public static void encode(String dataPath, boolean flag) throws IOException, WriterException
     {
-            String data = DoEncrypt.read_from_file(dataPath);
+            String data = "";
             QRCodeWriter writer = new QRCodeWriter();
             String genqr="";
+            int img_size=400;
             if(flag)
             {
+                data=DoEncrypt.read_from_file(dataPath);
                 data = new String(data.getBytes(), "ISO-8859-1");
                 genqr = Stegano.filePath + "/QRCode.png";
             }
-            else
-                genqr=Stegano.filePath+"/QRCode_key.png";
+            else {
+                FileInputStream fis=new FileInputStream(dataPath);
+                byte[] b=new byte[fis.available()];
+                fis.read(b);
+                fis.close();
+                data=Base64.encodeToString(b,Base64.DEFAULT);
+                genqr = Stegano.filePath + "/QRCode_key.png";
+            }
             BitMatrix bm = writer.encode(data, BarcodeFormat.QR_CODE,img_size,img_size);
             Bitmap bmp = Bitmap.createBitmap(img_size,img_size,Bitmap.Config.ARGB_8888);
             if (bmp != null)
