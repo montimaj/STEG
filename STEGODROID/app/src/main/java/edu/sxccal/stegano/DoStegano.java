@@ -37,6 +37,7 @@ public class DoStegano
         options.inPremultiplied=false;
         options.inMutable=true;
         Bitmap img = BitmapFactory.decodeFile(imgfile, options);
+        img.setHasAlpha(true);
         int len = cipher.length();
         int width = img.getWidth();
         int height = img.getHeight();
@@ -88,6 +89,7 @@ public class DoStegano
         BitmapFactory.Options options=new BitmapFactory.Options();
         options.inPremultiplied=false;
         Bitmap img = BitmapFactory.decodeFile(imgfile,options);
+        img.setHasAlpha(true);
         int width = img.getWidth();
         int height = img.getHeight();
         String bits="";
