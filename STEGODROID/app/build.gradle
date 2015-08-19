@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "edu.sxccal.qrcodescanner"
+        applicationId "edu.sxccal.stegodroid"
         minSdkVersion 17
         targetSdkVersion 22
         compileOptions {
@@ -23,7 +23,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:21.0.3'
-    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:support-v4:22.1.1'
+    compile 'com.android.support:appcompat-v7:22.1.1'
     compile files('libs/zxing/core.jar')
 }

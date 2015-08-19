@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.sxccal.qrcodescanner.test">
+    package="edu.sxccal.stegodroid.test">
 
     <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="22" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="edu.sxccal.qrcodescanner"
+                     android:targetPackage="edu.sxccal.stegodroid"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for edu.sxccal.qrcodescanner"/>
+                     android:label="Tests for edu.sxccal.stegodroid"/>
 </manifest>

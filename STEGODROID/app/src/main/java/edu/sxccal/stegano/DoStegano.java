@@ -58,7 +58,7 @@ public class DoStegano
                 g = (g & ~1) | bit;
                 bit = lbits.charAt(k++) - 48;
                 b = (b & ~1) | bit;
-                p=(a<<24) | (r<<16) | (g<<8) | b;
+                p=(a << 24) | (r << 16) | (g << 8) | b;
                 img.setPixel(j,i,p);
             }
         }
@@ -66,9 +66,9 @@ public class DoStegano
         for (int x = i + 1; x < height && k<len; x++) {
             for (int y = j + 1; y < width && k<len; y++) {
                 p = img.getPixel(y, x);
-                a = (p >> 24) & 0xff;
-                r = (p >> 16) & 0xff;
-                g = (p >> 8) & 0xff;
+                a = (p>>24) & 0xff;
+                r = (p>>16) & 0xff;
+                g = (p>>8) & 0xff;
                 b = p & 0xff;
                 bit = cipher.charAt(k++) - 48;
                 a = (a & ~1) | bit;
@@ -78,7 +78,7 @@ public class DoStegano
                 g = (g & ~1) | bit;
                 bit = cipher.charAt(k++) - 48;
                 b = (b & ~1) | bit;
-                p = (a << 24) | (r << 16) | (g << 8) | b;
+                p = (a<<24) | (r<<16) | (g<<8) | b;
                 img.setPixel(y, x, p);
             }
         }

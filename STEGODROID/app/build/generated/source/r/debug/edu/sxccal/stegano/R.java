@@ -11,24 +11,28 @@ public final class R {
     public static final class anim {
         public static final int abc_fade_in=0x7f040000;
         public static final int abc_fade_out=0x7f040001;
-        public static final int abc_slide_in_bottom=0x7f040002;
-        public static final int abc_slide_in_top=0x7f040003;
-        public static final int abc_slide_out_bottom=0x7f040004;
-        public static final int abc_slide_out_top=0x7f040005;
+        public static final int abc_grow_fade_in_from_bottom=0x7f040002;
+        public static final int abc_popup_enter=0x7f040003;
+        public static final int abc_popup_exit=0x7f040004;
+        public static final int abc_shrink_fade_out_from_bottom=0x7f040005;
+        public static final int abc_slide_in_bottom=0x7f040006;
+        public static final int abc_slide_in_top=0x7f040007;
+        public static final int abc_slide_out_bottom=0x7f040008;
+        public static final int abc_slide_out_top=0x7f040009;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarDivider=0x7f01005a;
+        public static final int actionBarDivider=0x7f010063;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarItemBackground=0x7f01005b;
+        public static final int actionBarItemBackground=0x7f010064;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarPopupTheme=0x7f010054;
+        public static final int actionBarPopupTheme=0x7f01005d;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -46,117 +50,117 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static final int actionBarSize=0x7f010059;
+        public static final int actionBarSize=0x7f010062;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarSplitStyle=0x7f010056;
+        public static final int actionBarSplitStyle=0x7f01005f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarStyle=0x7f010055;
+        public static final int actionBarStyle=0x7f01005e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabBarStyle=0x7f010050;
+        public static final int actionBarTabBarStyle=0x7f010059;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabStyle=0x7f01004f;
+        public static final int actionBarTabStyle=0x7f010058;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabTextStyle=0x7f010051;
+        public static final int actionBarTabTextStyle=0x7f01005a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTheme=0x7f010057;
+        public static final int actionBarTheme=0x7f010060;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarWidgetTheme=0x7f010058;
+        public static final int actionBarWidgetTheme=0x7f010061;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionButtonStyle=0x7f010072;
+        public static final int actionButtonStyle=0x7f01007d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionDropDownStyle=0x7f01006d;
+        public static final int actionDropDownStyle=0x7f010079;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionLayout=0x7f01002c;
+        public static final int actionLayout=0x7f010031;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionMenuTextAppearance=0x7f01005c;
+        public static final int actionMenuTextAppearance=0x7f010065;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int actionMenuTextColor=0x7f01005d;
+        public static final int actionMenuTextColor=0x7f010066;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeBackground=0x7f010060;
+        public static final int actionModeBackground=0x7f010069;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseButtonStyle=0x7f01005f;
+        public static final int actionModeCloseButtonStyle=0x7f010068;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseDrawable=0x7f010062;
+        public static final int actionModeCloseDrawable=0x7f01006b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCopyDrawable=0x7f010064;
+        public static final int actionModeCopyDrawable=0x7f01006d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCutDrawable=0x7f010063;
+        public static final int actionModeCutDrawable=0x7f01006c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeFindDrawable=0x7f010068;
+        public static final int actionModeFindDrawable=0x7f010071;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePasteDrawable=0x7f010065;
+        public static final int actionModePasteDrawable=0x7f01006e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePopupWindowStyle=0x7f01006a;
+        public static final int actionModePopupWindowStyle=0x7f010073;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSelectAllDrawable=0x7f010066;
+        public static final int actionModeSelectAllDrawable=0x7f01006f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeShareDrawable=0x7f010067;
+        public static final int actionModeShareDrawable=0x7f010070;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSplitBackground=0x7f010061;
+        public static final int actionModeSplitBackground=0x7f01006a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeStyle=0x7f01005e;
+        public static final int actionModeStyle=0x7f010067;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeWebSearchDrawable=0x7f010069;
+        public static final int actionModeWebSearchDrawable=0x7f010072;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowButtonStyle=0x7f010052;
+        public static final int actionOverflowButtonStyle=0x7f01005b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowMenuStyle=0x7f010053;
+        public static final int actionOverflowMenuStyle=0x7f01005c;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -164,7 +168,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionProviderClass=0x7f01002e;
+        public static final int actionProviderClass=0x7f010033;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -172,11 +176,35 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionViewClass=0x7f01002d;
+        public static final int actionViewClass=0x7f010032;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int activityChooserViewStyle=0x7f010079;
+        public static final int activityChooserViewStyle=0x7f010084;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int alertDialogButtonGroupStyle=0x7f0100a5;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int alertDialogCenterButtons=0x7f0100a6;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int alertDialogStyle=0x7f0100a4;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int alertDialogTheme=0x7f0100a7;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int autoCompleteTextViewStyle=0x7f0100ac;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -193,6 +221,29 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
         public static final int backgroundStacked=0x7f01000d;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int backgroundTint=0x7f0100c5;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+</table>
+         */
+        public static final int backgroundTintMode=0x7f0100c6;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -202,19 +253,51 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int barSize=0x7f010026;
+        public static final int barSize=0x7f01002b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarButtonStyle=0x7f010074;
+        public static final int buttonBarButtonStyle=0x7f01007f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarStyle=0x7f010073;
+        public static final int buttonBarNegativeButtonStyle=0x7f0100aa;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeIcon=0x7f010035;
+        public static final int buttonBarNeutralButtonStyle=0x7f0100ab;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarPositiveButtonStyle=0x7f0100a9;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarStyle=0x7f01007e;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonPanelSideLayout=0x7f01001f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonStyle=0x7f0100ad;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonStyleSmall=0x7f0100ae;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int checkboxStyle=0x7f0100af;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int checkedTextViewStyle=0x7f0100b0;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int closeIcon=0x7f01003a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -226,11 +309,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int collapseContentDescription=0x7f0100a4;
+        public static final int collapseContentDescription=0x7f0100bf;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapseIcon=0x7f0100a3;
+        public static final int collapseIcon=0x7f0100be;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -239,7 +322,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int color=0x7f010020;
+        public static final int color=0x7f010025;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -248,7 +331,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorAccent=0x7f010094;
+        public static final int colorAccent=0x7f01009e;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -257,7 +340,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorButtonNormal=0x7f010098;
+        public static final int colorButtonNormal=0x7f0100a2;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -266,7 +349,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlActivated=0x7f010096;
+        public static final int colorControlActivated=0x7f0100a0;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -275,7 +358,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlHighlight=0x7f010097;
+        public static final int colorControlHighlight=0x7f0100a1;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -284,7 +367,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlNormal=0x7f010095;
+        public static final int colorControlNormal=0x7f01009f;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -293,7 +376,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPrimary=0x7f010092;
+        public static final int colorPrimary=0x7f01009c;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -302,7 +385,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPrimaryDark=0x7f010093;
+        public static final int colorPrimaryDark=0x7f01009d;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -311,11 +394,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorSwitchThumbNormal=0x7f010099;
+        public static final int colorSwitchThumbNormal=0x7f0100a3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int commitIcon=0x7f010039;
+        public static final int commitIcon=0x7f01003f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -360,6 +443,20 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int customNavigationLayout=0x7f01000f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int dialogPreferredPadding=0x7f010077;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int dialogTheme=0x7f010076;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -367,7 +464,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int disableChildrenWhenDisabled=0x7f010040;
+        public static final int disableChildrenWhenDisabled=0x7f010046;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -391,7 +488,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerHorizontal=0x7f010078;
+        public static final int dividerHorizontal=0x7f010083;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -401,11 +498,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dividerPadding=0x7f01002a;
+        public static final int dividerPadding=0x7f01002f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerVertical=0x7f010077;
+        public static final int dividerVertical=0x7f010082;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -415,7 +512,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int drawableSize=0x7f010022;
+        public static final int drawableSize=0x7f010027;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -423,7 +520,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dropDownListViewStyle=0x7f01008a;
+        public static final int dropDownListViewStyle=0x7f010094;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -433,17 +530,21 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dropdownListPreferredItemHeight=0x7f01006e;
+        public static final int dropdownListPreferredItemHeight=0x7f01007a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int editTextBackground=0x7f01007f;
+        public static final int editTextBackground=0x7f01008a;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int editTextColor=0x7f01007e;
+        public static final int editTextColor=0x7f010089;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int editTextStyle=0x7f0100b1;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -467,11 +568,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int gapBetweenBars=0x7f010023;
+        public static final int gapBetweenBars=0x7f010028;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int goIcon=0x7f010036;
+        public static final int goIcon=0x7f01003b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -493,7 +594,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int homeAsUpIndicator=0x7f010071;
+        public static final int homeAsUpIndicator=0x7f01007c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -509,7 +610,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int iconifiedByDefault=0x7f010033;
+        public static final int iconifiedByDefault=0x7f010038;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -543,15 +644,27 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout=0x7f010032;
+        public static final int layout=0x7f010037;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listChoiceBackgroundIndicator=0x7f010091;
+        public static final int listChoiceBackgroundIndicator=0x7f01009b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listPopupWindowStyle=0x7f01008b;
+        public static final int listDividerAlertDialog=0x7f010078;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listItemLayout=0x7f010023;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listLayout=0x7f010020;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listPopupWindowStyle=0x7f010095;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -561,7 +674,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeight=0x7f010085;
+        public static final int listPreferredItemHeight=0x7f01008f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -571,7 +684,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightLarge=0x7f010087;
+        public static final int listPreferredItemHeightLarge=0x7f010091;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -581,7 +694,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightSmall=0x7f010086;
+        public static final int listPreferredItemHeightSmall=0x7f010090;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -591,7 +704,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingLeft=0x7f010088;
+        public static final int listPreferredItemPaddingLeft=0x7f010092;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -601,7 +714,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingRight=0x7f010089;
+        public static final int listPreferredItemPaddingRight=0x7f010093;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -615,7 +728,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxButtonHeight=0x7f0100a1;
+        public static final int maxButtonHeight=0x7f0100bd;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -623,7 +736,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int measureWithLargestChild=0x7f010028;
+        public static final int measureWithLargestChild=0x7f01002d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -633,7 +746,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int middleBarArrowSize=0x7f010025;
+        public static final int middleBarArrowSize=0x7f01002a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int multiChoiceItemLayout=0x7f010021;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -641,11 +758,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int navigationContentDescription=0x7f0100a6;
+        public static final int navigationContentDescription=0x7f0100c1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int navigationIcon=0x7f0100a5;
+        public static final int navigationIcon=0x7f0100c0;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -665,7 +782,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int overlapAnchor=0x7f010030;
+        public static final int overlapAnchor=0x7f010035;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -675,7 +792,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingEnd=0x7f0100a8;
+        public static final int paddingEnd=0x7f0100c3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -685,15 +802,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingStart=0x7f0100a7;
+        public static final int paddingStart=0x7f0100c2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int panelBackground=0x7f01008e;
+        public static final int panelBackground=0x7f010098;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int panelMenuListTheme=0x7f010090;
+        public static final int panelMenuListTheme=0x7f01009a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -703,15 +820,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int panelMenuListWidth=0x7f01008f;
+        public static final int panelMenuListWidth=0x7f010099;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupMenuStyle=0x7f01007c;
+        public static final int popupMenuStyle=0x7f010087;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupPromptView=0x7f01003f;
+        public static final int popupPromptView=0x7f010045;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -719,7 +836,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupWindowStyle=0x7f01007d;
+        public static final int popupWindowStyle=0x7f010088;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -727,7 +844,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int preserveIconSpacing=0x7f01002f;
+        public static final int preserveIconSpacing=0x7f010034;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -745,11 +862,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int prompt=0x7f01003d;
+        public static final int prompt=0x7f010043;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int queryBackground=0x7f01003b;
+        public static final int queryBackground=0x7f010041;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -757,23 +874,35 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int queryHint=0x7f010034;
+        public static final int queryHint=0x7f010039;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchIcon=0x7f010037;
+        public static final int radioButtonStyle=0x7f0100b2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewStyle=0x7f010084;
+        public static final int ratingBarStyle=0x7f0100b3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int selectableItemBackground=0x7f010075;
+        public static final int searchHintIcon=0x7f01003d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int selectableItemBackgroundBorderless=0x7f010076;
+        public static final int searchIcon=0x7f01003c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int searchViewStyle=0x7f01008e;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int selectableItemBackground=0x7f010080;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int selectableItemBackgroundBorderless=0x7f010081;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -787,7 +916,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
          */
-        public static final int showAsAction=0x7f01002b;
+        public static final int showAsAction=0x7f010030;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -800,7 +929,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static final int showDividers=0x7f010029;
+        public static final int showDividers=0x7f01002e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -808,19 +937,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int showText=0x7f010047;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spinBars=0x7f010021;
+        public static final int showText=0x7f01004d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerDropDownItemStyle=0x7f010070;
+        public static final int singleChoiceItemLayout=0x7f010022;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spinBars=0x7f010026;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int spinnerDropDownItemStyle=0x7f01007b;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -831,11 +964,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>dropdown</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int spinnerMode=0x7f01003e;
+        public static final int spinnerMode=0x7f010044;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerStyle=0x7f01006f;
+        public static final int spinnerStyle=0x7f0100b4;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -843,7 +976,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int splitTrack=0x7f010046;
+        public static final int splitTrack=0x7f01004c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -851,11 +984,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int state_above_anchor=0x7f010031;
+        public static final int state_above_anchor=0x7f010036;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int submitBackground=0x7f01003c;
+        public static final int submitBackground=0x7f010042;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -867,7 +1000,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextAppearance=0x7f01009b;
+        public static final int subtitleTextAppearance=0x7f0100b7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -875,7 +1008,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int suggestionRowLayout=0x7f01003a;
+        public static final int suggestionRowLayout=0x7f010040;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -885,7 +1018,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchMinWidth=0x7f010044;
+        public static final int switchMinWidth=0x7f01004a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -895,54 +1028,60 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchPadding=0x7f010045;
+        public static final int switchPadding=0x7f01004b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchStyle=0x7f010080;
+        public static final int switchStyle=0x7f0100b5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchTextAppearance=0x7f010043;
+        public static final int switchTextAppearance=0x7f010049;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int textAllCaps=0x7f01001f;
+        public static final int textAllCaps=0x7f010024;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceLargePopupMenu=0x7f01006b;
+        public static final int textAppearanceLargePopupMenu=0x7f010074;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItem=0x7f01008c;
+        public static final int textAppearanceListItem=0x7f010096;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItemSmall=0x7f01008d;
+        public static final int textAppearanceListItemSmall=0x7f010097;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultSubtitle=0x7f010082;
+        public static final int textAppearanceSearchResultSubtitle=0x7f01008c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultTitle=0x7f010081;
+        public static final int textAppearanceSearchResultTitle=0x7f01008b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSmallPopupMenu=0x7f01006c;
+        public static final int textAppearanceSmallPopupMenu=0x7f010075;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int textColorSearchUrl=0x7f010083;
+        public static final int textColorAlertDialogListItem=0x7f0100a8;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int textColorSearchUrl=0x7f01008d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int theme=0x7f0100a2;
+        public static final int theme=0x7f0100c4;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -952,7 +1091,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thickness=0x7f010027;
+        public static final int thickness=0x7f01002c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -962,7 +1101,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thumbTextPadding=0x7f010042;
+        public static final int thumbTextPadding=0x7f010048;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -980,7 +1119,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginBottom=0x7f0100a0;
+        public static final int titleMarginBottom=0x7f0100bc;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -990,7 +1129,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginEnd=0x7f01009e;
+        public static final int titleMarginEnd=0x7f0100ba;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1000,7 +1139,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginStart=0x7f01009d;
+        public static final int titleMarginStart=0x7f0100b9;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1010,7 +1149,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginTop=0x7f01009f;
+        public static final int titleMarginTop=0x7f0100bb;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1020,11 +1159,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMargins=0x7f01009c;
+        public static final int titleMargins=0x7f0100b8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextAppearance=0x7f01009a;
+        public static final int titleTextAppearance=0x7f0100b6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1032,11 +1171,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarNavigationButtonStyle=0x7f01007b;
+        public static final int toolbarNavigationButtonStyle=0x7f010086;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarStyle=0x7f01007a;
+        public static final int toolbarStyle=0x7f010085;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1046,15 +1185,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int topBottomBarArrowSize=0x7f010024;
+        public static final int topBottomBarArrowSize=0x7f010029;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int track=0x7f010041;
+        public static final int track=0x7f010047;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int voiceIcon=0x7f010038;
+        public static final int voiceIcon=0x7f01003e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1062,7 +1201,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBar=0x7f010048;
+        public static final int windowActionBar=0x7f01004e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1070,7 +1209,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBarOverlay=0x7f010049;
+        public static final int windowActionBarOverlay=0x7f010050;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1078,7 +1217,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionModeOverlay=0x7f01004a;
+        public static final int windowActionModeOverlay=0x7f010051;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1091,7 +1230,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedHeightMajor=0x7f01004e;
+        public static final int windowFixedHeightMajor=0x7f010055;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1104,7 +1243,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedHeightMinor=0x7f01004c;
+        public static final int windowFixedHeightMinor=0x7f010053;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1117,7 +1256,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedWidthMajor=0x7f01004b;
+        public static final int windowFixedWidthMajor=0x7f010052;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1130,30 +1269,65 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedWidthMinor=0x7f01004d;
+        public static final int windowFixedWidthMinor=0x7f010054;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowMinWidthMajor=0x7f010056;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowMinWidthMinor=0x7f010057;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowNoTitle=0x7f01004f;
     }
     public static final class bool {
-        public static final int abc_action_bar_embed_tabs=0x7f060002;
-        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f060000;
-        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f060003;
-        public static final int abc_config_actionMenuItemAllCaps=0x7f060004;
-        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f060001;
-        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f060005;
+        public static final int abc_action_bar_embed_tabs=0x7f080002;
+        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f080000;
+        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f080003;
+        public static final int abc_config_actionMenuItemAllCaps=0x7f080004;
+        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f080001;
+        public static final int abc_config_closeDialogWhenTouchOutside=0x7f080005;
+        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f080006;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f0a0032;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f0a0033;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0a0034;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0a0035;
         public static final int abc_input_method_navigation_guard=0x7f0a0000;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f0a0034;
-        public static final int abc_primary_text_disable_only_material_light=0x7f0a0035;
-        public static final int abc_primary_text_material_dark=0x7f0a0036;
-        public static final int abc_primary_text_material_light=0x7f0a0037;
-        public static final int abc_search_url_text=0x7f0a0038;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0a0036;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0a0037;
+        public static final int abc_primary_text_material_dark=0x7f0a0038;
+        public static final int abc_primary_text_material_light=0x7f0a0039;
+        public static final int abc_search_url_text=0x7f0a003a;
         public static final int abc_search_url_text_normal=0x7f0a0001;
         public static final int abc_search_url_text_pressed=0x7f0a0002;
         public static final int abc_search_url_text_selected=0x7f0a0003;
-        public static final int abc_secondary_text_material_dark=0x7f0a0039;
-        public static final int abc_secondary_text_material_light=0x7f0a003a;
+        public static final int abc_secondary_text_material_dark=0x7f0a003b;
+        public static final int abc_secondary_text_material_light=0x7f0a003c;
         public static final int accent_material_dark=0x7f0a0004;
         public static final int accent_material_light=0x7f0a0005;
         public static final int background_floating_material_dark=0x7f0a0006;
@@ -1198,196 +1372,249 @@ containing a value of this type.
         public static final int secondary_text_default_material_light=0x7f0a002d;
         public static final int secondary_text_disabled_material_dark=0x7f0a002e;
         public static final int secondary_text_disabled_material_light=0x7f0a002f;
-        public static final int switch_thumb_normal_material_dark=0x7f0a0030;
-        public static final int switch_thumb_normal_material_light=0x7f0a0031;
+        public static final int switch_thumb_disabled_material_dark=0x7f0a0030;
+        public static final int switch_thumb_disabled_material_light=0x7f0a0031;
+        public static final int switch_thumb_material_dark=0x7f0a003d;
+        public static final int switch_thumb_material_light=0x7f0a003e;
+        public static final int switch_thumb_normal_material_dark=0x7f0a0032;
+        public static final int switch_thumb_normal_material_light=0x7f0a0033;
     }
     public static final class dimen {
-        public static final int abc_action_bar_default_height_material=0x7f070000;
-        public static final int abc_action_bar_default_padding_material=0x7f070001;
-        public static final int abc_action_bar_icon_vertical_padding_material=0x7f07000c;
-        public static final int abc_action_bar_progress_bar_size=0x7f070002;
-        public static final int abc_action_bar_stacked_max_height=0x7f07000d;
-        public static final int abc_action_bar_stacked_tab_max_width=0x7f07000e;
-        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f07000f;
-        public static final int abc_action_bar_subtitle_top_margin_material=0x7f070010;
-        public static final int abc_action_button_min_height_material=0x7f070011;
-        public static final int abc_action_button_min_width_material=0x7f070012;
-        public static final int abc_action_button_min_width_overflow_material=0x7f070013;
-        public static final int abc_config_prefDialogWidth=0x7f070005;
-        public static final int abc_control_inset_material=0x7f070014;
-        public static final int abc_control_padding_material=0x7f070015;
-        public static final int abc_dropdownitem_icon_width=0x7f070016;
-        public static final int abc_dropdownitem_text_padding_left=0x7f070017;
-        public static final int abc_dropdownitem_text_padding_right=0x7f070018;
-        public static final int abc_panel_menu_list_width=0x7f070019;
-        public static final int abc_search_view_preferred_width=0x7f07001a;
-        public static final int abc_search_view_text_min_width=0x7f070006;
-        public static final int abc_text_size_body_1_material=0x7f07001b;
-        public static final int abc_text_size_body_2_material=0x7f07001c;
-        public static final int abc_text_size_button_material=0x7f07001d;
-        public static final int abc_text_size_caption_material=0x7f07001e;
-        public static final int abc_text_size_display_1_material=0x7f07001f;
-        public static final int abc_text_size_display_2_material=0x7f070020;
-        public static final int abc_text_size_display_3_material=0x7f070021;
-        public static final int abc_text_size_display_4_material=0x7f070022;
-        public static final int abc_text_size_headline_material=0x7f070023;
-        public static final int abc_text_size_large_material=0x7f070024;
-        public static final int abc_text_size_medium_material=0x7f070025;
-        public static final int abc_text_size_menu_material=0x7f070026;
-        public static final int abc_text_size_small_material=0x7f070027;
-        public static final int abc_text_size_subhead_material=0x7f070028;
-        public static final int abc_text_size_subtitle_material_toolbar=0x7f070003;
-        public static final int abc_text_size_title_material=0x7f070029;
-        public static final int abc_text_size_title_material_toolbar=0x7f070004;
-        public static final int activity_horizontal_margin=0x7f07000b;
-        public static final int activity_vertical_margin=0x7f07002a;
-        public static final int dialog_fixed_height_major=0x7f070007;
-        public static final int dialog_fixed_height_minor=0x7f070008;
-        public static final int dialog_fixed_width_major=0x7f070009;
-        public static final int dialog_fixed_width_minor=0x7f07000a;
-        public static final int disabled_alpha_material_dark=0x7f07002b;
-        public static final int disabled_alpha_material_light=0x7f07002c;
+        public static final int abc_action_bar_content_inset_material=0x7f06000c;
+        public static final int abc_action_bar_default_height_material=0x7f060001;
+        public static final int abc_action_bar_default_padding_material=0x7f060002;
+        public static final int abc_action_bar_icon_vertical_padding_material=0x7f060011;
+        public static final int abc_action_bar_navigation_padding_start_material=0x7f06000d;
+        public static final int abc_action_bar_overflow_padding_end_material=0x7f06000e;
+        public static final int abc_action_bar_overflow_padding_start_material=0x7f060012;
+        public static final int abc_action_bar_progress_bar_size=0x7f060003;
+        public static final int abc_action_bar_stacked_max_height=0x7f060013;
+        public static final int abc_action_bar_stacked_tab_max_width=0x7f060014;
+        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f060015;
+        public static final int abc_action_bar_subtitle_top_margin_material=0x7f060016;
+        public static final int abc_action_button_min_height_material=0x7f060017;
+        public static final int abc_action_button_min_width_material=0x7f060018;
+        public static final int abc_action_button_min_width_overflow_material=0x7f060019;
+        public static final int abc_alert_dialog_button_bar_height=0x7f060000;
+        public static final int abc_button_inset_horizontal_material=0x7f06001a;
+        public static final int abc_button_inset_vertical_material=0x7f06001b;
+        public static final int abc_button_padding_horizontal_material=0x7f06001c;
+        public static final int abc_button_padding_vertical_material=0x7f06001d;
+        public static final int abc_config_prefDialogWidth=0x7f060006;
+        public static final int abc_control_corner_material=0x7f06001e;
+        public static final int abc_control_inset_material=0x7f06001f;
+        public static final int abc_control_padding_material=0x7f060020;
+        public static final int abc_dialog_list_padding_vertical_material=0x7f060021;
+        public static final int abc_dialog_min_width_major=0x7f060022;
+        public static final int abc_dialog_min_width_minor=0x7f060023;
+        public static final int abc_dialog_padding_material=0x7f060024;
+        public static final int abc_dialog_padding_top_material=0x7f060025;
+        public static final int abc_disabled_alpha_material_dark=0x7f060026;
+        public static final int abc_disabled_alpha_material_light=0x7f060027;
+        public static final int abc_dropdownitem_icon_width=0x7f060028;
+        public static final int abc_dropdownitem_text_padding_left=0x7f060029;
+        public static final int abc_dropdownitem_text_padding_right=0x7f06002a;
+        public static final int abc_edit_text_inset_bottom_material=0x7f06002b;
+        public static final int abc_edit_text_inset_horizontal_material=0x7f06002c;
+        public static final int abc_edit_text_inset_top_material=0x7f06002d;
+        public static final int abc_floating_window_z=0x7f06002e;
+        public static final int abc_list_item_padding_horizontal_material=0x7f06002f;
+        public static final int abc_panel_menu_list_width=0x7f060030;
+        public static final int abc_search_view_preferred_width=0x7f060031;
+        public static final int abc_search_view_text_min_width=0x7f060007;
+        public static final int abc_switch_padding=0x7f06000f;
+        public static final int abc_text_size_body_1_material=0x7f060032;
+        public static final int abc_text_size_body_2_material=0x7f060033;
+        public static final int abc_text_size_button_material=0x7f060034;
+        public static final int abc_text_size_caption_material=0x7f060035;
+        public static final int abc_text_size_display_1_material=0x7f060036;
+        public static final int abc_text_size_display_2_material=0x7f060037;
+        public static final int abc_text_size_display_3_material=0x7f060038;
+        public static final int abc_text_size_display_4_material=0x7f060039;
+        public static final int abc_text_size_headline_material=0x7f06003a;
+        public static final int abc_text_size_large_material=0x7f06003b;
+        public static final int abc_text_size_medium_material=0x7f06003c;
+        public static final int abc_text_size_menu_material=0x7f06003d;
+        public static final int abc_text_size_small_material=0x7f06003e;
+        public static final int abc_text_size_subhead_material=0x7f06003f;
+        public static final int abc_text_size_subtitle_material_toolbar=0x7f060004;
+        public static final int abc_text_size_title_material=0x7f060040;
+        public static final int abc_text_size_title_material_toolbar=0x7f060005;
+        public static final int activity_horizontal_margin=0x7f060010;
+        public static final int activity_vertical_margin=0x7f060041;
+        public static final int dialog_fixed_height_major=0x7f060008;
+        public static final int dialog_fixed_height_minor=0x7f060009;
+        public static final int dialog_fixed_width_major=0x7f06000a;
+        public static final int dialog_fixed_width_minor=0x7f06000b;
+        public static final int disabled_alpha_material_dark=0x7f060042;
+        public static final int disabled_alpha_material_light=0x7f060043;
     }
     public static final class drawable {
-        public static final int abc_ab_share_pack_holo_dark=0x7f020000;
-        public static final int abc_ab_share_pack_holo_light=0x7f020001;
+        public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
+        public static final int abc_btn_borderless_material=0x7f020001;
         public static final int abc_btn_check_material=0x7f020002;
         public static final int abc_btn_check_to_on_mtrl_000=0x7f020003;
         public static final int abc_btn_check_to_on_mtrl_015=0x7f020004;
-        public static final int abc_btn_radio_material=0x7f020005;
-        public static final int abc_btn_radio_to_on_mtrl_000=0x7f020006;
-        public static final int abc_btn_radio_to_on_mtrl_015=0x7f020007;
-        public static final int abc_btn_switch_to_on_mtrl_00001=0x7f020008;
-        public static final int abc_btn_switch_to_on_mtrl_00012=0x7f020009;
-        public static final int abc_cab_background_internal_bg=0x7f02000a;
-        public static final int abc_cab_background_top_material=0x7f02000b;
-        public static final int abc_cab_background_top_mtrl_alpha=0x7f02000c;
-        public static final int abc_edit_text_material=0x7f02000d;
-        public static final int abc_ic_ab_back_mtrl_am_alpha=0x7f02000e;
-        public static final int abc_ic_clear_mtrl_alpha=0x7f02000f;
-        public static final int abc_ic_commit_search_api_mtrl_alpha=0x7f020010;
-        public static final int abc_ic_go_search_api_mtrl_alpha=0x7f020011;
-        public static final int abc_ic_menu_copy_mtrl_am_alpha=0x7f020012;
-        public static final int abc_ic_menu_cut_mtrl_alpha=0x7f020013;
-        public static final int abc_ic_menu_moreoverflow_mtrl_alpha=0x7f020014;
-        public static final int abc_ic_menu_paste_mtrl_am_alpha=0x7f020015;
-        public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f020016;
-        public static final int abc_ic_menu_share_mtrl_alpha=0x7f020017;
-        public static final int abc_ic_search_api_mtrl_alpha=0x7f020018;
-        public static final int abc_ic_voice_search_api_mtrl_alpha=0x7f020019;
-        public static final int abc_item_background_holo_dark=0x7f02001a;
-        public static final int abc_item_background_holo_light=0x7f02001b;
-        public static final int abc_list_divider_mtrl_alpha=0x7f02001c;
-        public static final int abc_list_focused_holo=0x7f02001d;
-        public static final int abc_list_longpressed_holo=0x7f02001e;
-        public static final int abc_list_pressed_holo_dark=0x7f02001f;
-        public static final int abc_list_pressed_holo_light=0x7f020020;
-        public static final int abc_list_selector_background_transition_holo_dark=0x7f020021;
-        public static final int abc_list_selector_background_transition_holo_light=0x7f020022;
-        public static final int abc_list_selector_disabled_holo_dark=0x7f020023;
-        public static final int abc_list_selector_disabled_holo_light=0x7f020024;
-        public static final int abc_list_selector_holo_dark=0x7f020025;
-        public static final int abc_list_selector_holo_light=0x7f020026;
-        public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f020027;
-        public static final int abc_popup_background_mtrl_mult=0x7f020028;
-        public static final int abc_spinner_mtrl_am_alpha=0x7f020029;
-        public static final int abc_switch_thumb_material=0x7f02002a;
-        public static final int abc_switch_track_mtrl_alpha=0x7f02002b;
-        public static final int abc_tab_indicator_material=0x7f02002c;
-        public static final int abc_tab_indicator_mtrl_alpha=0x7f02002d;
-        public static final int abc_textfield_activated_mtrl_alpha=0x7f02002e;
-        public static final int abc_textfield_default_mtrl_alpha=0x7f02002f;
-        public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020030;
-        public static final int abc_textfield_search_default_mtrl_alpha=0x7f020031;
-        public static final int abc_textfield_search_material=0x7f020032;
-        public static final int encrypt=0x7f020033;
-        public static final int steg=0x7f020034;
+        public static final int abc_btn_default_mtrl_shape=0x7f020005;
+        public static final int abc_btn_radio_material=0x7f020006;
+        public static final int abc_btn_radio_to_on_mtrl_000=0x7f020007;
+        public static final int abc_btn_radio_to_on_mtrl_015=0x7f020008;
+        public static final int abc_btn_rating_star_off_mtrl_alpha=0x7f020009;
+        public static final int abc_btn_rating_star_on_mtrl_alpha=0x7f02000a;
+        public static final int abc_btn_switch_to_on_mtrl_00001=0x7f02000b;
+        public static final int abc_btn_switch_to_on_mtrl_00012=0x7f02000c;
+        public static final int abc_cab_background_internal_bg=0x7f02000d;
+        public static final int abc_cab_background_top_material=0x7f02000e;
+        public static final int abc_cab_background_top_mtrl_alpha=0x7f02000f;
+        public static final int abc_dialog_material_background_dark=0x7f020010;
+        public static final int abc_dialog_material_background_light=0x7f020011;
+        public static final int abc_edit_text_material=0x7f020012;
+        public static final int abc_ic_ab_back_mtrl_am_alpha=0x7f020013;
+        public static final int abc_ic_clear_mtrl_alpha=0x7f020014;
+        public static final int abc_ic_commit_search_api_mtrl_alpha=0x7f020015;
+        public static final int abc_ic_go_search_api_mtrl_alpha=0x7f020016;
+        public static final int abc_ic_menu_copy_mtrl_am_alpha=0x7f020017;
+        public static final int abc_ic_menu_cut_mtrl_alpha=0x7f020018;
+        public static final int abc_ic_menu_moreoverflow_mtrl_alpha=0x7f020019;
+        public static final int abc_ic_menu_paste_mtrl_am_alpha=0x7f02001a;
+        public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f02001b;
+        public static final int abc_ic_menu_share_mtrl_alpha=0x7f02001c;
+        public static final int abc_ic_search_api_mtrl_alpha=0x7f02001d;
+        public static final int abc_ic_voice_search_api_mtrl_alpha=0x7f02001e;
+        public static final int abc_item_background_holo_dark=0x7f02001f;
+        public static final int abc_item_background_holo_light=0x7f020020;
+        public static final int abc_list_divider_mtrl_alpha=0x7f020021;
+        public static final int abc_list_focused_holo=0x7f020022;
+        public static final int abc_list_longpressed_holo=0x7f020023;
+        public static final int abc_list_pressed_holo_dark=0x7f020024;
+        public static final int abc_list_pressed_holo_light=0x7f020025;
+        public static final int abc_list_selector_background_transition_holo_dark=0x7f020026;
+        public static final int abc_list_selector_background_transition_holo_light=0x7f020027;
+        public static final int abc_list_selector_disabled_holo_dark=0x7f020028;
+        public static final int abc_list_selector_disabled_holo_light=0x7f020029;
+        public static final int abc_list_selector_holo_dark=0x7f02002a;
+        public static final int abc_list_selector_holo_light=0x7f02002b;
+        public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f02002c;
+        public static final int abc_popup_background_mtrl_mult=0x7f02002d;
+        public static final int abc_ratingbar_full_material=0x7f02002e;
+        public static final int abc_spinner_mtrl_am_alpha=0x7f02002f;
+        public static final int abc_spinner_textfield_background_material=0x7f020030;
+        public static final int abc_switch_thumb_material=0x7f020031;
+        public static final int abc_switch_track_mtrl_alpha=0x7f020032;
+        public static final int abc_tab_indicator_material=0x7f020033;
+        public static final int abc_tab_indicator_mtrl_alpha=0x7f020034;
+        public static final int abc_text_cursor_mtrl_alpha=0x7f020035;
+        public static final int abc_textfield_activated_mtrl_alpha=0x7f020036;
+        public static final int abc_textfield_default_mtrl_alpha=0x7f020037;
+        public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020038;
+        public static final int abc_textfield_search_default_mtrl_alpha=0x7f020039;
+        public static final int abc_textfield_search_material=0x7f02003a;
+        public static final int encrypt=0x7f02003b;
+        public static final int steg=0x7f02003c;
     }
     public static final class id {
-        public static final int ab=0x7f0b004a;
-        public static final int about=0x7f0b003f;
-        public static final int action_bar=0x7f0b0031;
+        public static final int ab=0x7f0b005a;
+        public static final int about=0x7f0b004f;
+        public static final int action_bar=0x7f0b0040;
         public static final int action_bar_activity_content=0x7f0b0000;
-        public static final int action_bar_container=0x7f0b0030;
-        public static final int action_bar_root=0x7f0b002c;
+        public static final int action_bar_container=0x7f0b003f;
+        public static final int action_bar_root=0x7f0b003b;
         public static final int action_bar_spinner=0x7f0b0001;
-        public static final int action_bar_subtitle=0x7f0b001f;
-        public static final int action_bar_title=0x7f0b001e;
-        public static final int action_context_bar=0x7f0b0032;
+        public static final int action_bar_subtitle=0x7f0b0024;
+        public static final int action_bar_title=0x7f0b0023;
+        public static final int action_context_bar=0x7f0b0041;
         public static final int action_menu_divider=0x7f0b0002;
         public static final int action_menu_presenter=0x7f0b0003;
-        public static final int action_mode_bar=0x7f0b002e;
-        public static final int action_mode_bar_stub=0x7f0b002d;
-        public static final int action_mode_close_button=0x7f0b0020;
-        public static final int action_settings=0x7f0b0050;
-        public static final int activity_chooser_view_content=0x7f0b0021;
+        public static final int action_mode_bar=0x7f0b003d;
+        public static final int action_mode_bar_stub=0x7f0b003c;
+        public static final int action_mode_close_button=0x7f0b0025;
+        public static final int action_settings=0x7f0b0060;
+        public static final int activity_chooser_view_content=0x7f0b0026;
+        public static final int alertTitle=0x7f0b0030;
         public static final int always=0x7f0b0016;
         public static final int beginning=0x7f0b0013;
-        public static final int checkbox=0x7f0b0029;
+        public static final int buttonPanel=0x7f0b0036;
+        public static final int checkbox=0x7f0b0038;
         public static final int collapseActionView=0x7f0b0017;
-        public static final int decode=0x7f0b004f;
-        public static final int decor_content_parent=0x7f0b002f;
-        public static final int decrypt=0x7f0b004d;
-        public static final int default_activity_button=0x7f0b0024;
+        public static final int contentPanel=0x7f0b0031;
+        public static final int custom=0x7f0b0035;
+        public static final int customPanel=0x7f0b0034;
+        public static final int decode=0x7f0b005f;
+        public static final int decor_content_parent=0x7f0b003e;
+        public static final int decrypt=0x7f0b005d;
+        public static final int default_activity_button=0x7f0b0029;
         public static final int dialog=0x7f0b001b;
         public static final int disableHome=0x7f0b000c;
-        public static final int dkey=0x7f0b0046;
-        public static final int doencr=0x7f0b0047;
-        public static final int dqr=0x7f0b0043;
+        public static final int dkey=0x7f0b0056;
+        public static final int doencr=0x7f0b0057;
+        public static final int dqr=0x7f0b0053;
         public static final int dropdown=0x7f0b001c;
-        public static final int edit_query=0x7f0b0033;
-        public static final int edqr=0x7f0b0042;
-        public static final int encrypt=0x7f0b004b;
+        public static final int edit_query=0x7f0b0042;
+        public static final int edqr=0x7f0b0052;
+        public static final int encrypt=0x7f0b005b;
         public static final int end=0x7f0b0014;
-        public static final int expand_activities_button=0x7f0b0022;
-        public static final int expanded_menu=0x7f0b0028;
+        public static final int expand_activities_button=0x7f0b0027;
+        public static final int expanded_menu=0x7f0b0037;
         public static final int home=0x7f0b0004;
         public static final int homeAsUp=0x7f0b000d;
-        public static final int icon=0x7f0b0026;
+        public static final int icon=0x7f0b002b;
         public static final int ifRoom=0x7f0b0018;
-        public static final int image=0x7f0b0023;
+        public static final int image=0x7f0b0028;
         public static final int listMode=0x7f0b0009;
-        public static final int list_item=0x7f0b0025;
+        public static final int list_item=0x7f0b002a;
         public static final int middle=0x7f0b0015;
+        public static final int multiply=0x7f0b001e;
         public static final int never=0x7f0b0019;
         public static final int none=0x7f0b000e;
         public static final int normal=0x7f0b000a;
+        public static final int parentPanel=0x7f0b002d;
         public static final int progress_circular=0x7f0b0005;
         public static final int progress_horizontal=0x7f0b0006;
-        public static final int radio=0x7f0b002b;
-        public static final int scan_button=0x7f0b004e;
-        public static final int scan_key=0x7f0b004c;
-        public static final int search_badge=0x7f0b0035;
-        public static final int search_bar=0x7f0b0034;
-        public static final int search_button=0x7f0b0036;
-        public static final int search_close_btn=0x7f0b003b;
-        public static final int search_edit_frame=0x7f0b0037;
-        public static final int search_go_btn=0x7f0b003d;
-        public static final int search_mag_icon=0x7f0b0038;
-        public static final int search_plate=0x7f0b0039;
-        public static final int search_src_text=0x7f0b003a;
-        public static final int search_voice_btn=0x7f0b003e;
-        public static final int secret_key=0x7f0b0048;
-        public static final int select_image=0x7f0b0045;
-        public static final int select_img=0x7f0b0049;
-        public static final int select_key=0x7f0b0044;
-        public static final int shortcut=0x7f0b002a;
+        public static final int radio=0x7f0b003a;
+        public static final int scan_button=0x7f0b005e;
+        public static final int scan_key=0x7f0b005c;
+        public static final int screen=0x7f0b001f;
+        public static final int scrollView=0x7f0b0032;
+        public static final int search_badge=0x7f0b0044;
+        public static final int search_bar=0x7f0b0043;
+        public static final int search_button=0x7f0b0045;
+        public static final int search_close_btn=0x7f0b004a;
+        public static final int search_edit_frame=0x7f0b0046;
+        public static final int search_go_btn=0x7f0b004c;
+        public static final int search_mag_icon=0x7f0b0047;
+        public static final int search_plate=0x7f0b0048;
+        public static final int search_src_text=0x7f0b0049;
+        public static final int search_voice_btn=0x7f0b004d;
+        public static final int secret_key=0x7f0b0058;
+        public static final int select_dialog_listview=0x7f0b004e;
+        public static final int select_image=0x7f0b0055;
+        public static final int select_img=0x7f0b0059;
+        public static final int select_key=0x7f0b0054;
+        public static final int shortcut=0x7f0b0039;
         public static final int showCustom=0x7f0b000f;
         public static final int showHome=0x7f0b0010;
         public static final int showTitle=0x7f0b0011;
         public static final int split_action_bar=0x7f0b0007;
-        public static final int submit_area=0x7f0b003c;
+        public static final int src_atop=0x7f0b0020;
+        public static final int src_in=0x7f0b0021;
+        public static final int src_over=0x7f0b0022;
+        public static final int submit_area=0x7f0b004b;
         public static final int tabMode=0x7f0b000b;
-        public static final int textView=0x7f0b0040;
-        public static final int textView2=0x7f0b0041;
-        public static final int title=0x7f0b0027;
+        public static final int textSpacerNoButtons=0x7f0b0033;
+        public static final int textView=0x7f0b0050;
+        public static final int textView2=0x7f0b0051;
+        public static final int title=0x7f0b002c;
+        public static final int title_template=0x7f0b002f;
+        public static final int topPanel=0x7f0b002e;
         public static final int up=0x7f0b0008;
         public static final int useLogo=0x7f0b0012;
         public static final int withText=0x7f0b001a;
         public static final int wrap_content=0x7f0b001d;
     }
     public static final class integer {
-        public static final int abc_max_action_buttons=0x7f080000;
+        public static final int abc_config_activityDefaultDur=0x7f090001;
+        public static final int abc_config_activityShortDur=0x7f090002;
+        public static final int abc_max_action_buttons=0x7f090000;
     }
     public static final class layout {
         public static final int abc_action_bar_title_item=0x7f030000;
@@ -1398,27 +1625,32 @@ containing a value of this type.
         public static final int abc_action_mode_bar=0x7f030005;
         public static final int abc_action_mode_close_item_material=0x7f030006;
         public static final int abc_activity_chooser_view=0x7f030007;
-        public static final int abc_activity_chooser_view_include=0x7f030008;
-        public static final int abc_activity_chooser_view_list_item=0x7f030009;
-        public static final int abc_expanded_menu_layout=0x7f03000a;
-        public static final int abc_list_menu_item_checkbox=0x7f03000b;
-        public static final int abc_list_menu_item_icon=0x7f03000c;
-        public static final int abc_list_menu_item_layout=0x7f03000d;
-        public static final int abc_list_menu_item_radio=0x7f03000e;
-        public static final int abc_popup_menu_item_layout=0x7f03000f;
-        public static final int abc_screen_content_include=0x7f030010;
-        public static final int abc_screen_simple=0x7f030011;
-        public static final int abc_screen_simple_overlay_action_mode=0x7f030012;
-        public static final int abc_screen_toolbar=0x7f030013;
-        public static final int abc_search_dropdown_item_icons_2line=0x7f030014;
-        public static final int abc_search_view=0x7f030015;
-        public static final int abc_simple_dropdown_hint=0x7f030016;
-        public static final int activity_about=0x7f030017;
-        public static final int activity_decode_qr=0x7f030018;
-        public static final int activity_decrypt=0x7f030019;
-        public static final int activity_encrypt=0x7f03001a;
-        public static final int activity_stegano=0x7f03001b;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
+        public static final int abc_activity_chooser_view_list_item=0x7f030008;
+        public static final int abc_alert_dialog_material=0x7f030009;
+        public static final int abc_dialog_title_material=0x7f03000a;
+        public static final int abc_expanded_menu_layout=0x7f03000b;
+        public static final int abc_list_menu_item_checkbox=0x7f03000c;
+        public static final int abc_list_menu_item_icon=0x7f03000d;
+        public static final int abc_list_menu_item_layout=0x7f03000e;
+        public static final int abc_list_menu_item_radio=0x7f03000f;
+        public static final int abc_popup_menu_item_layout=0x7f030010;
+        public static final int abc_screen_content_include=0x7f030011;
+        public static final int abc_screen_simple=0x7f030012;
+        public static final int abc_screen_simple_overlay_action_mode=0x7f030013;
+        public static final int abc_screen_toolbar=0x7f030014;
+        public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
+        public static final int abc_search_view=0x7f030016;
+        public static final int abc_select_dialog_material=0x7f030017;
+        public static final int abc_simple_dropdown_hint=0x7f030018;
+        public static final int activity_about=0x7f030019;
+        public static final int activity_decode_qr=0x7f03001a;
+        public static final int activity_decrypt=0x7f03001b;
+        public static final int activity_encrypt=0x7f03001c;
+        public static final int activity_stegano=0x7f03001d;
+        public static final int select_dialog_item_material=0x7f03001e;
+        public static final int select_dialog_multichoice_material=0x7f03001f;
+        public static final int select_dialog_singlechoice_material=0x7f030020;
+        public static final int support_simple_spinner_dropdown_item=0x7f030021;
     }
     public static final class menu {
         public static final int about=0x7f0c0000;
@@ -1430,41 +1662,46 @@ containing a value of this type.
         public static final int ver_sig=0x7f0c0006;
     }
     public static final class string {
-        public static final int Decrypt=0x7f05000f;
-        public static final int Encrypt=0x7f050010;
+        public static final int Decrypt=0x7f05000d;
+        public static final int Encrypt=0x7f05000e;
         public static final int abc_action_bar_home_description=0x7f050000;
-        public static final int abc_action_bar_home_description_format=0x7f050001;
-        public static final int abc_action_bar_home_subtitle_description_format=0x7f050002;
-        public static final int abc_action_bar_up_description=0x7f050003;
-        public static final int abc_action_menu_overflow_description=0x7f050004;
-        public static final int abc_action_mode_done=0x7f050005;
-        public static final int abc_activity_chooser_view_see_all=0x7f050006;
-        public static final int abc_activitychooserview_choose_application=0x7f050007;
-        public static final int abc_searchview_description_clear=0x7f050008;
-        public static final int abc_searchview_description_query=0x7f050009;
-        public static final int abc_searchview_description_search=0x7f05000a;
-        public static final int abc_searchview_description_submit=0x7f05000b;
-        public static final int abc_searchview_description_voice=0x7f05000c;
-        public static final int abc_shareactionprovider_share_with=0x7f05000d;
-        public static final int abc_shareactionprovider_share_with_application=0x7f05000e;
-        public static final int abc_toolbar_collapse_description=0x7f050011;
-        public static final int about=0x7f050012;
-        public static final int about_txt=0x7f050013;
-        public static final int action_settings=0x7f050014;
-        public static final int app_name=0x7f050015;
-        public static final int button_save=0x7f050016;
-        public static final int decode=0x7f050017;
-        public static final int developers=0x7f050018;
-        public static final int hello_world=0x7f050019;
-        public static final int scan=0x7f05001a;
-        public static final int scan1=0x7f05001b;
-        public static final int sfile=0x7f05001c;
-        public static final int title_activity_about=0x7f05001d;
-        public static final int title_activity_decode_qr=0x7f05001e;
-        public static final int title_activity_savetext=0x7f05001f;
-        public static final int ver=0x7f050020;
+        public static final int abc_action_bar_home_description_format=0x7f05000f;
+        public static final int abc_action_bar_home_subtitle_description_format=0x7f050010;
+        public static final int abc_action_bar_up_description=0x7f050001;
+        public static final int abc_action_menu_overflow_description=0x7f050002;
+        public static final int abc_action_mode_done=0x7f050003;
+        public static final int abc_activity_chooser_view_see_all=0x7f050004;
+        public static final int abc_activitychooserview_choose_application=0x7f050005;
+        public static final int abc_search_hint=0x7f050011;
+        public static final int abc_searchview_description_clear=0x7f050006;
+        public static final int abc_searchview_description_query=0x7f050007;
+        public static final int abc_searchview_description_search=0x7f050008;
+        public static final int abc_searchview_description_submit=0x7f050009;
+        public static final int abc_searchview_description_voice=0x7f05000a;
+        public static final int abc_shareactionprovider_share_with=0x7f05000b;
+        public static final int abc_shareactionprovider_share_with_application=0x7f05000c;
+        public static final int abc_toolbar_collapse_description=0x7f050012;
+        public static final int about=0x7f050013;
+        public static final int about_txt=0x7f050014;
+        public static final int action_settings=0x7f050015;
+        public static final int app_name=0x7f050016;
+        public static final int button_save=0x7f050017;
+        public static final int decode=0x7f050018;
+        public static final int developers=0x7f050019;
+        public static final int hello_world=0x7f05001a;
+        public static final int scan=0x7f05001b;
+        public static final int scan1=0x7f05001c;
+        public static final int sfile=0x7f05001d;
+        public static final int title_activity_about=0x7f05001e;
+        public static final int title_activity_decode_qr=0x7f05001f;
+        public static final int title_activity_savetext=0x7f050020;
+        public static final int ver=0x7f050021;
     }
     public static final class style {
+        public static final int AlertDialog_AppCompat=0x7f07006c;
+        public static final int AlertDialog_AppCompat_Light=0x7f07006d;
+        public static final int Animation_AppCompat_Dialog=0x7f07006e;
+        public static final int Animation_AppCompat_DropDownUp=0x7f07006f;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
 
@@ -1473,245 +1710,289 @@ containing a value of this type.
             backward-compatibility can go here.
         
          */
-        public static final int AppBaseTheme=0x7f090002;
+        public static final int AppBaseTheme=0x7f070003;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f090066;
-        public static final int Base_TextAppearance_AppCompat=0x7f090028;
-        public static final int Base_TextAppearance_AppCompat_Body1=0x7f090029;
-        public static final int Base_TextAppearance_AppCompat_Body2=0x7f09002a;
-        public static final int Base_TextAppearance_AppCompat_Button=0x7f09002b;
-        public static final int Base_TextAppearance_AppCompat_Caption=0x7f09002c;
-        public static final int Base_TextAppearance_AppCompat_Display1=0x7f09002d;
-        public static final int Base_TextAppearance_AppCompat_Display2=0x7f09002e;
-        public static final int Base_TextAppearance_AppCompat_Display3=0x7f09002f;
-        public static final int Base_TextAppearance_AppCompat_Display4=0x7f090030;
-        public static final int Base_TextAppearance_AppCompat_Headline=0x7f090031;
-        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f090003;
-        public static final int Base_TextAppearance_AppCompat_Large=0x7f090032;
-        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f090004;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f090033;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f090034;
-        public static final int Base_TextAppearance_AppCompat_Medium=0x7f090035;
-        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f090005;
-        public static final int Base_TextAppearance_AppCompat_Menu=0x7f090036;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f090067;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f090037;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f090038;
-        public static final int Base_TextAppearance_AppCompat_Small=0x7f090039;
-        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f090006;
-        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f09003a;
-        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f090007;
-        public static final int Base_TextAppearance_AppCompat_Title=0x7f09003b;
-        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f090008;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f09003c;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f09003d;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f09003e;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f09003f;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f090040;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f090041;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f090042;
-        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f090068;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f090043;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f090044;
-        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f090045;
-        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f090069;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f090046;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f090047;
-        public static final int Base_Theme_AppCompat=0x7f090009;
-        public static final int Base_Theme_AppCompat_CompactMenu=0x7f09006a;
-        public static final int Base_Theme_AppCompat_Dialog=0x7f09000a;
-        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f09006b;
-        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f090000;
-        public static final int Base_Theme_AppCompat_Light=0x7f09000b;
-        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f09006c;
-        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f09000c;
-        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f09006d;
-        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f090001;
-        public static final int Base_ThemeOverlay_AppCompat=0x7f090048;
-        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f090049;
-        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f09004a;
-        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f09004b;
-        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f09004c;
-        public static final int Base_V11_Theme_AppCompat=0x7f09000d;
-        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f09000e;
-        public static final int Base_V11_Theme_AppCompat_Light=0x7f09000f;
-        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f090010;
-        public static final int Base_V14_Theme_AppCompat=0x7f090018;
-        public static final int Base_V14_Theme_AppCompat_Dialog=0x7f090019;
-        public static final int Base_V14_Theme_AppCompat_Light=0x7f09001a;
-        public static final int Base_V14_Theme_AppCompat_Light_Dialog=0x7f09001b;
-        public static final int Base_V21_Theme_AppCompat=0x7f09004d;
-        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f09004e;
-        public static final int Base_V21_Theme_AppCompat_Light=0x7f09004f;
-        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f090050;
-        public static final int Base_V7_Theme_AppCompat=0x7f09006e;
-        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f09006f;
-        public static final int Base_V7_Theme_AppCompat_Light=0x7f090070;
-        public static final int Base_Widget_AppCompat_ActionBar=0x7f090071;
-        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f090072;
-        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f090073;
-        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f090051;
-        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f090052;
-        public static final int Base_Widget_AppCompat_ActionButton=0x7f090053;
-        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f090054;
-        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f090055;
-        public static final int Base_Widget_AppCompat_ActionMode=0x7f090074;
-        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f090056;
-        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f090057;
-        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f090075;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f090076;
-        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f090058;
-        public static final int Base_Widget_AppCompat_EditText=0x7f090077;
-        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f090078;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f090079;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f09007a;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f090059;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f09005a;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f09005b;
-        public static final int Base_Widget_AppCompat_Light_ActivityChooserView=0x7f09007b;
-        public static final int Base_Widget_AppCompat_Light_AutoCompleteTextView=0x7f09005c;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f09005d;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f09005e;
-        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f09005f;
-        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f090060;
-        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f090061;
-        public static final int Base_Widget_AppCompat_PopupMenu=0x7f090062;
-        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f090063;
-        public static final int Base_Widget_AppCompat_PopupWindow=0x7f09007c;
-        public static final int Base_Widget_AppCompat_ProgressBar=0x7f090011;
-        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f090012;
-        public static final int Base_Widget_AppCompat_SearchView=0x7f09007d;
-        public static final int Base_Widget_AppCompat_Spinner=0x7f090013;
-        public static final int Base_Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f090064;
-        public static final int Base_Widget_AppCompat_Toolbar=0x7f09007e;
-        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f090065;
-        public static final int Platform_AppCompat=0x7f090014;
-        public static final int Platform_AppCompat_Dialog=0x7f090015;
-        public static final int Platform_AppCompat_Light=0x7f090016;
-        public static final int Platform_AppCompat_Light_Dialog=0x7f090017;
-        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f09001c;
-        public static final int RtlOverlay_Widget_AppCompat_ActionButton_CloseMode=0x7f09001d;
-        public static final int RtlOverlay_Widget_AppCompat_ActionButton_Overflow=0x7f09001e;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f09001f;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f090020;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f090021;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f090022;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f090023;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f090024;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f090025;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f090026;
-        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f090027;
-        public static final int TextAppearance_AppCompat=0x7f09007f;
-        public static final int TextAppearance_AppCompat_Body1=0x7f090080;
-        public static final int TextAppearance_AppCompat_Body2=0x7f090081;
-        public static final int TextAppearance_AppCompat_Button=0x7f090082;
-        public static final int TextAppearance_AppCompat_Caption=0x7f090083;
-        public static final int TextAppearance_AppCompat_Display1=0x7f090084;
-        public static final int TextAppearance_AppCompat_Display2=0x7f090085;
-        public static final int TextAppearance_AppCompat_Display3=0x7f090086;
-        public static final int TextAppearance_AppCompat_Display4=0x7f090087;
-        public static final int TextAppearance_AppCompat_Headline=0x7f090088;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f090089;
-        public static final int TextAppearance_AppCompat_Large=0x7f09008a;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f09008b;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f09008c;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f09008d;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f09008e;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f09008f;
-        public static final int TextAppearance_AppCompat_Medium=0x7f090090;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f090091;
-        public static final int TextAppearance_AppCompat_Menu=0x7f090092;
-        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f090093;
-        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f090094;
-        public static final int TextAppearance_AppCompat_Small=0x7f090095;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f090096;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f090097;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f090098;
-        public static final int TextAppearance_AppCompat_Title=0x7f090099;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f09009a;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f09009b;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f09009c;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f09009d;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f09009e;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f09009f;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0900a0;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0900a1;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0900a2;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0900a3;
-        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0900a4;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0900a5;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0900a6;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0900a7;
-        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0900a8;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0900a9;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0900aa;
-        public static final int Theme_AppCompat=0x7f0900ab;
-        public static final int Theme_AppCompat_CompactMenu=0x7f0900ac;
-        public static final int Theme_AppCompat_Dialog=0x7f0900ad;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0900ae;
-        public static final int Theme_AppCompat_Light=0x7f0900af;
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0900b0;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f0900b1;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0900b2;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0900b3;
-        public static final int Theme_AppCompat_NoActionBar=0x7f0900b4;
-        public static final int ThemeOverlay_AppCompat=0x7f0900b5;
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0900b6;
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f0900b7;
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0900b8;
-        public static final int ThemeOverlay_AppCompat_Light=0x7f0900b9;
-        public static final int Widget_AppCompat_ActionBar=0x7f0900ba;
-        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0900bb;
-        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0900bc;
-        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0900bd;
-        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0900be;
-        public static final int Widget_AppCompat_ActionButton=0x7f0900bf;
-        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0900c0;
-        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0900c1;
-        public static final int Widget_AppCompat_ActionMode=0x7f0900c2;
-        public static final int Widget_AppCompat_ActivityChooserView=0x7f0900c3;
-        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0900c4;
-        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0900c5;
-        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0900c6;
-        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0900c7;
-        public static final int Widget_AppCompat_EditText=0x7f0900c8;
-        public static final int Widget_AppCompat_Light_ActionBar=0x7f0900c9;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0900ca;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0900cb;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0900cc;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0900cd;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0900ce;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0900cf;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0900d0;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0900d1;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f0900d2;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0900d3;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0900d4;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0900d5;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0900d6;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0900d7;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0900d8;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0900d9;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0900da;
-        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0900db;
-        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0900dc;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f0900dd;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0900de;
-        public static final int Widget_AppCompat_ListPopupWindow=0x7f0900df;
-        public static final int Widget_AppCompat_ListView_DropDown=0x7f0900e0;
-        public static final int Widget_AppCompat_ListView_Menu=0x7f0900e1;
-        public static final int Widget_AppCompat_PopupMenu=0x7f0900e2;
-        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0900e3;
-        public static final int Widget_AppCompat_PopupWindow=0x7f0900e4;
-        public static final int Widget_AppCompat_ProgressBar=0x7f0900e5;
-        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0900e6;
-        public static final int Widget_AppCompat_SearchView=0x7f0900e7;
-        public static final int Widget_AppCompat_Spinner=0x7f0900e8;
-        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0900e9;
-        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0900ea;
-        public static final int Widget_AppCompat_Toolbar=0x7f0900eb;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0900ec;
+        public static final int AppTheme=0x7f070070;
+        public static final int Base_AlertDialog_AppCompat=0x7f070071;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f070072;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f070073;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f070074;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f070075;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f070076;
+        public static final int Base_TextAppearance_AppCompat=0x7f070026;
+        public static final int Base_TextAppearance_AppCompat_Body1=0x7f070027;
+        public static final int Base_TextAppearance_AppCompat_Body2=0x7f070028;
+        public static final int Base_TextAppearance_AppCompat_Button=0x7f070017;
+        public static final int Base_TextAppearance_AppCompat_Caption=0x7f070029;
+        public static final int Base_TextAppearance_AppCompat_Display1=0x7f07002a;
+        public static final int Base_TextAppearance_AppCompat_Display2=0x7f07002b;
+        public static final int Base_TextAppearance_AppCompat_Display3=0x7f07002c;
+        public static final int Base_TextAppearance_AppCompat_Display4=0x7f07002d;
+        public static final int Base_TextAppearance_AppCompat_Headline=0x7f07002e;
+        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f070004;
+        public static final int Base_TextAppearance_AppCompat_Large=0x7f07002f;
+        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f070005;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f070030;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f070031;
+        public static final int Base_TextAppearance_AppCompat_Medium=0x7f070032;
+        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f070006;
+        public static final int Base_TextAppearance_AppCompat_Menu=0x7f070033;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f070077;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f070034;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f070035;
+        public static final int Base_TextAppearance_AppCompat_Small=0x7f070036;
+        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f070007;
+        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f070037;
+        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f070008;
+        public static final int Base_TextAppearance_AppCompat_Title=0x7f070038;
+        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f070009;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f070039;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f07003a;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f07003b;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f07003c;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f07003d;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f07003e;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f07003f;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f070078;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f070040;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f070041;
+        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f070042;
+        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f070043;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f070079;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f070044;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f070045;
+        public static final int Base_Theme_AppCompat=0x7f070046;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f07007a;
+        public static final int Base_Theme_AppCompat_Dialog=0x7f07000a;
+        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f07007b;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f07007c;
+        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f07007d;
+        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f070001;
+        public static final int Base_Theme_AppCompat_Light=0x7f070047;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f07007e;
+        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f07000b;
+        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f07007f;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f070080;
+        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f070081;
+        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f070002;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f070082;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f070083;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f070084;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f070085;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f070086;
+        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f07000c;
+        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f07000d;
+        public static final int Base_V21_Theme_AppCompat=0x7f070048;
+        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f070049;
+        public static final int Base_V21_Theme_AppCompat_Light=0x7f07004a;
+        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f07004b;
+        public static final int Base_V7_Theme_AppCompat=0x7f070087;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f070088;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f070089;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f07008a;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f07008b;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f07008c;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f07008d;
+        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f07004c;
+        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f07004d;
+        public static final int Base_Widget_AppCompat_ActionButton=0x7f07004e;
+        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f07004f;
+        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f070050;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f07008e;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f07008f;
+        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f070051;
+        public static final int Base_Widget_AppCompat_Button=0x7f070052;
+        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f070053;
+        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f070054;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f070090;
+        public static final int Base_Widget_AppCompat_Button_Small=0x7f070055;
+        public static final int Base_Widget_AppCompat_ButtonBar=0x7f070056;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f070091;
+        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f070057;
+        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f070058;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f070092;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f070000;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f070093;
+        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f070059;
+        public static final int Base_Widget_AppCompat_EditText=0x7f070094;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f070095;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f070096;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f070097;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f07005a;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f07005b;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f07005c;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f07005d;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f07005e;
+        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f07005f;
+        public static final int Base_Widget_AppCompat_ListView=0x7f070060;
+        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f070061;
+        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f070062;
+        public static final int Base_Widget_AppCompat_PopupMenu=0x7f070063;
+        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f070064;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f070098;
+        public static final int Base_Widget_AppCompat_ProgressBar=0x7f07000e;
+        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f07000f;
+        public static final int Base_Widget_AppCompat_RatingBar=0x7f070065;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f070099;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f07009a;
+        public static final int Base_Widget_AppCompat_Spinner=0x7f070010;
+        public static final int Base_Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f070066;
+        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f070067;
+        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f070068;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f07009b;
+        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f070069;
+        public static final int Platform_AppCompat=0x7f070011;
+        public static final int Platform_AppCompat_Light=0x7f070012;
+        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f07006a;
+        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f07006b;
+        public static final int Platform_V11_AppCompat=0x7f070013;
+        public static final int Platform_V11_AppCompat_Light=0x7f070014;
+        public static final int Platform_V12_AppCompat=0x7f070015;
+        public static final int Platform_V12_AppCompat_Light=0x7f070016;
+        public static final int Platform_V14_AppCompat=0x7f070018;
+        public static final int Platform_V14_AppCompat_Light=0x7f070019;
+        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f07001a;
+        public static final int RtlOverlay_Widget_AppCompat_ActionButton_Overflow=0x7f07001b;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f07001c;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f07001d;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f07001e;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f07001f;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f070020;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f070021;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f070022;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f070023;
+        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f070024;
+        public static final int RtlOverlay_Widget_AppCompat_Toolbar_Button_Navigation=0x7f070025;
+        public static final int TextAppearance_AppCompat=0x7f07009c;
+        public static final int TextAppearance_AppCompat_Body1=0x7f07009d;
+        public static final int TextAppearance_AppCompat_Body2=0x7f07009e;
+        public static final int TextAppearance_AppCompat_Button=0x7f07009f;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0700a0;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0700a1;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0700a2;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0700a3;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0700a4;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0700a5;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0700a6;
+        public static final int TextAppearance_AppCompat_Large=0x7f0700a7;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0700a8;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0700a9;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0700aa;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0700ab;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0700ac;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0700ad;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0700ae;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0700af;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0700b0;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0700b1;
+        public static final int TextAppearance_AppCompat_Small=0x7f0700b2;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0700b3;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0700b4;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0700b5;
+        public static final int TextAppearance_AppCompat_Title=0x7f0700b6;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0700b7;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0700b8;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0700b9;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0700ba;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0700bb;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0700bc;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0700bd;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0700be;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0700bf;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0700c0;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0700c1;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0700c2;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0700c3;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0700c4;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0700c5;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0700c6;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0700c7;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0700c8;
+        public static final int Theme_AppCompat=0x7f0700c9;
+        public static final int Theme_AppCompat_CompactMenu=0x7f0700ca;
+        public static final int Theme_AppCompat_Dialog=0x7f0700cb;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f0700cc;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0700cd;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0700ce;
+        public static final int Theme_AppCompat_Light=0x7f0700cf;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0700d0;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f0700d1;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0700d2;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0700d3;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0700d4;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0700d5;
+        public static final int Theme_AppCompat_NoActionBar=0x7f0700d6;
+        public static final int ThemeOverlay_AppCompat=0x7f0700d7;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0700d8;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f0700d9;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0700da;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f0700db;
+        public static final int Widget_AppCompat_ActionBar=0x7f0700dc;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0700dd;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0700de;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0700df;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0700e0;
+        public static final int Widget_AppCompat_ActionButton=0x7f0700e1;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0700e2;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0700e3;
+        public static final int Widget_AppCompat_ActionMode=0x7f0700e4;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f0700e5;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0700e6;
+        public static final int Widget_AppCompat_Button=0x7f0700e7;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f0700e8;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0700e9;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0700ea;
+        public static final int Widget_AppCompat_Button_Small=0x7f0700eb;
+        public static final int Widget_AppCompat_ButtonBar=0x7f0700ec;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0700ed;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0700ee;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0700ef;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0700f0;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0700f1;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0700f2;
+        public static final int Widget_AppCompat_EditText=0x7f0700f3;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f0700f4;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0700f5;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0700f6;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0700f7;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0700f8;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0700f9;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0700fa;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0700fb;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0700fc;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f0700fd;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0700fe;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0700ff;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f070100;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f070101;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f070102;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f070103;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f070104;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f070105;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f070106;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f070107;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f070108;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f070109;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f07010a;
+        public static final int Widget_AppCompat_ListView=0x7f07010b;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f07010c;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f07010d;
+        public static final int Widget_AppCompat_PopupMenu=0x7f07010e;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f07010f;
+        public static final int Widget_AppCompat_PopupWindow=0x7f070110;
+        public static final int Widget_AppCompat_ProgressBar=0x7f070111;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f070112;
+        public static final int Widget_AppCompat_RatingBar=0x7f070113;
+        public static final int Widget_AppCompat_SearchView=0x7f070114;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f070115;
+        public static final int Widget_AppCompat_Spinner=0x7f070116;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f070117;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f070118;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f070119;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f07011a;
+        public static final int Widget_AppCompat_Toolbar=0x7f07011b;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f07011c;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
@@ -1720,33 +2001,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background edu.sxccal.qrcodescanner:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit edu.sxccal.qrcodescanner:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked edu.sxccal.qrcodescanner:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd edu.sxccal.qrcodescanner:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft edu.sxccal.qrcodescanner:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight edu.sxccal.qrcodescanner:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart edu.sxccal.qrcodescanner:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout edu.sxccal.qrcodescanner:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions edu.sxccal.qrcodescanner:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider edu.sxccal.qrcodescanner:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation edu.sxccal.qrcodescanner:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height edu.sxccal.qrcodescanner:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll edu.sxccal.qrcodescanner:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator edu.sxccal.qrcodescanner:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout edu.sxccal.qrcodescanner:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon edu.sxccal.qrcodescanner:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle edu.sxccal.qrcodescanner:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding edu.sxccal.qrcodescanner:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo edu.sxccal.qrcodescanner:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode edu.sxccal.qrcodescanner:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme edu.sxccal.qrcodescanner:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding edu.sxccal.qrcodescanner:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle edu.sxccal.qrcodescanner:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle edu.sxccal.qrcodescanner:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle edu.sxccal.qrcodescanner:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title edu.sxccal.qrcodescanner:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle edu.sxccal.qrcodescanner:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background edu.sxccal.stegodroid:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit edu.sxccal.stegodroid:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked edu.sxccal.stegodroid:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd edu.sxccal.stegodroid:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft edu.sxccal.stegodroid:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight edu.sxccal.stegodroid:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart edu.sxccal.stegodroid:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout edu.sxccal.stegodroid:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions edu.sxccal.stegodroid:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider edu.sxccal.stegodroid:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation edu.sxccal.stegodroid:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height edu.sxccal.stegodroid:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll edu.sxccal.stegodroid:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator edu.sxccal.stegodroid:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout edu.sxccal.stegodroid:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon edu.sxccal.stegodroid:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle edu.sxccal.stegodroid:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding edu.sxccal.stegodroid:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo edu.sxccal.stegodroid:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode edu.sxccal.stegodroid:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme edu.sxccal.stegodroid:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding edu.sxccal.stegodroid:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle edu.sxccal.stegodroid:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle edu.sxccal.stegodroid:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle edu.sxccal.stegodroid:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title edu.sxccal.stegodroid:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle edu.sxccal.stegodroid:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -1783,20 +2064,20 @@ containing a value of this type.
             0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011,
             0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015,
             0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019,
-            0x7f01001a, 0x7f01001b, 0x7f010071
+            0x7f01001a, 0x7f01001b, 0x7f01007c
         };
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#background}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:background
+          @attr name edu.sxccal.stegodroid:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1804,11 +2085,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name edu.sxccal.qrcodescanner:backgroundSplit
+          @attr name edu.sxccal.stegodroid:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1816,11 +2097,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name edu.sxccal.qrcodescanner:backgroundStacked
+          @attr name edu.sxccal.stegodroid:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1832,11 +2113,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:contentInsetEnd
+          @attr name edu.sxccal.stegodroid:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1848,11 +2129,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:contentInsetLeft
+          @attr name edu.sxccal.stegodroid:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1864,11 +2145,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:contentInsetRight
+          @attr name edu.sxccal.stegodroid:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1880,21 +2161,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:contentInsetStart
+          @attr name edu.sxccal.stegodroid:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:customNavigationLayout
+          @attr name edu.sxccal.stegodroid:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1912,21 +2193,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name edu.sxccal.qrcodescanner:displayOptions
+          @attr name edu.sxccal.stegodroid:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#divider}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:divider
+          @attr name edu.sxccal.stegodroid:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#elevation}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1938,11 +2219,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:elevation
+          @attr name edu.sxccal.stegodroid:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#height}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1954,11 +2235,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:height
+          @attr name edu.sxccal.stegodroid:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1968,51 +2249,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:hideOnContentScroll
+          @attr name edu.sxccal.stegodroid:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:homeAsUpIndicator
+          @attr name edu.sxccal.stegodroid:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:homeLayout
+          @attr name edu.sxccal.stegodroid:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#icon}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:icon
+          @attr name edu.sxccal.stegodroid:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:indeterminateProgressStyle
+          @attr name edu.sxccal.stegodroid:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2024,21 +2305,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:itemPadding
+          @attr name edu.sxccal.stegodroid:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#logo}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:logo
+          @attr name edu.sxccal.stegodroid:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2052,21 +2333,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name edu.sxccal.qrcodescanner:navigationMode
+          @attr name edu.sxccal.stegodroid:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:popupTheme
+          @attr name edu.sxccal.stegodroid:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2078,21 +2359,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:progressBarPadding
+          @attr name edu.sxccal.stegodroid:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:progressBarStyle
+          @attr name edu.sxccal.stegodroid:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2102,21 +2383,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:subtitle
+          @attr name edu.sxccal.stegodroid:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:subtitleTextStyle
+          @attr name edu.sxccal.stegodroid:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#title}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2126,17 +2407,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:title
+          @attr name edu.sxccal.stegodroid:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:titleTextStyle
+          @attr name edu.sxccal.stegodroid:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -2188,12 +2469,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background edu.sxccal.qrcodescanner:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit edu.sxccal.qrcodescanner:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout edu.sxccal.qrcodescanner:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height edu.sxccal.qrcodescanner:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle edu.sxccal.qrcodescanner:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle edu.sxccal.qrcodescanner:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background edu.sxccal.stegodroid:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit edu.sxccal.stegodroid:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout edu.sxccal.stegodroid:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height edu.sxccal.stegodroid:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle edu.sxccal.stegodroid:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle edu.sxccal.stegodroid:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -2207,17 +2488,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#background}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:background
+          @attr name edu.sxccal.stegodroid:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2225,21 +2506,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name edu.sxccal.qrcodescanner:backgroundSplit
+          @attr name edu.sxccal.stegodroid:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:closeItemLayout
+          @attr name edu.sxccal.stegodroid:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#height}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2251,27 +2532,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:height
+          @attr name edu.sxccal.stegodroid:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:subtitleTextStyle
+          @attr name edu.sxccal.stegodroid:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:titleTextStyle
+          @attr name edu.sxccal.stegodroid:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -2280,8 +2561,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable edu.sxccal.qrcodescanner:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount edu.sxccal.qrcodescanner:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable edu.sxccal.stegodroid:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount edu.sxccal.stegodroid:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -2290,17 +2571,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:expandActivityOverflowButtonDrawable
+          @attr name edu.sxccal.stegodroid:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2310,47 +2591,135 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:initialActivityCount
+          @attr name edu.sxccal.stegodroid:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
-        /** Attributes that can be used with a CompatTextView.
+        /** Attributes that can be used with a AlertDialog.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CompatTextView_textAllCaps edu.sxccal.qrcodescanner:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout edu.sxccal.stegodroid:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout edu.sxccal.stegodroid:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout edu.sxccal.stegodroid:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout edu.sxccal.stegodroid:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout edu.sxccal.stegodroid:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
-           @see #CompatTextView_textAllCaps
+           @see #AlertDialog_android_layout
+           @see #AlertDialog_buttonPanelSideLayout
+           @see #AlertDialog_listItemLayout
+           @see #AlertDialog_listLayout
+           @see #AlertDialog_multiChoiceItemLayout
+           @see #AlertDialog_singleChoiceItemLayout
          */
-        public static final int[] CompatTextView = {
-            0x7f01001f
+        public static final int[] AlertDialog = {
+            0x010100f2, 0x7f01001f, 0x7f010020, 0x7f010021,
+            0x7f010022, 0x7f010023
         };
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#textAllCaps}
-          attribute's value can be found in the {@link #CompatTextView} array.
+          <p>This symbol is the offset where the {@link android.R.attr#layout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+          @attr name android:layout
+        */
+        public static final int AlertDialog_android_layout = 0;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#buttonPanelSideLayout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:buttonPanelSideLayout
+        */
+        public static final int AlertDialog_buttonPanelSideLayout = 1;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#listItemLayout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:listItemLayout
+        */
+        public static final int AlertDialog_listItemLayout = 5;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#listLayout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:listLayout
+        */
+        public static final int AlertDialog_listLayout = 2;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#multiChoiceItemLayout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:multiChoiceItemLayout
+        */
+        public static final int AlertDialog_multiChoiceItemLayout = 3;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#singleChoiceItemLayout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:singleChoiceItemLayout
+        */
+        public static final int AlertDialog_singleChoiceItemLayout = 4;
+        /** Attributes that can be used with a AppCompatTextView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps edu.sxccal.stegodroid:textAllCaps}</code></td><td></td></tr>
+           </table>
+           @see #AppCompatTextView_android_textAppearance
+           @see #AppCompatTextView_textAllCaps
+         */
+        public static final int[] AppCompatTextView = {
+            0x01010034, 0x7f010024
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
+          attribute's value can be found in the {@link #AppCompatTextView} array.
+          @attr name android:textAppearance
+        */
+        public static final int AppCompatTextView_android_textAppearance = 0;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#textAllCaps}
+          attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name edu.sxccal.qrcodescanner:textAllCaps
+          @attr name edu.sxccal.stegodroid:textAllCaps
         */
-        public static final int CompatTextView_textAllCaps = 0;
+        public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a DrawerArrowToggle.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barSize edu.sxccal.qrcodescanner:barSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color edu.sxccal.qrcodescanner:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize edu.sxccal.qrcodescanner:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars edu.sxccal.qrcodescanner:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize edu.sxccal.qrcodescanner:middleBarArrowSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars edu.sxccal.qrcodescanner:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness edu.sxccal.qrcodescanner:thickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize edu.sxccal.qrcodescanner:topBottomBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barSize edu.sxccal.stegodroid:barSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color edu.sxccal.stegodroid:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize edu.sxccal.stegodroid:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars edu.sxccal.stegodroid:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize edu.sxccal.stegodroid:middleBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars edu.sxccal.stegodroid:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness edu.sxccal.stegodroid:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize edu.sxccal.stegodroid:topBottomBarArrowSize}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_barSize
            @see #DrawerArrowToggle_color
@@ -2362,11 +2731,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #DrawerArrowToggle_topBottomBarArrowSize
          */
         public static final int[] DrawerArrowToggle = {
-            0x7f010020, 0x7f010021, 0x7f010022, 0x7f010023,
-            0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027
+            0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028,
+            0x7f010029, 0x7f01002a, 0x7f01002b, 0x7f01002c
         };
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#barSize}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#barSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2378,11 +2747,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:barSize
+          @attr name edu.sxccal.stegodroid:barSize
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#color}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2393,11 +2762,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:color
+          @attr name edu.sxccal.stegodroid:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2409,11 +2778,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:drawableSize
+          @attr name edu.sxccal.stegodroid:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2425,11 +2794,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:gapBetweenBars
+          @attr name edu.sxccal.stegodroid:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#middleBarArrowSize}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#middleBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2441,11 +2810,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:middleBarArrowSize
+          @attr name edu.sxccal.stegodroid:middleBarArrowSize
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2455,11 +2824,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:spinBars
+          @attr name edu.sxccal.stegodroid:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#thickness}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2471,11 +2840,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:thickness
+          @attr name edu.sxccal.stegodroid:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#topBottomBarArrowSize}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#topBottomBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2487,7 +2856,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:topBottomBarArrowSize
+          @attr name edu.sxccal.stegodroid:topBottomBarArrowSize
         */
         public static final int DrawerArrowToggle_topBottomBarArrowSize = 4;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -2501,10 +2870,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider edu.sxccal.qrcodescanner:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding edu.sxccal.qrcodescanner:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild edu.sxccal.qrcodescanner:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers edu.sxccal.qrcodescanner:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider edu.sxccal.stegodroid:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding edu.sxccal.stegodroid:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild edu.sxccal.stegodroid:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers edu.sxccal.stegodroid:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -2518,8 +2887,8 @@ containing a value of this type.
          */
         public static final int[] LinearLayoutCompat = {
             0x010100af, 0x010100c4, 0x01010126, 0x01010127,
-            0x01010128, 0x7f01000b, 0x7f010028, 0x7f010029,
-            0x7f01002a
+            0x01010128, 0x7f01000b, 0x7f01002d, 0x7f01002e,
+            0x7f01002f
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
@@ -2552,17 +2921,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#divider}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:divider
+          @attr name edu.sxccal.stegodroid:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2574,11 +2943,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:dividerPadding
+          @attr name edu.sxccal.stegodroid:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2588,11 +2957,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:measureWithLargestChild
+          @attr name edu.sxccal.stegodroid:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2607,7 +2976,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name edu.sxccal.qrcodescanner:showDividers
+          @attr name edu.sxccal.stegodroid:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -2746,9 +3115,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout edu.sxccal.qrcodescanner:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass edu.sxccal.qrcodescanner:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass edu.sxccal.qrcodescanner:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout edu.sxccal.stegodroid:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass edu.sxccal.stegodroid:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass edu.sxccal.stegodroid:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -2762,7 +3131,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction edu.sxccal.qrcodescanner:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction edu.sxccal.stegodroid:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -2786,21 +3155,21 @@ containing a value of this type.
             0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
             0x01010194, 0x010101de, 0x010101df, 0x010101e1,
             0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
-            0x0101026f, 0x7f01002b, 0x7f01002c, 0x7f01002d,
-            0x7f01002e
+            0x0101026f, 0x7f010030, 0x7f010031, 0x7f010032,
+            0x7f010033
         };
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionLayout
+          @attr name edu.sxccal.stegodroid:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -2810,11 +3179,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:actionProviderClass
+          @attr name edu.sxccal.stegodroid:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -2824,7 +3193,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:actionViewClass
+          @attr name edu.sxccal.stegodroid:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -2906,7 +3275,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -2922,7 +3291,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name edu.sxccal.qrcodescanner:showAsAction
+          @attr name edu.sxccal.stegodroid:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -2938,7 +3307,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing edu.sxccal.qrcodescanner:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing edu.sxccal.stegodroid:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -2951,7 +3320,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x7f01002f
+            0x0101012f, 0x01010130, 0x01010131, 0x7f010034
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
@@ -2996,7 +3365,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -3006,7 +3375,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:preserveIconSpacing
+          @attr name edu.sxccal.stegodroid:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a PopupWindow.
@@ -3016,13 +3385,13 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor edu.sxccal.qrcodescanner:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor edu.sxccal.stegodroid:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
          */
         public static final int[] PopupWindow = {
-            0x01010176, 0x7f010030
+            0x01010176, 0x7f010035
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -3031,7 +3400,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -3041,7 +3410,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:overlapAnchor
+          @attr name edu.sxccal.stegodroid:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -3050,15 +3419,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor edu.sxccal.qrcodescanner:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor edu.sxccal.stegodroid:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
         public static final int[] PopupWindowBackgroundState = {
-            0x7f010031
+            0x7f010036
         };
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -3068,7 +3437,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:state_above_anchor
+          @attr name edu.sxccal.stegodroid:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a SearchView.
@@ -3081,17 +3450,18 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon edu.sxccal.qrcodescanner:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon edu.sxccal.qrcodescanner:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon edu.sxccal.qrcodescanner:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault edu.sxccal.qrcodescanner:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout edu.sxccal.qrcodescanner:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground edu.sxccal.qrcodescanner:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint edu.sxccal.qrcodescanner:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon edu.sxccal.qrcodescanner:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground edu.sxccal.qrcodescanner:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout edu.sxccal.qrcodescanner:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon edu.sxccal.qrcodescanner:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon edu.sxccal.stegodroid:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon edu.sxccal.stegodroid:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon edu.sxccal.stegodroid:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault edu.sxccal.stegodroid:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout edu.sxccal.stegodroid:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground edu.sxccal.stegodroid:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint edu.sxccal.stegodroid:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon edu.sxccal.stegodroid:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon edu.sxccal.stegodroid:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground edu.sxccal.stegodroid:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout edu.sxccal.stegodroid:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon edu.sxccal.stegodroid:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -3104,6 +3474,7 @@ containing a value of this type.
            @see #SearchView_layout
            @see #SearchView_queryBackground
            @see #SearchView_queryHint
+           @see #SearchView_searchHintIcon
            @see #SearchView_searchIcon
            @see #SearchView_submitBackground
            @see #SearchView_suggestionRowLayout
@@ -3111,9 +3482,9 @@ containing a value of this type.
          */
         public static final int[] SearchView = {
             0x010100da, 0x0101011f, 0x01010220, 0x01010264,
-            0x7f010032, 0x7f010033, 0x7f010034, 0x7f010035,
-            0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039,
-            0x7f01003a, 0x7f01003b, 0x7f01003c
+            0x7f010037, 0x7f010038, 0x7f010039, 0x7f01003a,
+            0x7f01003b, 0x7f01003c, 0x7f01003d, 0x7f01003e,
+            0x7f01003f, 0x7f010040, 0x7f010041, 0x7f010042
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -3140,37 +3511,37 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:closeIcon
+          @attr name edu.sxccal.stegodroid:closeIcon
         */
         public static final int SearchView_closeIcon = 7;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:commitIcon
+          @attr name edu.sxccal.stegodroid:commitIcon
         */
-        public static final int SearchView_commitIcon = 11;
+        public static final int SearchView_commitIcon = 12;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:goIcon
+          @attr name edu.sxccal.stegodroid:goIcon
         */
         public static final int SearchView_goIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3180,31 +3551,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:iconifiedByDefault
+          @attr name edu.sxccal.stegodroid:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#layout}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:layout
+          @attr name edu.sxccal.stegodroid:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:queryBackground
+          @attr name edu.sxccal.stegodroid:queryBackground
         */
-        public static final int SearchView_queryBackground = 13;
+        public static final int SearchView_queryBackground = 14;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3214,49 +3585,59 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:queryHint
+          @attr name edu.sxccal.stegodroid:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:searchIcon
+          @attr name edu.sxccal.stegodroid:searchHintIcon
+        */
+        public static final int SearchView_searchHintIcon = 10;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#searchIcon}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:searchIcon
         */
         public static final int SearchView_searchIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:submitBackground
+          @attr name edu.sxccal.stegodroid:submitBackground
         */
-        public static final int SearchView_submitBackground = 14;
+        public static final int SearchView_submitBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:suggestionRowLayout
+          @attr name edu.sxccal.stegodroid:suggestionRowLayout
         */
-        public static final int SearchView_suggestionRowLayout = 12;
+        public static final int SearchView_suggestionRowLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:voiceIcon
+          @attr name edu.sxccal.stegodroid:voiceIcon
         */
-        public static final int SearchView_voiceIcon = 10;
+        public static final int SearchView_voiceIcon = 11;
         /** Attributes that can be used with a Spinner.
            <p>Includes the following attributes:</p>
            <table>
@@ -3270,10 +3651,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled edu.sxccal.qrcodescanner:disableChildrenWhenDisabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView edu.sxccal.qrcodescanner:popupPromptView}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_prompt edu.sxccal.qrcodescanner:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode edu.sxccal.qrcodescanner:spinnerMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled edu.sxccal.stegodroid:disableChildrenWhenDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupPromptView edu.sxccal.stegodroid:popupPromptView}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_prompt edu.sxccal.stegodroid:prompt}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode edu.sxccal.stegodroid:spinnerMode}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_background
            @see #Spinner_android_dropDownHorizontalOffset
@@ -3289,8 +3670,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          */
         public static final int[] Spinner = {
             0x010100af, 0x010100d4, 0x01010175, 0x01010176,
-            0x01010262, 0x010102ac, 0x010102ad, 0x7f01003d,
-            0x7f01003e, 0x7f01003f, 0x7f010040
+            0x01010262, 0x010102ac, 0x010102ad, 0x7f010043,
+            0x7f010044, 0x7f010045, 0x7f010046
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -3335,7 +3716,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_popupBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#disableChildrenWhenDisabled}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#disableChildrenWhenDisabled}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -3345,31 +3726,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:disableChildrenWhenDisabled
+          @attr name edu.sxccal.stegodroid:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#popupPromptView}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#popupPromptView}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:popupPromptView
+          @attr name edu.sxccal.stegodroid:popupPromptView
         */
         public static final int Spinner_popupPromptView = 9;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#prompt}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:prompt
+          @attr name edu.sxccal.stegodroid:prompt
         */
         public static final int Spinner_prompt = 7;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#spinnerMode}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#spinnerMode}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -3382,7 +3763,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>dialog</code></td><td>0</td><td></td></tr>
 <tr><td><code>dropdown</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name edu.sxccal.qrcodescanner:spinnerMode
+          @attr name edu.sxccal.stegodroid:spinnerMode
         */
         public static final int Spinner_spinnerMode = 8;
         /** Attributes that can be used with a SwitchCompat.
@@ -3394,13 +3775,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText edu.sxccal.qrcodescanner:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack edu.sxccal.qrcodescanner:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth edu.sxccal.qrcodescanner:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding edu.sxccal.qrcodescanner:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance edu.sxccal.qrcodescanner:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding edu.sxccal.qrcodescanner:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track edu.sxccal.qrcodescanner:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText edu.sxccal.stegodroid:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack edu.sxccal.stegodroid:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth edu.sxccal.stegodroid:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding edu.sxccal.stegodroid:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance edu.sxccal.stegodroid:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding edu.sxccal.stegodroid:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track edu.sxccal.stegodroid:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -3414,9 +3795,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SwitchCompat_track
          */
         public static final int[] SwitchCompat = {
-            0x01010124, 0x01010125, 0x01010142, 0x7f010041,
-            0x7f010042, 0x7f010043, 0x7f010044, 0x7f010045,
-            0x7f010046, 0x7f010047
+            0x01010124, 0x01010125, 0x01010142, 0x7f010047,
+            0x7f010048, 0x7f010049, 0x7f01004a, 0x7f01004b,
+            0x7f01004c, 0x7f01004d
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -3437,7 +3818,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#showText}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3447,11 +3828,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:showText
+          @attr name edu.sxccal.stegodroid:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3461,11 +3842,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:splitTrack
+          @attr name edu.sxccal.stegodroid:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3477,11 +3858,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:switchMinWidth
+          @attr name edu.sxccal.stegodroid:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3493,21 +3874,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:switchPadding
+          @attr name edu.sxccal.stegodroid:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:switchTextAppearance
+          @attr name edu.sxccal.stegodroid:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3519,108 +3900,188 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:thumbTextPadding
+          @attr name edu.sxccal.stegodroid:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#track}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:track
+          @attr name edu.sxccal.stegodroid:track
         */
         public static final int SwitchCompat_track = 3;
+        /** Attributes that can be used with a TextAppearance.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #TextAppearance_android_textColor android:textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps edu.sxccal.stegodroid:textAllCaps}</code></td><td></td></tr>
+           </table>
+           @see #TextAppearance_android_textColor
+           @see #TextAppearance_android_textSize
+           @see #TextAppearance_android_textStyle
+           @see #TextAppearance_android_typeface
+           @see #TextAppearance_textAllCaps
+         */
+        public static final int[] TextAppearance = {
+            0x01010095, 0x01010096, 0x01010097, 0x01010098,
+            0x7f010024
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textColor}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:textColor
+        */
+        public static final int TextAppearance_android_textColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textSize}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:textSize
+        */
+        public static final int TextAppearance_android_textSize = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textStyle}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:textStyle
+        */
+        public static final int TextAppearance_android_textStyle = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#typeface}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:typeface
+        */
+        public static final int TextAppearance_android_typeface = 1;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#textAllCaps}
+          attribute's value can be found in the {@link #TextAppearance} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+          @attr name edu.sxccal.stegodroid:textAllCaps
+        */
+        public static final int TextAppearance_textAllCaps = 4;
         /** Attributes that can be used with a Theme.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider edu.sxccal.qrcodescanner:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground edu.sxccal.qrcodescanner:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme edu.sxccal.qrcodescanner:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize edu.sxccal.qrcodescanner:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle edu.sxccal.qrcodescanner:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle edu.sxccal.qrcodescanner:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle edu.sxccal.qrcodescanner:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle edu.sxccal.qrcodescanner:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle edu.sxccal.qrcodescanner:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme edu.sxccal.qrcodescanner:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme edu.sxccal.qrcodescanner:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle edu.sxccal.qrcodescanner:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle edu.sxccal.qrcodescanner:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance edu.sxccal.qrcodescanner:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor edu.sxccal.qrcodescanner:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground edu.sxccal.qrcodescanner:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle edu.sxccal.qrcodescanner:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable edu.sxccal.qrcodescanner:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable edu.sxccal.qrcodescanner:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable edu.sxccal.qrcodescanner:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable edu.sxccal.qrcodescanner:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable edu.sxccal.qrcodescanner:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle edu.sxccal.qrcodescanner:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable edu.sxccal.qrcodescanner:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable edu.sxccal.qrcodescanner:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground edu.sxccal.qrcodescanner:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle edu.sxccal.qrcodescanner:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable edu.sxccal.qrcodescanner:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle edu.sxccal.qrcodescanner:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle edu.sxccal.qrcodescanner:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle edu.sxccal.qrcodescanner:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider edu.sxccal.stegodroid:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground edu.sxccal.stegodroid:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme edu.sxccal.stegodroid:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize edu.sxccal.stegodroid:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle edu.sxccal.stegodroid:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle edu.sxccal.stegodroid:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle edu.sxccal.stegodroid:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle edu.sxccal.stegodroid:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle edu.sxccal.stegodroid:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme edu.sxccal.stegodroid:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme edu.sxccal.stegodroid:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle edu.sxccal.stegodroid:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle edu.sxccal.stegodroid:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance edu.sxccal.stegodroid:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor edu.sxccal.stegodroid:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground edu.sxccal.stegodroid:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle edu.sxccal.stegodroid:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable edu.sxccal.stegodroid:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable edu.sxccal.stegodroid:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable edu.sxccal.stegodroid:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable edu.sxccal.stegodroid:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable edu.sxccal.stegodroid:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle edu.sxccal.stegodroid:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable edu.sxccal.stegodroid:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable edu.sxccal.stegodroid:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground edu.sxccal.stegodroid:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle edu.sxccal.stegodroid:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable edu.sxccal.stegodroid:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle edu.sxccal.stegodroid:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle edu.sxccal.stegodroid:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle edu.sxccal.stegodroid:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle edu.sxccal.stegodroid:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogCenterButtons edu.sxccal.stegodroid:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogStyle edu.sxccal.stegodroid:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogTheme edu.sxccal.stegodroid:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle edu.sxccal.qrcodescanner:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle edu.sxccal.qrcodescanner:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent edu.sxccal.qrcodescanner:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal edu.sxccal.qrcodescanner:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated edu.sxccal.qrcodescanner:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight edu.sxccal.qrcodescanner:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal edu.sxccal.qrcodescanner:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary edu.sxccal.qrcodescanner:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark edu.sxccal.qrcodescanner:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal edu.sxccal.qrcodescanner:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal edu.sxccal.qrcodescanner:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical edu.sxccal.qrcodescanner:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle edu.sxccal.qrcodescanner:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight edu.sxccal.qrcodescanner:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground edu.sxccal.qrcodescanner:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor edu.sxccal.qrcodescanner:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator edu.sxccal.qrcodescanner:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator edu.sxccal.qrcodescanner:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle edu.sxccal.qrcodescanner:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight edu.sxccal.qrcodescanner:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge edu.sxccal.qrcodescanner:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall edu.sxccal.qrcodescanner:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft edu.sxccal.qrcodescanner:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight edu.sxccal.qrcodescanner:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground edu.sxccal.qrcodescanner:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme edu.sxccal.qrcodescanner:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth edu.sxccal.qrcodescanner:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle edu.sxccal.qrcodescanner:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle edu.sxccal.qrcodescanner:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle edu.sxccal.qrcodescanner:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground edu.sxccal.qrcodescanner:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless edu.sxccal.qrcodescanner:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle edu.sxccal.qrcodescanner:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle edu.sxccal.qrcodescanner:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle edu.sxccal.qrcodescanner:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu edu.sxccal.qrcodescanner:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem edu.sxccal.qrcodescanner:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall edu.sxccal.qrcodescanner:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle edu.sxccal.qrcodescanner:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle edu.sxccal.qrcodescanner:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu edu.sxccal.qrcodescanner:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl edu.sxccal.qrcodescanner:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle edu.sxccal.qrcodescanner:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle edu.sxccal.qrcodescanner:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar edu.sxccal.qrcodescanner:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay edu.sxccal.qrcodescanner:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay edu.sxccal.qrcodescanner:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor edu.sxccal.qrcodescanner:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor edu.sxccal.qrcodescanner:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor edu.sxccal.qrcodescanner:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor edu.sxccal.qrcodescanner:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle edu.sxccal.stegodroid:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle edu.sxccal.stegodroid:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle edu.sxccal.stegodroid:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle edu.sxccal.stegodroid:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle edu.sxccal.stegodroid:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle edu.sxccal.stegodroid:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyle edu.sxccal.stegodroid:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyleSmall edu.sxccal.stegodroid:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkboxStyle edu.sxccal.stegodroid:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkedTextViewStyle edu.sxccal.stegodroid:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent edu.sxccal.stegodroid:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal edu.sxccal.stegodroid:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated edu.sxccal.stegodroid:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight edu.sxccal.stegodroid:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal edu.sxccal.stegodroid:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary edu.sxccal.stegodroid:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark edu.sxccal.stegodroid:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal edu.sxccal.stegodroid:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogPreferredPadding edu.sxccal.stegodroid:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogTheme edu.sxccal.stegodroid:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal edu.sxccal.stegodroid:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical edu.sxccal.stegodroid:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle edu.sxccal.stegodroid:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight edu.sxccal.stegodroid:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground edu.sxccal.stegodroid:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor edu.sxccal.stegodroid:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextStyle edu.sxccal.stegodroid:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator edu.sxccal.stegodroid:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator edu.sxccal.stegodroid:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listDividerAlertDialog edu.sxccal.stegodroid:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle edu.sxccal.stegodroid:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight edu.sxccal.stegodroid:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge edu.sxccal.stegodroid:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall edu.sxccal.stegodroid:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft edu.sxccal.stegodroid:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight edu.sxccal.stegodroid:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground edu.sxccal.stegodroid:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme edu.sxccal.stegodroid:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth edu.sxccal.stegodroid:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle edu.sxccal.stegodroid:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle edu.sxccal.stegodroid:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_radioButtonStyle edu.sxccal.stegodroid:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_ratingBarStyle edu.sxccal.stegodroid:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle edu.sxccal.stegodroid:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground edu.sxccal.stegodroid:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless edu.sxccal.stegodroid:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle edu.sxccal.stegodroid:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle edu.sxccal.stegodroid:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle edu.sxccal.stegodroid:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu edu.sxccal.stegodroid:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem edu.sxccal.stegodroid:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall edu.sxccal.stegodroid:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle edu.sxccal.stegodroid:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle edu.sxccal.stegodroid:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu edu.sxccal.stegodroid:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorAlertDialogListItem edu.sxccal.stegodroid:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl edu.sxccal.stegodroid:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle edu.sxccal.stegodroid:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle edu.sxccal.stegodroid:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar edu.sxccal.stegodroid:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay edu.sxccal.stegodroid:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay edu.sxccal.stegodroid:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor edu.sxccal.stegodroid:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor edu.sxccal.stegodroid:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor edu.sxccal.stegodroid:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor edu.sxccal.stegodroid:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMajor edu.sxccal.stegodroid:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMinor edu.sxccal.stegodroid:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowNoTitle edu.sxccal.stegodroid:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -3653,9 +4114,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #Theme_actionOverflowButtonStyle
            @see #Theme_actionOverflowMenuStyle
            @see #Theme_activityChooserViewStyle
+           @see #Theme_alertDialogButtonGroupStyle
+           @see #Theme_alertDialogCenterButtons
+           @see #Theme_alertDialogStyle
+           @see #Theme_alertDialogTheme
+           @see #Theme_android_windowAnimationStyle
            @see #Theme_android_windowIsFloating
+           @see #Theme_autoCompleteTextViewStyle
            @see #Theme_buttonBarButtonStyle
+           @see #Theme_buttonBarNegativeButtonStyle
+           @see #Theme_buttonBarNeutralButtonStyle
+           @see #Theme_buttonBarPositiveButtonStyle
            @see #Theme_buttonBarStyle
+           @see #Theme_buttonStyle
+           @see #Theme_buttonStyleSmall
+           @see #Theme_checkboxStyle
+           @see #Theme_checkedTextViewStyle
            @see #Theme_colorAccent
            @see #Theme_colorButtonNormal
            @see #Theme_colorControlActivated
@@ -3664,14 +4138,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #Theme_colorPrimary
            @see #Theme_colorPrimaryDark
            @see #Theme_colorSwitchThumbNormal
+           @see #Theme_dialogPreferredPadding
+           @see #Theme_dialogTheme
            @see #Theme_dividerHorizontal
            @see #Theme_dividerVertical
            @see #Theme_dropDownListViewStyle
            @see #Theme_dropdownListPreferredItemHeight
            @see #Theme_editTextBackground
            @see #Theme_editTextColor
+           @see #Theme_editTextStyle
            @see #Theme_homeAsUpIndicator
            @see #Theme_listChoiceBackgroundIndicator
+           @see #Theme_listDividerAlertDialog
            @see #Theme_listPopupWindowStyle
            @see #Theme_listPreferredItemHeight
            @see #Theme_listPreferredItemHeightLarge
@@ -3683,6 +4161,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #Theme_panelMenuListWidth
            @see #Theme_popupMenuStyle
            @see #Theme_popupWindowStyle
+           @see #Theme_radioButtonStyle
+           @see #Theme_ratingBarStyle
            @see #Theme_searchViewStyle
            @see #Theme_selectableItemBackground
            @see #Theme_selectableItemBackgroundBorderless
@@ -3695,6 +4175,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #Theme_textAppearanceSearchResultSubtitle
            @see #Theme_textAppearanceSearchResultTitle
            @see #Theme_textAppearanceSmallPopupMenu
+           @see #Theme_textColorAlertDialogListItem
            @see #Theme_textColorSearchUrl
            @see #Theme_toolbarNavigationButtonStyle
            @see #Theme_toolbarStyle
@@ -3705,62 +4186,71 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #Theme_windowFixedHeightMinor
            @see #Theme_windowFixedWidthMajor
            @see #Theme_windowFixedWidthMinor
+           @see #Theme_windowMinWidthMajor
+           @see #Theme_windowMinWidthMinor
+           @see #Theme_windowNoTitle
          */
         public static final int[] Theme = {
-            0x01010057, 0x7f010048, 0x7f010049, 0x7f01004a,
-            0x7f01004b, 0x7f01004c, 0x7f01004d, 0x7f01004e,
-            0x7f01004f, 0x7f010050, 0x7f010051, 0x7f010052,
-            0x7f010053, 0x7f010054, 0x7f010055, 0x7f010056,
-            0x7f010057, 0x7f010058, 0x7f010059, 0x7f01005a,
-            0x7f01005b, 0x7f01005c, 0x7f01005d, 0x7f01005e,
-            0x7f01005f, 0x7f010060, 0x7f010061, 0x7f010062,
-            0x7f010063, 0x7f010064, 0x7f010065, 0x7f010066,
-            0x7f010067, 0x7f010068, 0x7f010069, 0x7f01006a,
-            0x7f01006b, 0x7f01006c, 0x7f01006d, 0x7f01006e,
-            0x7f01006f, 0x7f010070, 0x7f010071, 0x7f010072,
-            0x7f010073, 0x7f010074, 0x7f010075, 0x7f010076,
-            0x7f010077, 0x7f010078, 0x7f010079, 0x7f01007a,
-            0x7f01007b, 0x7f01007c, 0x7f01007d, 0x7f01007e,
-            0x7f01007f, 0x7f010080, 0x7f010081, 0x7f010082,
-            0x7f010083, 0x7f010084, 0x7f010085, 0x7f010086,
-            0x7f010087, 0x7f010088, 0x7f010089, 0x7f01008a,
-            0x7f01008b, 0x7f01008c, 0x7f01008d, 0x7f01008e,
-            0x7f01008f, 0x7f010090, 0x7f010091, 0x7f010092,
-            0x7f010093, 0x7f010094, 0x7f010095, 0x7f010096,
-            0x7f010097, 0x7f010098, 0x7f010099
+            0x01010057, 0x010100ae, 0x7f01004e, 0x7f01004f,
+            0x7f010050, 0x7f010051, 0x7f010052, 0x7f010053,
+            0x7f010054, 0x7f010055, 0x7f010056, 0x7f010057,
+            0x7f010058, 0x7f010059, 0x7f01005a, 0x7f01005b,
+            0x7f01005c, 0x7f01005d, 0x7f01005e, 0x7f01005f,
+            0x7f010060, 0x7f010061, 0x7f010062, 0x7f010063,
+            0x7f010064, 0x7f010065, 0x7f010066, 0x7f010067,
+            0x7f010068, 0x7f010069, 0x7f01006a, 0x7f01006b,
+            0x7f01006c, 0x7f01006d, 0x7f01006e, 0x7f01006f,
+            0x7f010070, 0x7f010071, 0x7f010072, 0x7f010073,
+            0x7f010074, 0x7f010075, 0x7f010076, 0x7f010077,
+            0x7f010078, 0x7f010079, 0x7f01007a, 0x7f01007b,
+            0x7f01007c, 0x7f01007d, 0x7f01007e, 0x7f01007f,
+            0x7f010080, 0x7f010081, 0x7f010082, 0x7f010083,
+            0x7f010084, 0x7f010085, 0x7f010086, 0x7f010087,
+            0x7f010088, 0x7f010089, 0x7f01008a, 0x7f01008b,
+            0x7f01008c, 0x7f01008d, 0x7f01008e, 0x7f01008f,
+            0x7f010090, 0x7f010091, 0x7f010092, 0x7f010093,
+            0x7f010094, 0x7f010095, 0x7f010096, 0x7f010097,
+            0x7f010098, 0x7f010099, 0x7f01009a, 0x7f01009b,
+            0x7f01009c, 0x7f01009d, 0x7f01009e, 0x7f01009f,
+            0x7f0100a0, 0x7f0100a1, 0x7f0100a2, 0x7f0100a3,
+            0x7f0100a4, 0x7f0100a5, 0x7f0100a6, 0x7f0100a7,
+            0x7f0100a8, 0x7f0100a9, 0x7f0100aa, 0x7f0100ab,
+            0x7f0100ac, 0x7f0100ad, 0x7f0100ae, 0x7f0100af,
+            0x7f0100b0, 0x7f0100b1, 0x7f0100b2, 0x7f0100b3,
+            0x7f0100b4, 0x7f0100b5
         };
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionBarDivider
+          @attr name edu.sxccal.stegodroid:actionBarDivider
         */
-        public static final int Theme_actionBarDivider = 19;
+        public static final int Theme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionBarItemBackground
+          @attr name edu.sxccal.stegodroid:actionBarItemBackground
         */
-        public static final int Theme_actionBarItemBackground = 20;
+        public static final int Theme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionBarPopupTheme
+          @attr name edu.sxccal.stegodroid:actionBarPopupTheme
         */
-        public static final int Theme_actionBarPopupTheme = 13;
+        public static final int Theme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3780,111 +4270,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name edu.sxccal.qrcodescanner:actionBarSize
+          @attr name edu.sxccal.stegodroid:actionBarSize
         */
-        public static final int Theme_actionBarSize = 18;
+        public static final int Theme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionBarSplitStyle
+          @attr name edu.sxccal.stegodroid:actionBarSplitStyle
         */
-        public static final int Theme_actionBarSplitStyle = 15;
+        public static final int Theme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionBarStyle
+          @attr name edu.sxccal.stegodroid:actionBarStyle
         */
-        public static final int Theme_actionBarStyle = 14;
+        public static final int Theme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionBarTabBarStyle
+          @attr name edu.sxccal.stegodroid:actionBarTabBarStyle
         */
-        public static final int Theme_actionBarTabBarStyle = 9;
+        public static final int Theme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionBarTabStyle
+          @attr name edu.sxccal.stegodroid:actionBarTabStyle
         */
-        public static final int Theme_actionBarTabStyle = 8;
+        public static final int Theme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionBarTabTextStyle
+          @attr name edu.sxccal.stegodroid:actionBarTabTextStyle
         */
-        public static final int Theme_actionBarTabTextStyle = 10;
+        public static final int Theme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionBarTheme
+          @attr name edu.sxccal.stegodroid:actionBarTheme
         */
-        public static final int Theme_actionBarTheme = 16;
+        public static final int Theme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionBarWidgetTheme
+          @attr name edu.sxccal.stegodroid:actionBarWidgetTheme
         */
-        public static final int Theme_actionBarWidgetTheme = 17;
+        public static final int Theme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionButtonStyle
+          @attr name edu.sxccal.stegodroid:actionButtonStyle
         */
-        public static final int Theme_actionButtonStyle = 43;
+        public static final int Theme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionDropDownStyle
+          @attr name edu.sxccal.stegodroid:actionDropDownStyle
         */
-        public static final int Theme_actionDropDownStyle = 38;
+        public static final int Theme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionMenuTextAppearance
+          @attr name edu.sxccal.stegodroid:actionMenuTextAppearance
         */
-        public static final int Theme_actionMenuTextAppearance = 21;
+        public static final int Theme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3892,169 +4382,219 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionMenuTextColor
+          @attr name edu.sxccal.stegodroid:actionMenuTextColor
         */
-        public static final int Theme_actionMenuTextColor = 22;
+        public static final int Theme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionModeBackground
+          @attr name edu.sxccal.stegodroid:actionModeBackground
         */
-        public static final int Theme_actionModeBackground = 25;
+        public static final int Theme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionModeCloseButtonStyle
+          @attr name edu.sxccal.stegodroid:actionModeCloseButtonStyle
         */
-        public static final int Theme_actionModeCloseButtonStyle = 24;
+        public static final int Theme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionModeCloseDrawable
+          @attr name edu.sxccal.stegodroid:actionModeCloseDrawable
         */
-        public static final int Theme_actionModeCloseDrawable = 27;
+        public static final int Theme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionModeCopyDrawable
+          @attr name edu.sxccal.stegodroid:actionModeCopyDrawable
         */
-        public static final int Theme_actionModeCopyDrawable = 29;
+        public static final int Theme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionModeCutDrawable
+          @attr name edu.sxccal.stegodroid:actionModeCutDrawable
         */
-        public static final int Theme_actionModeCutDrawable = 28;
+        public static final int Theme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionModeFindDrawable
+          @attr name edu.sxccal.stegodroid:actionModeFindDrawable
         */
-        public static final int Theme_actionModeFindDrawable = 33;
+        public static final int Theme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionModePasteDrawable
+          @attr name edu.sxccal.stegodroid:actionModePasteDrawable
         */
-        public static final int Theme_actionModePasteDrawable = 30;
+        public static final int Theme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionModePopupWindowStyle
+          @attr name edu.sxccal.stegodroid:actionModePopupWindowStyle
         */
-        public static final int Theme_actionModePopupWindowStyle = 35;
+        public static final int Theme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionModeSelectAllDrawable
+          @attr name edu.sxccal.stegodroid:actionModeSelectAllDrawable
         */
-        public static final int Theme_actionModeSelectAllDrawable = 31;
+        public static final int Theme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionModeShareDrawable
+          @attr name edu.sxccal.stegodroid:actionModeShareDrawable
         */
-        public static final int Theme_actionModeShareDrawable = 32;
+        public static final int Theme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionModeSplitBackground
+          @attr name edu.sxccal.stegodroid:actionModeSplitBackground
         */
-        public static final int Theme_actionModeSplitBackground = 26;
+        public static final int Theme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionModeStyle
+          @attr name edu.sxccal.stegodroid:actionModeStyle
         */
-        public static final int Theme_actionModeStyle = 23;
+        public static final int Theme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionModeWebSearchDrawable
+          @attr name edu.sxccal.stegodroid:actionModeWebSearchDrawable
         */
-        public static final int Theme_actionModeWebSearchDrawable = 34;
+        public static final int Theme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionOverflowButtonStyle
+          @attr name edu.sxccal.stegodroid:actionOverflowButtonStyle
         */
-        public static final int Theme_actionOverflowButtonStyle = 11;
+        public static final int Theme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:actionOverflowMenuStyle
+          @attr name edu.sxccal.stegodroid:actionOverflowMenuStyle
         */
-        public static final int Theme_actionOverflowMenuStyle = 12;
+        public static final int Theme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:activityChooserViewStyle
+          @attr name edu.sxccal.stegodroid:activityChooserViewStyle
         */
-        public static final int Theme_activityChooserViewStyle = 50;
+        public static final int Theme_activityChooserViewStyle = 56;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#alertDialogButtonGroupStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:alertDialogButtonGroupStyle
+        */
+        public static final int Theme_alertDialogButtonGroupStyle = 89;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#alertDialogCenterButtons}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.sxccal.stegodroid:alertDialogCenterButtons
+        */
+        public static final int Theme_alertDialogCenterButtons = 90;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#alertDialogStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:alertDialogStyle
+        */
+        public static final int Theme_alertDialogStyle = 88;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#alertDialogTheme}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:alertDialogTheme
+        */
+        public static final int Theme_alertDialogTheme = 91;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+          attribute's value can be found in the {@link #Theme} array.
+          @attr name android:windowAnimationStyle
+        */
+        public static final int Theme_android_windowAnimationStyle = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
           attribute's value can be found in the {@link #Theme} array.
@@ -4062,177 +4602,227 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:buttonBarButtonStyle
+          @attr name edu.sxccal.stegodroid:autoCompleteTextViewStyle
         */
-        public static final int Theme_buttonBarButtonStyle = 45;
+        public static final int Theme_autoCompleteTextViewStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:buttonBarStyle
+          @attr name edu.sxccal.stegodroid:buttonBarButtonStyle
         */
-        public static final int Theme_buttonBarStyle = 44;
+        public static final int Theme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#colorAccent}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:colorAccent
-        */
-        public static final int Theme_colorAccent = 77;
-        /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#colorButtonNormal}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:colorButtonNormal
-        */
-        public static final int Theme_colorButtonNormal = 81;
-        /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#colorControlActivated}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:colorControlActivated
-        */
-        public static final int Theme_colorControlActivated = 79;
-        /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#colorControlHighlight}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:colorControlHighlight
-        */
-        public static final int Theme_colorControlHighlight = 80;
-        /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#colorControlNormal}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:colorControlNormal
-        */
-        public static final int Theme_colorControlNormal = 78;
-        /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#colorPrimary}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:colorPrimary
-        */
-        public static final int Theme_colorPrimary = 75;
-        /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#colorPrimaryDark}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:colorPrimaryDark
-        */
-        public static final int Theme_colorPrimaryDark = 76;
-        /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#colorSwitchThumbNormal}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:colorSwitchThumbNormal
-        */
-        public static final int Theme_colorSwitchThumbNormal = 82;
-        /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:dividerHorizontal
+          @attr name edu.sxccal.stegodroid:buttonBarNegativeButtonStyle
         */
-        public static final int Theme_dividerHorizontal = 49;
+        public static final int Theme_buttonBarNegativeButtonStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:dividerVertical
+          @attr name edu.sxccal.stegodroid:buttonBarNeutralButtonStyle
         */
-        public static final int Theme_dividerVertical = 48;
+        public static final int Theme_buttonBarNeutralButtonStyle = 95;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:dropDownListViewStyle
+          @attr name edu.sxccal.stegodroid:buttonBarPositiveButtonStyle
         */
-        public static final int Theme_dropDownListViewStyle = 67;
+        public static final int Theme_buttonBarPositiveButtonStyle = 93;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#buttonBarStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:buttonBarStyle
+        */
+        public static final int Theme_buttonBarStyle = 50;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#buttonStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:buttonStyle
+        */
+        public static final int Theme_buttonStyle = 97;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#buttonStyleSmall}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:buttonStyleSmall
+        */
+        public static final int Theme_buttonStyleSmall = 98;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#checkboxStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:checkboxStyle
+        */
+        public static final int Theme_checkboxStyle = 99;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#checkedTextViewStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:checkedTextViewStyle
+        */
+        public static final int Theme_checkedTextViewStyle = 100;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#colorAccent}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.sxccal.stegodroid:colorAccent
+        */
+        public static final int Theme_colorAccent = 82;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#colorButtonNormal}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.sxccal.stegodroid:colorButtonNormal
+        */
+        public static final int Theme_colorButtonNormal = 86;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#colorControlActivated}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.sxccal.stegodroid:colorControlActivated
+        */
+        public static final int Theme_colorControlActivated = 84;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#colorControlHighlight}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.sxccal.stegodroid:colorControlHighlight
+        */
+        public static final int Theme_colorControlHighlight = 85;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#colorControlNormal}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.sxccal.stegodroid:colorControlNormal
+        */
+        public static final int Theme_colorControlNormal = 83;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#colorPrimary}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.sxccal.stegodroid:colorPrimary
+        */
+        public static final int Theme_colorPrimary = 80;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#colorPrimaryDark}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.sxccal.stegodroid:colorPrimaryDark
+        */
+        public static final int Theme_colorPrimaryDark = 81;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#colorSwitchThumbNormal}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.sxccal.stegodroid:colorSwitchThumbNormal
+        */
+        public static final int Theme_colorSwitchThumbNormal = 87;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4244,21 +4834,77 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:dropdownListPreferredItemHeight
+          @attr name edu.sxccal.stegodroid:dialogPreferredPadding
         */
-        public static final int Theme_dropdownListPreferredItemHeight = 39;
+        public static final int Theme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#dialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:editTextBackground
+          @attr name edu.sxccal.stegodroid:dialogTheme
         */
-        public static final int Theme_editTextBackground = 56;
+        public static final int Theme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#dividerHorizontal}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:dividerHorizontal
+        */
+        public static final int Theme_dividerHorizontal = 55;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#dividerVertical}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:dividerVertical
+        */
+        public static final int Theme_dividerVertical = 54;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#dropDownListViewStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:dropDownListViewStyle
+        */
+        public static final int Theme_dropDownListViewStyle = 72;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#dropdownListPreferredItemHeight}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.sxccal.stegodroid:dropdownListPreferredItemHeight
+        */
+        public static final int Theme_dropdownListPreferredItemHeight = 46;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#editTextBackground}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:editTextBackground
+        */
+        public static final int Theme_editTextBackground = 62;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4266,41 +4912,61 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name edu.sxccal.qrcodescanner:editTextColor
+          @attr name edu.sxccal.stegodroid:editTextColor
         */
-        public static final int Theme_editTextColor = 55;
+        public static final int Theme_editTextColor = 61;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#editTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:homeAsUpIndicator
+          @attr name edu.sxccal.stegodroid:editTextStyle
         */
-        public static final int Theme_homeAsUpIndicator = 42;
+        public static final int Theme_editTextStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:listChoiceBackgroundIndicator
+          @attr name edu.sxccal.stegodroid:homeAsUpIndicator
         */
-        public static final int Theme_listChoiceBackgroundIndicator = 74;
+        public static final int Theme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:listPopupWindowStyle
+          @attr name edu.sxccal.stegodroid:listChoiceBackgroundIndicator
         */
-        public static final int Theme_listPopupWindowStyle = 68;
+        public static final int Theme_listChoiceBackgroundIndicator = 79;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#listDividerAlertDialog}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:listDividerAlertDialog
+        */
+        public static final int Theme_listDividerAlertDialog = 44;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#listPopupWindowStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:listPopupWindowStyle
+        */
+        public static final int Theme_listPopupWindowStyle = 73;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4312,11 +4978,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:listPreferredItemHeight
+          @attr name edu.sxccal.stegodroid:listPreferredItemHeight
         */
-        public static final int Theme_listPreferredItemHeight = 62;
+        public static final int Theme_listPreferredItemHeight = 67;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4328,11 +4994,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:listPreferredItemHeightLarge
+          @attr name edu.sxccal.stegodroid:listPreferredItemHeightLarge
         */
-        public static final int Theme_listPreferredItemHeightLarge = 64;
+        public static final int Theme_listPreferredItemHeightLarge = 69;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4344,11 +5010,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:listPreferredItemHeightSmall
+          @attr name edu.sxccal.stegodroid:listPreferredItemHeightSmall
         */
-        public static final int Theme_listPreferredItemHeightSmall = 63;
+        public static final int Theme_listPreferredItemHeightSmall = 68;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4360,11 +5026,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:listPreferredItemPaddingLeft
+          @attr name edu.sxccal.stegodroid:listPreferredItemPaddingLeft
         */
-        public static final int Theme_listPreferredItemPaddingLeft = 65;
+        public static final int Theme_listPreferredItemPaddingLeft = 70;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4376,31 +5042,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:listPreferredItemPaddingRight
+          @attr name edu.sxccal.stegodroid:listPreferredItemPaddingRight
         */
-        public static final int Theme_listPreferredItemPaddingRight = 66;
+        public static final int Theme_listPreferredItemPaddingRight = 71;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:panelBackground
+          @attr name edu.sxccal.stegodroid:panelBackground
         */
-        public static final int Theme_panelBackground = 71;
+        public static final int Theme_panelBackground = 76;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:panelMenuListTheme
+          @attr name edu.sxccal.stegodroid:panelMenuListTheme
         */
-        public static final int Theme_panelMenuListTheme = 73;
+        public static final int Theme_panelMenuListTheme = 78;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4412,151 +5078,171 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:panelMenuListWidth
+          @attr name edu.sxccal.stegodroid:panelMenuListWidth
         */
-        public static final int Theme_panelMenuListWidth = 72;
+        public static final int Theme_panelMenuListWidth = 77;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:popupMenuStyle
+          @attr name edu.sxccal.stegodroid:popupMenuStyle
         */
-        public static final int Theme_popupMenuStyle = 53;
+        public static final int Theme_popupMenuStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:popupWindowStyle
+          @attr name edu.sxccal.stegodroid:popupWindowStyle
         */
-        public static final int Theme_popupWindowStyle = 54;
+        public static final int Theme_popupWindowStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:searchViewStyle
+          @attr name edu.sxccal.stegodroid:radioButtonStyle
         */
-        public static final int Theme_searchViewStyle = 61;
+        public static final int Theme_radioButtonStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:selectableItemBackground
+          @attr name edu.sxccal.stegodroid:ratingBarStyle
         */
-        public static final int Theme_selectableItemBackground = 46;
+        public static final int Theme_ratingBarStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:selectableItemBackgroundBorderless
+          @attr name edu.sxccal.stegodroid:searchViewStyle
         */
-        public static final int Theme_selectableItemBackgroundBorderless = 47;
+        public static final int Theme_searchViewStyle = 66;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:spinnerDropDownItemStyle
+          @attr name edu.sxccal.stegodroid:selectableItemBackground
         */
-        public static final int Theme_spinnerDropDownItemStyle = 41;
+        public static final int Theme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:spinnerStyle
+          @attr name edu.sxccal.stegodroid:selectableItemBackgroundBorderless
         */
-        public static final int Theme_spinnerStyle = 40;
+        public static final int Theme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:switchStyle
+          @attr name edu.sxccal.stegodroid:spinnerDropDownItemStyle
         */
-        public static final int Theme_switchStyle = 57;
+        public static final int Theme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:textAppearanceLargePopupMenu
+          @attr name edu.sxccal.stegodroid:spinnerStyle
         */
-        public static final int Theme_textAppearanceLargePopupMenu = 36;
+        public static final int Theme_spinnerStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:textAppearanceListItem
+          @attr name edu.sxccal.stegodroid:switchStyle
         */
-        public static final int Theme_textAppearanceListItem = 69;
+        public static final int Theme_switchStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:textAppearanceListItemSmall
+          @attr name edu.sxccal.stegodroid:textAppearanceLargePopupMenu
         */
-        public static final int Theme_textAppearanceListItemSmall = 70;
+        public static final int Theme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:textAppearanceSearchResultSubtitle
+          @attr name edu.sxccal.stegodroid:textAppearanceListItem
         */
-        public static final int Theme_textAppearanceSearchResultSubtitle = 59;
+        public static final int Theme_textAppearanceListItem = 74;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:textAppearanceSearchResultTitle
+          @attr name edu.sxccal.stegodroid:textAppearanceListItemSmall
         */
-        public static final int Theme_textAppearanceSearchResultTitle = 58;
+        public static final int Theme_textAppearanceListItemSmall = 75;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:textAppearanceSmallPopupMenu
+          @attr name edu.sxccal.stegodroid:textAppearanceSearchResultSubtitle
         */
-        public static final int Theme_textAppearanceSmallPopupMenu = 37;
+        public static final int Theme_textAppearanceSearchResultSubtitle = 64;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#textAppearanceSearchResultTitle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:textAppearanceSearchResultTitle
+        */
+        public static final int Theme_textAppearanceSearchResultTitle = 63;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#textAppearanceSmallPopupMenu}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:textAppearanceSmallPopupMenu
+        */
+        public static final int Theme_textAppearanceSmallPopupMenu = 41;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4564,31 +5250,43 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name edu.sxccal.qrcodescanner:textColorSearchUrl
+          @attr name edu.sxccal.stegodroid:textColorAlertDialogListItem
         */
-        public static final int Theme_textColorSearchUrl = 60;
+        public static final int Theme_textColorAlertDialogListItem = 92;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#textColorSearchUrl}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name edu.sxccal.stegodroid:textColorSearchUrl
+        */
+        public static final int Theme_textColorSearchUrl = 65;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:toolbarNavigationButtonStyle
+          @attr name edu.sxccal.stegodroid:toolbarNavigationButtonStyle
         */
-        public static final int Theme_toolbarNavigationButtonStyle = 52;
+        public static final int Theme_toolbarNavigationButtonStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:toolbarStyle
+          @attr name edu.sxccal.stegodroid:toolbarStyle
         */
-        public static final int Theme_toolbarStyle = 51;
+        public static final int Theme_toolbarStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4598,11 +5296,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:windowActionBar
+          @attr name edu.sxccal.stegodroid:windowActionBar
         */
-        public static final int Theme_windowActionBar = 1;
+        public static final int Theme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4612,11 +5310,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:windowActionBarOverlay
+          @attr name edu.sxccal.stegodroid:windowActionBarOverlay
         */
-        public static final int Theme_windowActionBarOverlay = 2;
+        public static final int Theme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4626,11 +5324,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:windowActionModeOverlay
+          @attr name edu.sxccal.stegodroid:windowActionModeOverlay
         */
-        public static final int Theme_windowActionModeOverlay = 3;
+        public static final int Theme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4645,11 +5343,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:windowFixedHeightMajor
+          @attr name edu.sxccal.stegodroid:windowFixedHeightMajor
         */
-        public static final int Theme_windowFixedHeightMajor = 7;
+        public static final int Theme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4664,11 +5362,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:windowFixedHeightMinor
+          @attr name edu.sxccal.stegodroid:windowFixedHeightMinor
         */
-        public static final int Theme_windowFixedHeightMinor = 5;
+        public static final int Theme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4683,11 +5381,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:windowFixedWidthMajor
+          @attr name edu.sxccal.stegodroid:windowFixedWidthMajor
         */
-        public static final int Theme_windowFixedWidthMajor = 4;
+        public static final int Theme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4702,9 +5400,61 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:windowFixedWidthMinor
+          @attr name edu.sxccal.stegodroid:windowFixedWidthMinor
         */
-        public static final int Theme_windowFixedWidthMinor = 6;
+        public static final int Theme_windowFixedWidthMinor = 8;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#windowMinWidthMajor}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.sxccal.stegodroid:windowMinWidthMajor
+        */
+        public static final int Theme_windowMinWidthMajor = 10;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#windowMinWidthMinor}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.sxccal.stegodroid:windowMinWidthMinor
+        */
+        public static final int Theme_windowMinWidthMinor = 11;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#windowNoTitle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.sxccal.stegodroid:windowNoTitle
+        */
+        public static final int Theme_windowNoTitle = 3;
         /** Attributes that can be used with a Toolbar.
            <p>Includes the following attributes:</p>
            <table>
@@ -4713,26 +5463,25 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription edu.sxccal.qrcodescanner:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon edu.sxccal.qrcodescanner:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd edu.sxccal.qrcodescanner:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft edu.sxccal.qrcodescanner:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight edu.sxccal.qrcodescanner:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart edu.sxccal.qrcodescanner:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight edu.sxccal.qrcodescanner:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription edu.sxccal.qrcodescanner:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon edu.sxccal.qrcodescanner:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme edu.sxccal.qrcodescanner:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle edu.sxccal.qrcodescanner:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance edu.sxccal.qrcodescanner:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_theme edu.sxccal.qrcodescanner:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title edu.sxccal.qrcodescanner:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom edu.sxccal.qrcodescanner:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd edu.sxccal.qrcodescanner:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart edu.sxccal.qrcodescanner:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop edu.sxccal.qrcodescanner:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins edu.sxccal.qrcodescanner:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance edu.sxccal.qrcodescanner:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription edu.sxccal.stegodroid:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon edu.sxccal.stegodroid:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd edu.sxccal.stegodroid:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft edu.sxccal.stegodroid:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight edu.sxccal.stegodroid:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart edu.sxccal.stegodroid:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight edu.sxccal.stegodroid:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription edu.sxccal.stegodroid:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon edu.sxccal.stegodroid:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme edu.sxccal.stegodroid:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle edu.sxccal.stegodroid:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance edu.sxccal.stegodroid:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title edu.sxccal.stegodroid:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom edu.sxccal.stegodroid:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd edu.sxccal.stegodroid:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart edu.sxccal.stegodroid:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop edu.sxccal.stegodroid:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins edu.sxccal.stegodroid:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance edu.sxccal.stegodroid:titleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -4748,7 +5497,6 @@ containing a value of this type.
            @see #Toolbar_popupTheme
            @see #Toolbar_subtitle
            @see #Toolbar_subtitleTextAppearance
-           @see #Toolbar_theme
            @see #Toolbar_title
            @see #Toolbar_titleMarginBottom
            @see #Toolbar_titleMarginEnd
@@ -4760,10 +5508,10 @@ containing a value of this type.
         public static final int[] Toolbar = {
             0x010100af, 0x01010140, 0x7f010003, 0x7f010006,
             0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019,
-            0x7f01001b, 0x7f01009a, 0x7f01009b, 0x7f01009c,
-            0x7f01009d, 0x7f01009e, 0x7f01009f, 0x7f0100a0,
-            0x7f0100a1, 0x7f0100a2, 0x7f0100a3, 0x7f0100a4,
-            0x7f0100a5, 0x7f0100a6
+            0x7f01001b, 0x7f0100b6, 0x7f0100b7, 0x7f0100b8,
+            0x7f0100b9, 0x7f0100ba, 0x7f0100bb, 0x7f0100bc,
+            0x7f0100bd, 0x7f0100be, 0x7f0100bf, 0x7f0100c0,
+            0x7f0100c1
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -4778,7 +5526,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4788,21 +5536,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:collapseContentDescription
+          @attr name edu.sxccal.stegodroid:collapseContentDescription
         */
-        public static final int Toolbar_collapseContentDescription = 19;
+        public static final int Toolbar_collapseContentDescription = 18;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:collapseIcon
+          @attr name edu.sxccal.stegodroid:collapseIcon
         */
-        public static final int Toolbar_collapseIcon = 18;
+        public static final int Toolbar_collapseIcon = 17;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4814,11 +5562,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:contentInsetEnd
+          @attr name edu.sxccal.stegodroid:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4830,11 +5578,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:contentInsetLeft
+          @attr name edu.sxccal.stegodroid:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4846,11 +5594,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:contentInsetRight
+          @attr name edu.sxccal.stegodroid:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4862,11 +5610,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:contentInsetStart
+          @attr name edu.sxccal.stegodroid:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4878,11 +5626,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:maxButtonHeight
+          @attr name edu.sxccal.stegodroid:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4892,31 +5640,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:navigationContentDescription
+          @attr name edu.sxccal.stegodroid:navigationContentDescription
         */
-        public static final int Toolbar_navigationContentDescription = 21;
+        public static final int Toolbar_navigationContentDescription = 20;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:navigationIcon
+          @attr name edu.sxccal.stegodroid:navigationIcon
         */
-        public static final int Toolbar_navigationIcon = 20;
+        public static final int Toolbar_navigationIcon = 19;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:popupTheme
+          @attr name edu.sxccal.stegodroid:popupTheme
         */
         public static final int Toolbar_popupTheme = 8;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4926,31 +5674,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:subtitle
+          @attr name edu.sxccal.stegodroid:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:subtitleTextAppearance
+          @attr name edu.sxccal.stegodroid:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#theme}
-          attribute's value can be found in the {@link #Toolbar} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:theme
-        */
-        public static final int Toolbar_theme = 17;
-        /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#title}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4960,11 +5698,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:title
+          @attr name edu.sxccal.stegodroid:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4976,11 +5714,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:titleMarginBottom
+          @attr name edu.sxccal.stegodroid:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4992,11 +5730,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:titleMarginEnd
+          @attr name edu.sxccal.stegodroid:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5008,11 +5746,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:titleMarginStart
+          @attr name edu.sxccal.stegodroid:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5024,11 +5762,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:titleMarginTop
+          @attr name edu.sxccal.stegodroid:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5040,17 +5778,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:titleMargins
+          @attr name edu.sxccal.stegodroid:titleMargins
         */
         public static final int Toolbar_titleMargins = 11;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name edu.sxccal.qrcodescanner:titleTextAppearance
+          @attr name edu.sxccal.stegodroid:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 9;
         /** Attributes that can be used with a View.
@@ -5060,24 +5798,74 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd edu.sxccal.qrcodescanner:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart edu.sxccal.qrcodescanner:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_backgroundTint edu.sxccal.stegodroid:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_backgroundTintMode edu.sxccal.stegodroid:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd edu.sxccal.stegodroid:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart edu.sxccal.stegodroid:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme edu.sxccal.stegodroid:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
+           @see #View_android_theme
+           @see #View_backgroundTint
+           @see #View_backgroundTintMode
            @see #View_paddingEnd
            @see #View_paddingStart
+           @see #View_theme
          */
         public static final int[] View = {
-            0x010100da, 0x7f0100a7, 0x7f0100a8
+            0x01010000, 0x010100da, 0x7f0100c2, 0x7f0100c3,
+            0x7f0100c4, 0x7f0100c5, 0x7f0100c6
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
           attribute's value can be found in the {@link #View} array.
           @attr name android:focusable
         */
-        public static final int View_android_focusable = 0;
+        public static final int View_android_focusable = 1;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link android.R.attr#theme}
+          attribute's value can be found in the {@link #View} array.
+          @attr name android:theme
+        */
+        public static final int View_android_theme = 0;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#backgroundTint}
+          attribute's value can be found in the {@link #View} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name edu.sxccal.stegodroid:backgroundTint
+        */
+        public static final int View_backgroundTint = 5;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#backgroundTintMode}
+          attribute's value can be found in the {@link #View} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+</table>
+          @attr name edu.sxccal.stegodroid:backgroundTintMode
+        */
+        public static final int View_backgroundTintMode = 6;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -5089,11 +5877,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:paddingEnd
+          @attr name edu.sxccal.stegodroid:paddingEnd
         */
-        public static final int View_paddingEnd = 2;
+        public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link edu.sxccal.qrcodescanner.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -5105,9 +5893,19 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name edu.sxccal.qrcodescanner:paddingStart
+          @attr name edu.sxccal.stegodroid:paddingStart
         */
-        public static final int View_paddingStart = 1;
+        public static final int View_paddingStart = 2;
+        /**
+          <p>This symbol is the offset where the {@link edu.sxccal.stegodroid.R.attr#theme}
+          attribute's value can be found in the {@link #View} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name edu.sxccal.stegodroid:theme
+        */
+        public static final int View_theme = 4;
         /** Attributes that can be used with a ViewStubCompat.
            <p>Includes the following attributes:</p>
            <table>
