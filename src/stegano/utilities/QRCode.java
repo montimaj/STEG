@@ -1,7 +1,7 @@
 package stegano.utilities;
 
-import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Base64;
 import java.util.HashMap;
@@ -63,6 +63,6 @@ public class QRCode
 	private void createQRCode(String data, String file, Map<EncodeHintType, ErrorCorrectionLevel> hint_map, int qrh, int qrw) throws IOException, WriterException
 	{	   
 		BitMatrix matrix = new QRCodeWriter().encode(data, BarcodeFormat.QR_CODE, qrw, qrh, hint_map); 
-	    MatrixToImageWriter.writeToFile(matrix, "png",new File(file));
+	    MatrixToImageWriter.writeToStream(matrix, "png",new FileOutputStream(file));
 	}	
 }
