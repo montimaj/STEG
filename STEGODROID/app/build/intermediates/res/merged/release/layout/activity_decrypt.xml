@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/steg">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Key File"
+        android:id="@+id/select_key"
+        android:layout_below="@+id/select_image"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_alignEnd="@+id/dkey" />
+    <Button android:id="@+id/select_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/select_key" />
+
+     <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:id="@+id/dkey"
+        android:background="@android:color/darker_gray"
+        android:hint="Enter Secret Key"
+         android:layout_centerVertical="true"
+         android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
+<!-- From: file:/root/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/src/main/res/layout/activity_decrypt.xml -->

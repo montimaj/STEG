@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/steg">
+   
+	<Button
+       android:id="@+id/doencr"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"     
+       android:text="@string/sfile"
+       android:background="@android:color/holo_orange_dark"
+       android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp"
+        android:layout_alignEnd="@+id/secret_key" />
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Select Image"
+		android:id="@+id/select_img"
+		android:background="@android:color/holo_green_dark"
+        android:layout_marginTop="66dp"
+        android:layout_below="@+id/doencr"
+        android:layout_alignEnd="@+id/doencr"
+        android:layout_alignParentStart="true" />
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:inputType="textPassword"
+		android:imeOptions="actionDone"
+		android:id="@+id/secret_key"
+		android:background="@android:color/darker_gray"
+        android:layout_marginTop="57dp"
+        android:hint="Enter Secret Key"
+        android:layout_below="@+id/select_img"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+<!-- From: file:/root/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/src/main/res/layout/activity_encrypt.xml -->

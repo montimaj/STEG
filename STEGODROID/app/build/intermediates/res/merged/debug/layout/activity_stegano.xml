@@ -69,4 +69,4 @@
         android:layout_alignParentStart="true"
         android:layout_alignEnd="@+id/scan_button" />
 
-</RelativeLayout><!-- From: file:/root/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/src/main/res/layout/activity_stegano.xml -->
+</RelativeLayout><!-- From: file:/home/sayantan/MONTI/monti/Monti_Backup/PROGS/STEGODROID/app/src/main/res/layout/activity_stegano.xml -->

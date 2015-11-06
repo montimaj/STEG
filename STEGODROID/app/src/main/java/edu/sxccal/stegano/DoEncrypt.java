@@ -15,7 +15,7 @@ import java.security.SecureRandom;
  */
 public class DoEncrypt
 {
-    private static int ncols, nencrypt;
+    private static int ncols;
     DoEncrypt(String skey, String s, String imgfile) throws Exception
     {
         encrypt_file(skey,s,imgfile);
@@ -145,7 +145,7 @@ public class DoEncrypt
     {
         GenKey gk=new GenKey(skey);
         ncols=gk.get_colsize();
-        nencrypt=gk.get_encryption_number();
+        int nencrypt=gk.get_encryption_number();
         String pt=read_from_file(s);
         int len=pt.length()*8,nrows=len/ncols;
         if(len>(nrows*ncols))
