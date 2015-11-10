@@ -65,6 +65,13 @@ public class DoDecrypt
         //String imgfile=new QRCode(qrimg,dir,false).fname;
         //String keyfile=new QRCode(qrkey,dir,true).fname;
         String bits=new DoStegano(imgfile).getDecoded_str();
+        /*File cf=new File(Stegano.filePath+"/cipher.txt");
+        FileInputStream cfis=new FileInputStream(cf);
+        String bits="";
+        for(int i=0;i<cf.length();++i)
+            bits+=(char)cfis.read();
+        cfis.close();
+        bits=DoEncrypt.String_to_bits(bits);*/
         GenKey gk=new GenKey(skey);
         int ncols=gk.get_colsize(),num[]=new int[ncols], len=bits.length(),nrows=len/ncols, ndecrypt=gk.get_encryption_number();
         init_key_array(keyfile, num);

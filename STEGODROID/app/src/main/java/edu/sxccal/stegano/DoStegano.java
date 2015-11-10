@@ -3,6 +3,9 @@ package edu.sxccal.stegano;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
@@ -36,8 +39,12 @@ public class DoStegano
         BitmapFactory.Options options=new BitmapFactory.Options();
         options.inPremultiplied=false;
         options.inMutable=true;
-        Bitmap img = BitmapFactory.decodeFile(imgfile, options);
-        img.setHasAlpha(true);
+        options.inPreferredConfig= Bitmap.Config.ARGB_8888;
+        FileInputStream fis=new FileInputStream(imgfile);
+        byte[] img_bytes=new byte[fis.available()];
+        fis.read(img_bytes);
+        fis.close();
+        Bitmap img = BitmapFactory.decodeByteArray(img_bytes,0,img_bytes.length,options);
         int len = cipher.length();
         int width = img.getWidth();
         int height = img.getHeight();
@@ -82,13 +89,22 @@ public class DoStegano
                 img.setPixel(y, x, p);
             }
         }
-        img.compress(Bitmap.CompressFormat.PNG, 100, new FileOutputStream(Stegano.filePath + "/steg.png"));
+        ByteArrayOutputStream bao=new ByteArrayOutputStream();
+        img.compress(Bitmap.CompressFormat.PNG, 100, bao);
+        FileOutputStream ios=new FileOutputStream(Stegano.filePath + "/steg.png");
+        bao.writeTo(ios);
+        ios.close();
     }
     private String decode(String imgfile) throws IOException
     {
         BitmapFactory.Options options=new BitmapFactory.Options();
         options.inPremultiplied=false;
-        Bitmap img = BitmapFactory.decodeFile(imgfile,options);
+        options.inPreferredConfig= Bitmap.Config.ARGB_8888;
+        FileInputStream fis=new FileInputStream(imgfile);
+        byte[] img_bytes=new byte[fis.available()];
+        fis.read(img_bytes);
+        fis.close();
+        Bitmap img = BitmapFactory.decodeByteArray(img_bytes, 0, img_bytes.length, options);
         img.setHasAlpha(true);
         int width = img.getWidth();
         int height = img.getHeight();

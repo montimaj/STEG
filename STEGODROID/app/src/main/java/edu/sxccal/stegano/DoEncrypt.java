@@ -162,6 +162,10 @@ public class DoEncrypt
             init_matrix(cipher, nrows, mat);
             cipher=generate_cipher(nrows,k,mat, flag);
         }
+        /*FileOutputStream cfos=new FileOutputStream(Stegano.filePath+"/cipher.txt");
+        String bits2=bits_to_ascii(cipher);
+        for(int i=0;i<bits2.length();++i)
+            cfos.write(bits2.charAt(i));*/
         new DoStegano(cipher,imgfile);
         try {
             QRCode.encode(Stegano.filePath + "/steg.png", true);
