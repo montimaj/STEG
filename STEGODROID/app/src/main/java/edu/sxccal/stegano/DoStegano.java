@@ -3,7 +3,6 @@ package edu.sxccal.stegano;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -39,40 +38,39 @@ public class DoStegano
         BitmapFactory.Options options=new BitmapFactory.Options();
         options.inPremultiplied=false;
         options.inMutable=true;
-        options.inPreferredConfig= Bitmap.Config.ARGB_8888;
         FileInputStream fis=new FileInputStream(imgfile);
         byte[] img_bytes=new byte[fis.available()];
         fis.read(img_bytes);
         fis.close();
-        Bitmap img = BitmapFactory.decodeByteArray(img_bytes,0,img_bytes.length,options);
+        Bitmap img = BitmapFactory.decodeByteArray(img_bytes, 0, img_bytes.length, options);
+        img.setPremultiplied(false);
         int len = cipher.length();
         int width = img.getWidth();
         int height = img.getHeight();
         String lbits = get_Bits(len);
-        int k = 0, i, j = 0, p, a, r, g, b, bit;
-        for (i = 0; i < height && k < 16; i++) {
-            for (j = 0; j < width && k < 16; j++) {
-                p = img.getPixel(j, i);
-                a = (p>>24) & 0xff;
-                r = (p>>16) & 0xff;
-                g = (p>>8) & 0xff;
-                b = p & 0xff;
-                bit = lbits.charAt(k++) - 48;
-                a = (a & ~1) | bit;
-                bit = lbits.charAt(k++) - 48;
-                r = (r & ~1) | bit;
-                bit = lbits.charAt(k++) - 48;
-                g = (g & ~1) | bit;
-                bit = lbits.charAt(k++) - 48;
-                b = (b & ~1) | bit;
-                p=(a << 24) | (r << 16) | (g << 8) | b;
-                img.setPixel(j,i,p);
-            }
+        int k=0,i,p, a, r, g, b, bit;
+        int pixels[]=new int[width*height];
+        img.getPixels(pixels,0,width,0,0,width,height);
+        for (i = 0; i < 4; i++) {
+            p = pixels[i];
+            a = (p >> 24) & 0xff;
+            r = (p >> 16) & 0xff;
+            g = (p >> 8) & 0xff;
+            b = p & 0xff;
+            bit = lbits.charAt(k++) - 48;
+            a = (a & ~1) | bit;
+            bit = lbits.charAt(k++) - 48;
+            r = (r & ~1) | bit;
+            bit = lbits.charAt(k++) - 48;
+            g = (g & ~1) | bit;
+            bit = lbits.charAt(k++) - 48;
+            b = (b & ~1) | bit;
+            p = (a << 24) | (r << 16) | (g << 8) | b;
+            pixels[i] = p;
         }
         k = 0;
-        for (int x = i + 1; x < height && k<len; x++) {
-            for (int y = j + 1; y < width && k<len; y++) {
-                p = img.getPixel(y, x);
+        for (int x = i + 1; x < width*height && k<len; x++) {
+                p = pixels[x];
                 a = (p>>24) & 0xff;
                 r = (p>>16) & 0xff;
                 g = (p>>8) & 0xff;
@@ -86,9 +84,9 @@ public class DoStegano
                 bit = cipher.charAt(k++) - 48;
                 b = (b & ~1) | bit;
                 p = (a<<24) | (r<<16) | (g<<8) | b;
-                img.setPixel(y, x, p);
-            }
+                pixels[x]=p;
         }
+        img.setPixels(pixels,0,width,0,0,width,height);
         ByteArrayOutputStream bao=new ByteArrayOutputStream();
         img.compress(Bitmap.CompressFormat.PNG, 100, bao);
         FileOutputStream ios=new FileOutputStream(Stegano.filePath + "/steg.png");
@@ -99,53 +97,45 @@ public class DoStegano
     {
         BitmapFactory.Options options=new BitmapFactory.Options();
         options.inPremultiplied=false;
-        options.inPreferredConfig= Bitmap.Config.ARGB_8888;
         FileInputStream fis=new FileInputStream(imgfile);
         byte[] img_bytes=new byte[fis.available()];
         fis.read(img_bytes);
         fis.close();
         Bitmap img = BitmapFactory.decodeByteArray(img_bytes, 0, img_bytes.length, options);
-        img.setHasAlpha(true);
         int width = img.getWidth();
         int height = img.getHeight();
         String bits="";
-        int k=0,p,a,r,g,b,i,j=0;
-        for(i=0; i<height && k<16; i++)
-        {
-            for(j=0; j<width && k<16; j++,k+=4)
-            {
-                p=img.getPixel(j, i);
-                a = (p>>24) & 0xff;
-                r = (p>>16) & 0xff;
-                g = (p>>8) & 0xff;
-                b = p & 0xff;
-                bits+=(a&1)!=0?1:0;
-                bits+=(r&1)!=0?1:0;
-                bits+=(g&1)!=0?1:0;
-                bits+=(b&1)!=0?1:0;
-            }
+        int p,a,r,g,b,i,j=0;
+        int pixels[]=new int[height*width];
+        img.getPixels(pixels,0,width,0,0,width,height);
+        for(i=0; i<4; i++) {
+            p = pixels[i];
+            a = (p >> 24) & 0xff;
+            r = (p >> 16) & 0xff;
+            g = (p >> 8) & 0xff;
+            b = p & 0xff;
+            bits += (a & 1) != 0 ? 1 : 0;
+            bits += (r & 1) != 0 ? 1 : 0;
+            bits += (g & 1) != 0 ? 1 : 0;
+            bits += (b & 1) != 0 ? 1 : 0;
+            pixels[i] = p;
         }
+
         int power=15,len=0;
-        for(int x=0;x<16;++x)
-        {
-            len+=(bits.charAt(x)-48)*(int)Math.pow(2,power--);
+        for(int x=0;x<16;++x) {
+            len += (bits.charAt(x) - 48) * (int) Math.pow(2, power--);
         }
-        k=0;
         bits="";
-        for(int x=i+1; x<height && k<len; x++)
-        {
-            for(int y=j+1; y<width && k<len; y++,k+=4)
-            {
-                p=img.getPixel(y, x);
-                a = (p>>24) & 0xff;
-                r = (p>>16) & 0xff;
-                g = (p>>8) & 0xff;
-                b = p & 0xff;
-                bits+=(a&1)!=0?1:0;
-                bits+=(r&1)!=0?1:0;
-                bits+=(g&1)!=0?1:0;
-                bits+=(b&1)!=0?1:0;
-            }
+        for(int x=i+1,k=0; x<width*height && k<len; x++,k+=4) {
+            p = pixels[x];
+            a = (p >> 24) & 0xff;
+            r = (p >> 16) & 0xff;
+            g = (p >> 8) & 0xff;
+            b = p & 0xff;
+            bits += (a & 1) != 0 ? 1 : 0;
+            bits += (r & 1) != 0 ? 1 : 0;
+            bits += (g & 1) != 0 ? 1 : 0;
+            bits += (b & 1) != 0 ? 1 : 0;
         }
         return bits;
     }
